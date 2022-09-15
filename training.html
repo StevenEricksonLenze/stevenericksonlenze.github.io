@@ -1,0 +1,2847 @@
+<!--
+  templateType: "page"
+  isAvailableForNewContent: true
+-->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://embed.acuityscheduling.com/embed/button/16559558.css"
+        id="acuity-button-styles" />
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css"
+        integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
+    <script src="https://embed.acuityscheduling.com/embed/button/16559558.js" async></script>
+    {{standard_header_includes}}
+    <title>{{ page_meta.html_title }}</title>
+</head>
+<style>
+    body {
+        background: #eeeeee;
+    }
+
+    .main-pg {
+        background: #ffffff;
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+        height: 100%;
+    }
+
+    a {
+        color: #008edb;
+        text-decoration: none;
+    }
+
+    .course.hidden {
+        display: none;
+    }
+
+    .logo {
+        max-width: 400px;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        padding: 30px 0px 30px 0px;
+    }
+
+    .training-wrap {
+        float: left;
+        width: 20%;
+        margin: 0 5% 0 0;
+        padding: 0;
+        position: relative;
+    }
+
+    .training {
+        float: left;
+        width: 100%;
+        margin-top: 10px;
+        margin-bottom: 20px;
+    }
+
+    .course {
+        float: left;
+        width: 100%;
+        padding: 10px 20px;
+        background: #eeeeee;
+        margin: 0 0 3px;
+        position: relative;
+    }
+
+    /* The sidebar menu */
+    .sidenav {
+        margin-top: 20px;
+        /*  height: 100%; */
+        /* Full-height: remove this if you want "auto" height */
+        width: 240px;
+        /* Set the width of the sidebar */
+        position: absolute;
+        /* Fixed Sidebar (stay in place on scroll) */
+        z-index: 1;
+        /* Stay on top */
+        /* top: 0; */
+        /* Stay at the top */
+        /* left: 0; */
+        background-color: #ffffff;
+        /* Lenze dark grey */
+        overflow-x: hidden;
+        /* Disable horizontal scroll */
+        color: #000000;
+    }
+
+    /* The navigation menu links */
+    .sidenav a {
+        padding: 6px 8px 6px 16px;
+        text-decoration: none;
+        font-size: 25px;
+        color: #ffffff;
+        display: block;
+    }
+
+    /* When you mouse over the navigation links, change their color */
+    .sidenav a:hover {
+        color: #ffffff;
+    }
+
+    /* Style page content */
+    .main {
+        margin-top: 10px;
+        margin-left: 240px;
+        /* Same as the width of the sidebar */
+        padding: 0px 10px;
+        height: 100vh;
+
+    }
+
+    .container {
+        display: block;
+        position: relative;
+        padding-left: 30px;
+        margin-left: 8px;
+        margin-bottom: 8px;
+        cursor: pointer;
+        font-size: 14px;
+        color: #000000;
+        font-family: 'Open Sans', sans-serif;
+        -webkit-user-select: none;
+        -moz-user-select: none;
+        -ms-user-select: none;
+        user-select: none;
+    }
+
+    /* Hide the browser's default checkbox */
+    .container input {
+        position: absolute;
+        opacity: 0;
+        cursor: pointer;
+        height: 0;
+        width: 0;
+    }
+
+    .wrapper {
+        margin-left: 25px;
+    }
+
+    /* Create a custom checkbox */
+    .checkmark {
+        position: absolute;
+        top: 0;
+        left: 0;
+        height: 18px;
+        width: 18px;
+        background-color: #bbbbbb;
+    }
+
+    /* On mouse-over, add a grey background color */
+    .container:hover input~.checkmark {
+        background-color: #ccc;
+    }
+
+    .container:hover {
+        color: #209cdf;
+        transition: all .3s;
+
+    }
+
+    /* When the checkbox is checked, add a blue background */
+    .container input:checked~.checkmark {
+        background-color: #209cdf;
+    }
+
+    /* Create the checkmark/indicator (hidden when not checked) */
+    .checkmark:after {
+        content: "";
+        position: absolute;
+        display: none;
+    }
+
+    /* Show the checkmark when checked */
+    .container input:checked~.checkmark:after {
+        display: block;
+    }
+
+    /* Style the checkmark/indicator */
+    .container .checkmark:after {
+        left: 6px;
+        top: 1px;
+        width: 5px;
+        height: 10px;
+        border: solid white;
+        border-width: 0 2px 2px 0;
+        -webkit-transform: rotate(45deg);
+        -ms-transform: rotate(45deg);
+        transform: rotate(45deg);
+    }
+
+    .showAll {
+        margin-top: 10px;
+        margin-bottom: 10px;
+        background-color: #209CDF;
+        border: none;
+        color: white;
+        padding: 10px 32px;
+        text-align: center;
+        text-decoration: none;
+        display: block;
+        font-size: 16px;
+        font-family: 'Open Sans', sans-serif;
+    }
+
+    .showAll:hover {
+        background-color: #60c4ef;
+        transition: all .3s;
+        cursor: pointer;
+    }
+
+    .see-results {
+        margin-top: 10px;
+        margin-bottom: 20px;
+        background-color: #209CDF;
+        border: none;
+        color: white;
+        padding: 10px 32px;
+        text-align: center;
+        text-decoration: none;
+        display: none;
+        font-size: 16px;
+        font-family: 'Open Sans', sans-serif;
+    }
+
+    .see-results:hover {
+        background-color: #60c4ef;
+        transition: all .3s;
+        cursor: pointer;
+    }
+
+    /* MAIN - Style the button that is used to open and close the collapsible content */
+    .collapsible {
+        font-size: 16px;
+        font-family: 'Open Sans', sans-serif;
+        cursor: pointer;
+        border: none;
+        text-align: left;
+        outline: none;
+    }
+
+    /* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
+    .active,
+    .collapsible:hover {
+        background-color: #686868 !important;
+        color: #ffffff;
+        transition: all .3s;
+    }
+
+    /* Style the collapsible content. Note: hidden by default */
+    .content {
+        display: none;
+        overflow: hidden;
+        font-size: 12px;
+        border-radius: 0px 0px 15px 15px;
+        float: left;
+        width: 100%;
+        padding: 0px;
+        background: #eeeeee;
+        margin: 0 0 3px;
+        position: relative;
+        margin-top: -3px;
+    }
+
+    /* SIDE NAV - Style the button that is used to open and close the collapsible content */
+    .collapsible-sn {
+        font-size: 16px;
+        font-family: 'Open Sans', sans-serif;
+        background-color: #ffffff;
+        color: #000000;
+        cursor: pointer;
+        padding: 10px 25px;
+        width: 100%;
+        border: none;
+        text-align: left;
+        outline: none;
+    }
+
+    /* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
+    .active-sn,
+    .collapsible-sn:hover {
+        background-color: #209cdf;
+        color: #ffffff;
+        transition: all .3s;
+    }
+
+    /* Style the collapsible content. Note: hidden by default */
+    .content-sn {
+        padding: 10px 7px;
+        display: none;
+        overflow: hidden;
+        background-color: #eee;
+        margin: auto;
+    }
+
+    .collapsible-sn:after {
+
+        font-size: 14px;
+        color: white;
+        float: right;
+        margin-left: 5px;
+        margin-top: 5px;
+    }
+
+    .active-sn:after {}
+
+    /* Aligns date to the right of the course */
+    .float-right {
+        float: right;
+    }
+
+    .subhead {
+        background-color: #686868;
+        width: 100%;
+        padding: 10px 20px;
+        margin-top: -10px;
+        color: #ffffff;
+        font-size: 16px;
+    }
+
+    .acuity-embed-button {
+        margin-top: 15px !important;
+        background: #209cdf !important;
+        color: #fff;
+        padding: 10px 32px;
+        border: 0px;
+        border-radius: 0 !important;
+        box-shadow: 0 0 0 !important;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 16px;
+    }
+
+    .acuity-embed-button:hover {
+        background-color: #60c4ef;
+        transition: all .3s;
+    }
+
+    .past-course-button {
+        margin-top: 15px !important;
+        background: #686868 !important;
+        color: #bbb;
+        padding: 10px 32px;
+        border: 0px;
+        border-radius: 0 !important;
+        box-shadow: 0 0 0 !important;
+        text-decoration: none;
+        display: none;
+        font-size: 16px;
+
+    }
+
+    .course-info {
+        padding: 10px 20px;
+    }
+
+    .showbutton {
+        display: none;
+        padding: 10px 20px;
+        margin-top: 10px;
+        margin-bottom: 10px;
+        background: #209CDF;
+        color: #ffffff;
+    }
+
+    .new-course {
+        color: #209cdf;
+        font-style: italic;
+        font-weight: bold;
+    }
+
+    .motion-control-icon {
+        max-height: 22px;
+        height: 100%;
+    }
+
+    .past-course {
+        font-size: 16px;
+        font-family: 'Open Sans', sans-serif;
+        font-weight: bold;
+        color: #ff0035;
+        padding-bottom: 5px;
+        display: none;
+    }
+
+    .past-course-title,
+    .past-course-title:hover {
+        color: #bbbbbb;
+    }
+
+    .product-images {
+        display: none;
+    }
+
+    .legend {
+        padding: 10px;
+        border: 1px solid #000000;
+        display: inline-block;
+        font-size: 11px;
+        font-style: italic;
+        float: right;
+    }
+
+    .hide {
+        display: none;
+    }
+
+    @media screen and (max-width: 885px) {
+
+        .collapsible,
+        .subhead {
+            font-size: 13px;
+        }
+    }
+
+    @media screen and (max-width: 775px) {
+        .sidenav {
+            display: none;
+            top: 0;
+            left: 0;
+            height: 100%
+        }
+
+        .main {
+            margin-left: 0px;
+        }
+
+        .showbutton {
+            display: block;
+        }
+
+        .see-results {
+            display: block;
+        }
+
+        .logo {
+            max-width: 250px;
+        }
+    }
+
+    @media screen and (max-width: 550px) {
+
+        .collapsible,
+        .subhead {
+            font-size: 10px;
+        }
+
+        .motion-control-icon {
+            max-height: 14px;
+        }
+
+    }
+
+    @media screen and (max-width: 450px) {
+        .sidenav {
+            padding-top: 15px;
+        }
+
+        .sidenav a {
+            font-size: 18px;
+        }
+
+        .collapsible,
+        .subhead {
+            font-size: 9px;
+        }
+    }
+
+    @media screen and (max-width: 430px) {
+
+        .collapsible,
+        .subhead {
+            font-size: 8px;
+        }
+    }
+</style>
+
+<body class="w3-content" style="max-width:1448px;">
+    <div class="w3-col main-pg">
+        <img class="logo" src="https://cdn2.hubspot.net/hubfs/1720957/Training/lenzeTraining-logo-2017_large.jpg">
+    </div>
+
+    <div class="w3-row">
+
+        <div class="w3-col main-pg">
+            <div class="sidenav" id="mySidebar">
+                <div class="wrapper">
+                    <h3>Course filters</h3>
+                </div>
+                <button class="collapsible-sn">Product</button>
+                <div class="content-sn">
+                    <form>
+                        <label class="container"><input type="checkbox" name="cat1" value="8200_d" id="8200_d" /><span
+                                class="checkmark"></span>8200 Drives</label><br>
+                        <label class="container"><input type="checkbox" name="cat1" value="8400_d" id="8400_d" /><span
+                                class="checkmark"></span>8400 Drives</label><br>
+                        <label class="container"><input type="checkbox" name="cat1" value="9300_s" id="9300_s" /><span
+                                class="checkmark"></span>9300 Servos</label><br>
+                        <label class="container"><input type="checkbox" name="cat1" value="9400_s" id="9400_s" /><span
+                                class="checkmark"></span>9400 Servos</label><br>
+                        <label class="container"><input type="checkbox" name="cat1" value="i700_s" id="i700_s" /><span
+                                class="checkmark"></span>i700</label><br>
+                        <label class="container"><input type="checkbox" name="cat1" value="contr" id="contr" /><span
+                                class="checkmark"></span>Lenze Controllers</label><br>
+                        <label class="container"><input type="checkbox" name="cat1" value="dsd" id="dsd" /><span
+                                class="checkmark"></span>DSD Software</label><br>
+                        <label class="container"><input type="checkbox" name="cat1" value="plc_ds" id="plc_ds" /><span
+                                class="checkmark"></span>PLC Designer Software</label><br>
+                        <label class="container"><input type="checkbox" name="cat1" value="visiwinnet"
+                                id="visiwinnet" /><span class="checkmark"></span>VisiWinNet Software</label><br>
+                        <label class="container"><input type="checkbox" name="cat1" value="x4remote"
+                                id="x4remote" /><span class="checkmark"></span>X4 Remote Solution</label>
+                    </form>
+                </div>
+
+                <button class="collapsible-sn">Training type</button>
+                <div class="content-sn">
+                    <form>
+                        <label class="container"><input type="checkbox" name="cat2" value="comm-app"
+                                id="comm-app" /><span class="checkmark"></span>Commissioning & Application</label><br>
+                        <label class="container"><input type="checkbox" name="cat2" value="serv-main"
+                                id="serv-main" /><span class="checkmark"></span>Service & Maintenance</label>
+                    </form>
+                </div>
+
+                <button class="collapsible-sn">Location</button>
+                <div class="content-sn">
+                    <form>
+                        <label class="container"><input type="checkbox" name="cat3" value="glendale-heights"
+                                id="glendale-heights" /><span class="checkmark"></span>Glendale Heights, IL</label><br>
+                        <label class="container"><input type="checkbox" name="cat3" value="uxbridge"
+                                id="uxbridge" /><span class="checkmark"></span>Uxbridge, MA</label>
+                    </form>
+                </div>
+
+                <button class="collapsible-sn">Date</button>
+                <div class="content-sn">
+                    <form id="courseFilters">
+                        <label class="container"><input type="checkbox" name="cat4" value="jan" id="jan" /><span
+                                class="checkmark"></span>January</label><br>
+                        <label class="container"><input type="checkbox" name="cat4" value="feb" id="feb" /><span
+                                class="checkmark"></span>February</label><br>
+                        <label class="container"><input type="checkbox" name="cat4" value="mar" id="mar" /><span
+                                class="checkmark"></span>March</label><br>
+                        <label class="container"><input type="checkbox" name="cat4" value="apr" id="apr" /><span
+                                class="checkmark"></span>April</label><br>
+                        <label class="container"><input type="checkbox" name="cat4" value="may" id="may" /><span
+                                class="checkmark"></span>May</label><br>
+                        <label class="container"><input type="checkbox" name="cat4" value="jun" id="jun" /><span
+                                class="checkmark"></span>June</label><br>
+                        <label class="container"><input type="checkbox" name="cat4" value="jul" id="jul" /><span
+                                class="checkmark"></span>July</label><br>
+                        <label class="container"><input type="checkbox" name="cat4" value="aug" id="aug" /><span
+                                class="checkmark"></span>August</label><br>
+                        <label class="container"><input type="checkbox" name="cat4" value="sep" id="sep" /><span
+                                class="checkmark"></span>September</label><br>
+                        <label class="container"><input type="checkbox" name="cat4" value="oct" id="oct" /><span
+                                class="checkmark"></span>October</label><br>
+                        <label class="container"><input type="checkbox" name="cat4" value="nov" id="nov" /><span
+                                class="checkmark"></span>November</label><br>
+                        <label class="container"><input type="checkbox" name="cat4" value="dec" id="dec" /><span
+                                class="checkmark"></span>December</label>
+                    </form>
+                </div>
+
+                <div class="wrapper">
+                    <input onClick="sidebar_close()" type="button" class="see-results" value="See Results" />
+                    <input type="button" class="showAll" value="Reset" />
+                </div>
+            </div>
+        </div>
+        <div class="w3-col main-pg">
+            <!-- Page content -->
+            <div class="main">
+                <div class="w3-container">
+                    <div class="w3-left-align">
+                        <div class="showbutton" id="showSearchFilter" onClick="sidebar_open()">Show search filters</div>
+                        <h1>Training that gives you freedom.</h1>
+                        <p>Lenze offers a wide range of training courses, giving you the freedom to get to know our
+                            products, drive solutions, and automation systems at your own pace. Add our expertise to
+                            your experience, we'll make your work days more
+                            effective, safer, and above
+                            all - easy.</p>
+                        <p>For questions on upcoming courses, topics, and travel information, please email us at <a
+                                href="mailto:training.us@lenze.com">training.us@lenze.com</a>.
+                        <div class="legend"><img style="margin-right:4px;"
+                                src="https://cdn2.hubspot.net/hubfs/1720957/Training/Motion%20Control%20Icon_Green%2022x22.png"
+                                class="motion-control-icon w3-image">Motion Control Training course</div>
+                        </p>
+
+                    </div>
+                </div>
+
+                <div class="training">
+
+                    <div class="course collapsible hide" id="DSD-CA-GH-20200128" data-id="DSD-CA-GH-20200128"
+                        data-cat-1="dsd" data-cat-2="comm-app" data-cat-3="glendale-heights" data-cat-4="jan">
+                        <span>Drive Solutions Designer (DSD)</span> <span class="new-course">NEW!</span>
+                        <span class="float-right">January 28-29, 2020</span>
+                    </div>
+                    <div class="content">
+                        <div id="20200128-2" class="subhead"><span><i class="fas fa-map-marker-alt"></i> Glendale
+                                Heights, IL</span><span class="float-right">Free</span></div>
+                        <div class="w3-row-padding course-info">
+                            <div class="w3-col l12">
+                                <span id="20200128" class="past-course">This course has passed.</span>
+                                <p><strong>Required Equipment:</strong> The participants are required to bring a
+                                    suitable laptop with them to the training course (operating system: Windows XP,
+                                    Vista, 7, 8 or 10, minimum 1 GB RAM)</p>
+                            </div>
+                            <div class="w3-col l8 m12 s12">
+                                <p><u><strong>Agenda</strong></u></p>
+                                <ul>
+                                    <li>DSD – A link in the engineering chain</li>
+                                    <li>DSD software (structure and architecture)</li>
+                                    <li>The DSD user interface</li>
+                                    <li>Preparing projects</li>
+                                    <li>Exploring DSD program flow</li>
+                                    <li>Results and logs</li>
+                                    <li>Motion planning in DSD</li>
+                                    <li>Basic multi-axis designs</li>
+                                    <li>Analyzing and optimizing designs</li>
+                                    <li>Application-oriented training exercises</li>
+                                </ul>
+                            </div>
+                            <div class="w3-col l4 m12 s12">
+                                <p><u><strong>Training objectives</strong></u></p>
+                                <p>This training offers participants a detailed overview of DSD software and functions.
+                                    Participants will learn how to use the software and be able to perform dimensioning
+                                    autonomously for Lenze drive systems.</p>
+                                <p><u><strong>Additional course details</strong></u></p>
+                                <span><strong>Training duration:</strong> 2 days</span><br />
+                                <span><strong>Target group:</strong> Plant and machine manufacturers</span><br />
+                                <span><strong>Target function:</strong> Electrical engineering and design; Machine
+                                    application; Project planning</span><br />
+                                <span><strong>Product:</strong> Drive Solution Designer</span>
+                            </div>
+                            <div class="w3-col l8 m12 s12 product-images">
+                                <p><strong>Product:</strong></p>
+                                <div class="w3-row-padding">
+                                    <div class="w3-col l2 m4 s6">
+                                        <img src="plc_1.jpg" style="width:100%;max-width:125px; padding:5px;"><br />
+                                        Product name
+                                    </div>
+                                    <div class="w3-col l2 m4 s6">
+                                        <img src="plc_1.jpg" style="width:100%;max-width:125px; padding:5px;"><br />
+                                        Product name
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="w3-col l12">
+                                <a id="20200128-register"
+                                    href="https://app.acuityscheduling.com/schedule.php?owner=16559558&appointmentType=12388350"
+                                    target="_blank" class="acuity-embed-button">Register</a>
+                                <button id="20200128-past" class="past-course-button">Course completed</button>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="course collapsible hide" id="PLC-CA-UX-20200210" data-id="PLC-CA-UX-20200210"
+                        data-cat-1="plc_ds,contr" data-cat-2="comm-app" data-cat-3="uxbridge" data-cat-4="feb"><span>PLC
+                            Designer Introduction</span>&nbsp;&nbsp;&nbsp;<img
+                            src="https://cdn2.hubspot.net/hubfs/1720957/Training/Motion%20Control%20Icon_Green%2022x22.png"
+                            class="motion-control-icon w3-image">
+                        <span class="float-right">February 10, 2020</span>
+                    </div>
+                    <div class="content">
+                        <div id="20200210-2" class="subhead"><span><i class="fas fa-map-marker-alt"></i> Uxbridge,
+                                MA</span><span class="float-right">Free</span></div>
+                        <div class="w3-row-padding course-info">
+                            <div class="w3-col l12">
+                                <span id="20200210" class="past-course">This course has passed.</span>
+                                <p><strong>Online Training Available:</strong> As an alternative to attending this
+                                    in-person training class, participants can take <em>PLC Designer Basics – First
+                                        Steps</em> and <em>PLC Software Development</em> at <a
+                                        href="https://bhndienst.plateau.com/learning/user/portal.do?selectorLocaleID=English&siteID=TT%2dLAM"
+                                        target="_blank">Lenze’s Online Training Portal</a></p>
+                                <p><strong>Prerequisites:</strong> Knowledge of IEC61131-3 programming – This class
+                                    assumes you already know how to program and that you are familiar with IEC61131-3.
+                                    This class teaches you how to program IEC61131-3 using our PLC
+                                    Designer software tool.</p>
+                                <p><strong>Required Equipment:</strong> The participants are requested to bring a
+                                    suitable laptop with them to the training course (operating system: Microsoft
+                                    Windows® 7, 8 or 10 (32/64 bit).</p>
+                            </div>
+                            <div class="w3-col l8 m12 s12">
+                                <p><u><strong>Agenda</strong></u></p>
+                                <ul>
+                                    <li>Introduction to controller 3200 C and p500 and the I/O System 1000</li>
+                                    <li>Structure of »PLC Designer« V3</li>
+                                    <li>Standard project with I/O mapping, connecting to the controller</li>
+                                    <li>Project settings/-download, boot project, source code up-/download</li>
+                                    <li>Using libraries and the device repository</li>
+                                    <li>Presentation of variable & data types, POUs (program, function block, function),
+                                        tasks, persistent & retain variables</li>
+                                    <li>Using monitoring, variable forces, overwriting, trace, text list, logbook</li>
+                                    <li>Introduction to IEC61131-3 programming languages, focusing on the FUP languages
+                                        and structured text</li>
+                                    <li>Using basic data structures</li>
+                                    <li>Introduction to visualization with the PLC Designer</li>
+                                    <li>Practical exercises on the training equipment</li>
+                                </ul>
+                            </div>
+                            <div class="w3-col l4 m12 s12">
+                                <p><u><strong>Training objectives</strong></u></p>
+                                <p>The participants will gain technical knowledge on how to apply, program, commission
+                                    and use the diagnostics options of PLC Designer. They will learn the basics of how
+                                    to use this product and perform IEC61131-3 programming.</p>
+                                <p><u><strong>Additional course details</strong></u></p>
+                                <span><strong>Training duration:</strong> 1 day</span><br />
+                                <span><strong>Target group:</strong> Plant and machine manufacturers</span><br />
+                                <span><strong>Target function:</strong> Commissioning; Maintenance and servicing;
+                                    Machine application</span><br />
+                                <span><strong>Product:</strong> PLC Designer V3.x</span><br />
+                            </div>
+
+                            <div class="w3-col l12">
+                                <div style="margin-top:10px;"><img
+                                        src="https://cdn2.hubspot.net/hubfs/1720957/Training/Motion-Control-Training-DAYS-Graphic1-v3.png">
+                                </div>
+                                <a id="20200210-register"
+                                    href="https://app.acuityscheduling.com/schedule.php?owner=16559558&appointmentType=12388396"
+                                    target="_blank" class="acuity-embed-button">Register</a>
+                                <button id="20200210-past" class="past-course-button">Course completed</button>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="course collapsible hide" id="FAST-CA-UX-20200211" data-id="FAST-CA-UX-20200211"
+                        data-cat-1="i700_s,contr,plc_ds,x4remote" data-cat-2="comm-app" data-cat-3="uxbridge"
+                        data-cat-4="feb"><span>Motion Control with FAST Application
+                            Software</span>&nbsp;&nbsp;&nbsp;<img
+                            src="https://cdn2.hubspot.net/hubfs/1720957/Training/Motion%20Control%20Icon_Green%2022x22.png"
+                            class="motion-control-icon w3-image">
+                        <span class="float-right">February 11-13, 2020</span>
+                    </div>
+                    <div class="content">
+                        <div id="20200211-2" class="subhead"><span><i class="fas fa-map-marker-alt"></i> Uxbridge,
+                                MA</span><span class="float-right">Free</span></div>
+                        <div class="w3-row-padding course-info">
+                            <div class="w3-col l12">
+                                <span id="20200211" class="past-course">This course has passed.</span>
+                                <p><strong>Prerequisites:</strong> Know how to use PLC Designer to write IEC61131-3
+                                    programs – This class assumes you already know how to use the Lenze PLC Designer
+                                    software tool to write IEC61131-3 programs.</p>
+                                <p><strong>Required Equipment:</strong> The participants are requested to bring a
+                                    suitable laptop with them to the training course (operating system: Microsoft
+                                    Windows® 7, 8 or 10 (32/64 bit).</p>
+                            </div>
+                            <div class="w3-col l8 m12 s12">
+                                <p><u><strong>Agenda</strong></u></p>
+                                <ul>
+                                    <li>Introduction to the 3200 C controller, p500 panel controller, I/O System 1000,
+                                        Controller-based motion and «PLC Designer»</li>
+                                    <li>Introduction, configuration, commissioning of i700 servo inverters, SoftMotion
+                                        axis and EtherCAT fieldbus</li>
+                                    <li>Positioning with the FB-AxisBasicControl and "Application Sample i700"</li>
+                                    <li>Lenze touch probe function blocks</li>
+                                    <li>Drive and motion operating modes (csp, csv, cst)</li>
+                                    <li>Applying a virtual axis/Practical exercises</li>
+                                    <li>Introduction to Lenze FAST technology modules</li>
+                                    <li>Interfaces: Principle and scalability Technology modules "Electrical Shaft,
+                                        Virtual Master, FlexCam"</li>
+                                    <li>Modularization of machine modules</li>
+                                    <li>Introduction FAST Application Template: Elements and software structure; Machine
+                                        modules and applications, communication, state machine, error handling,
+                                        mechanisms during engagement; Visualization, diagnostics and operation</li>
+                                    <li>Introduction to the X4 Remote solution</li>
+                                </ul>
+                            </div>
+                            <div class="w3-col l4 m12 s12">
+                                <p><u><strong>Training objectives</strong></u></p>
+                                <p>The "Motion Control" training is an engineering-oriented system and application
+                                    training course. The participants will gain basic knowledge of how to test, evaluate
+                                    and implement applications. The "FAST Application Software"
+                                    course
+                                    focuses on engineering-oriented application training. After completing the training,
+                                    participants should be capable of applying the technology modules and the FAST
+                                    Application Template, as well as understanding and exploiting their
+                                    added
+                                    value in a standardized software and project structure. The training creates the
+                                    basis for participants to independently extend their knowledge within the scope of
+                                    projects.</p>
+                                <p><u><strong>Additional course details</strong></u></p>
+                                <span><strong>Training duration:</strong> 3 days</span><br />
+                                <span><strong>Target group:</strong> Plant and machine manufacturers</span><br />
+                                <span><strong>Target function:</strong> Machine application</span><br />
+                                <span><strong>Product:</strong> Controller 3200 C; Controller p500; IO System 1000; PLC
+                                    Designer; Servo Inverter i700; Servo Inverter i950; Frequency Inverter i500; X4
+                                    Remote Solution; Software - Application software</span><br />
+                            </div>
+
+                            <div class="w3-col l12">
+                                <div style="margin-top:10px;"><img
+                                        src="https://cdn2.hubspot.net/hubfs/1720957/Training/Motion-Control-Training-DAYS-Graphic2-v3.png">
+                                </div>
+                                <a id="20200211-register"
+                                    href="https://app.acuityscheduling.com/schedule.php?owner=16559558&appointmentType=12388404"
+                                    target="_blank" class="acuity-embed-button">Register</a>
+                                <button id="20200211-past" class="past-course-button">Course completed</button>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="course collapsible hide" id="VWN-CA-UX-20200214" data-id="VWN-CA-UX-20200214"
+                        data-cat-1="plc_ds,visiwinnet,contr" data-cat-2="comm-app" data-cat-3="uxbridge"
+                        data-cat-4="feb"><span>VisiWinNet Smart Introduction</span>&nbsp;&nbsp;&nbsp;<img
+                            src="https://cdn2.hubspot.net/hubfs/1720957/Training/Motion%20Control%20Icon_Green%2022x22.png"
+                            class="motion-control-icon w3-image">
+                        <span class="float-right">February 14, 2020</span>
+                    </div>
+                    <div class="content">
+                        <div id="20200214-2" class="subhead"><span><i class="fas fa-map-marker-alt"></i> Uxbridge,
+                                MA</span><span class="float-right">Free</span></div>
+                        <div class="w3-row-padding course-info">
+                            <div class="w3-col l12">
+                                <span id="20200214" class="past-course">This course has passed.</span>
+                                <p><strong>Required Equipment:</strong> The participants are requested to bring a
+                                    suitable laptop with them to the training course (operating system: Microsoft
+                                    Windows® 7, 8 or 10 (32/64 bit).</p>
+                            </div>
+                            <div class="w3-col l8 m12 s12">
+                                <p><u><strong>Agenda</strong></u></p>
+                                <ul>
+                                    <li>Connection to the controller</li>
+                                    <li>Overview of VisiWinNET Smart and further product versions </li>
+                                    <li>Introduction to VisiWinNET Smart Editor and the Project Wizard; to Form Designer
+                                        and project configuration; Defining internal and external (controller) variables
+                                        and user controls; Creating cross-references and performing
+                                        troubleshooting; Managing and switching between multiple languages; Using
+                                        alarms, trends and formulae; Using user management and logbook functions</li>
+                                    <li>Creating a basic visualization application</li>
+                                    <li>Practical exercises on the training equipment</li>
+                                </ul>
+                            </div>
+                            <div class="w3-col l4 m12 s12">
+                                <p><u><strong>Training objectives</strong></u></p>
+                                <p>The participants will be capable of independently configuring automation systems
+                                    using VisiWinNET® Smart, as well as implementing and commissioning basic
+                                    applications.</p>
+                                <p><u><strong>Additional course details</strong></u></p>
+                                <span><strong>Training duration:</strong> 1 day</span><br />
+                                <span><strong>Target group:</strong> Plant and machine manufacturers; Machine
+                                    operators</span><br />
+                                <span><strong>Target function:</strong> Machine application; Project
+                                    planning</span><br />
+                                <span><strong>Product:</strong> VisiWinNET; Industrial PC v800-C; Industrial PC
+                                    v800-P</span>
+                            </div>
+                            <div class="w3-col l12">
+                                <div style="margin-top:10px;"><img
+                                        src="https://cdn2.hubspot.net/hubfs/1720957/Training/Motion-Control-Training-DAYS-Graphic3-v3.png">
+                                </div>
+                                <a id="20200214-register"
+                                    href="https://app.acuityscheduling.com/schedule.php?owner=16559558&appointmentType=12388420"
+                                    target="_blank" class="acuity-embed-button">Register</a>
+                                <button id="20200214-past" class="past-course-button">Course completed</button>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="course collapsible hide" id="8200-SM-UX-20200224" data-id="8200-SM-UX-20200224"
+                        data-cat-1="8200_d,9300_s" data-cat-2="serv-main" data-cat-3="uxbridge" data-cat-4="feb">
+                        <span>Inverter Drives 8200 & Servo Drives 9300 - Service</span>
+                        <span class="new-course">NEW!</span>
+                        <span class="float-right">February 24-25, 2020</span>
+                    </div>
+                    <div class="content">
+                        <div id="20200224-2" class="subhead"><span><i class="fas fa-map-marker-alt"></i> Uxbridge,
+                                MA</span><span class="float-right">$400</span></div>
+                        <div class="w3-row-padding course-info">
+                            <div class="w3-col l12">
+                                <span id="20200224" class="past-course">This course has passed.</span>
+                                <p><strong>Prerequisites:</strong> Basics of electrical engineering</p>
+                                <p><strong>Required Equipment:</strong> The participants are requested to bring a
+                                    suitable laptop with them to the training course (operating system: Microsoft
+                                    Windows® 7, 8 or 10 (32/64 bit).</p>
+                            </div>
+                            <div class="w3-col l8 m12 s12">
+                                <p><u><strong>Agenda</strong></u></p>
+                                <ul>
+                                    <li>Accessing parameters and exporting status information to the Inverter Drives
+                                        8200 and Servo Drives 9300 using the keypad</li>
+                                    <li>Diagnostics with the EASY Starter and Global Drive Control software packages
+                                        (device status, error response, logbook, trend, oscilloscope)</li>
+                                    <li>Commissioning specified user parameter settings</li>
+                                    <li>Steps for complete data backup</li>
+                                    <li>Service case "Device replacement"</li>
+                                    <li>Useful information on installation and operation</li>
+                                    <li>Practical exercises on the training equipment</li>
+                                </ul>
+                            </div>
+                            <div class="w3-col l4 m12 s12">
+                                <p><u><strong>Training objectives</strong></u></p>
+                                <p>In this training course, Participants will learn the basics of installing and
+                                    servicing the Inverter Drives 8200 and Servo Drives 9300.</p>
+                                <p>Participants will gain technical knowledge on:</p>
+                                <ul>
+                                    <li>Diagnostics and eliminating malfunctions (troubleshooting)</li>
+                                    <li>Using the keypad, EASY Starter, and additional service engineering tools</li>
+                                </ul>
+                                <p><u><strong>Additional course details</strong></u></p>
+                                <span><strong>Training duration:</strong> 2 days</span><br />
+                                <span><strong>Target group:</strong> Machine operators</span><br />
+                                <span><strong>Target function:</strong> Maintenance and servicing;
+                                    Operation</span><br />
+                                <span><strong>Product:</strong> Inverter Drives 8200; Servo Drives 9300; EASY Starter;
+                                    Global Drive Control</span>
+                            </div>
+                            <div class="w3-col l12">
+                                <a id="20200224-register"
+                                    href="https://app.acuityscheduling.com/schedule.php?owner=16559558&appointmentType=12388522"
+                                    target="_blank" class="acuity-embed-button">Register</a>
+                                <button id="20200224-past" class="past-course-button">Course completed</button>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="course collapsible hide" id="8400-SM-UX-20200226" data-id="8400-SM-UX-20200226"
+                        data-cat-1="8400_d,9400_s" data-cat-2="serv-main" data-cat-3="uxbridge" data-cat-4="feb">
+                        <span>Inverter Drives 8400 & Servo Drives 9400 - Service</span>
+                        <span class="new-course">NEW!</span>
+                        <span class="float-right">February 26-27, 2020</span>
+                    </div>
+                    <div class="content">
+                        <div id="20200226-2" class="subhead"><span><i class="fas fa-map-marker-alt"></i> Uxbridge,
+                                MA</span><span class="float-right">$400</span></div>
+                        <div class="w3-row-padding course-info">
+                            <div class="w3-col l12">
+                                <span id="20200226" class="past-course">This course has passed.</span>
+                                <p><strong>Prerequisites:</strong> Basic prior knowledge of electrical engineering is
+                                    required.</p>
+                                <p><strong>Required Equipment:</strong> The participants are requested to bring a
+                                    suitable laptop with them to the training course (operating system: Microsoft
+                                    Windows® 7, 8 or 10 (32/64 bit).</p>
+                            </div>
+                            <div class="w3-col l8 m12 s12">
+                                <p><u><strong>Agenda</strong></u></p>
+                                <ul>
+                                    <li>Accessing parameters and exporting status information to the Inverter Drives
+                                        8400 & Servo Drives 9400 using the keypad</li>
+                                    <li>Diagnostics with the EASY Starter and L-force Engineer software packages (device
+                                        statuses, error responses, logbook, trend, data logger, oscilloscope)</li>
+                                    <li>Commissioning specified user parameter settings and/or pre-made applications
+                                    </li>
+                                    <li>Steps for complete data backup</li>
+                                    <li>Service case "Device replacement"</li>
+                                    <li>Useful information on installation and operation</li>
+                                    <li>Checking and optimizing the motor control</li>
+                                    <li>Practical exercises on the training equipment</li>
+                                </ul>
+                            </div>
+                            <div class="w3-col l4 m12 s12">
+                                <p><u><strong>Training objectives</strong></u></p>
+                                <p>In this training course, participants will learn the basics of installing and
+                                    servicing the Inverter Drives 8400 and the Servo Drives 9400. </p>
+                                <p> They will gain technical knowledge on:</p>
+                                <ul>
+                                    <li>Diagnostics and eliminating malfunctions (troubleshooting)</li>
+                                    <li>Using the keypad, EASY Starter, L-force Engineer, and additional service
+                                        engineering tools</li>
+                                </ul>
+                                <p><u><strong>Additional course details</strong></u></p>
+                                <span><strong>Training duration:</strong> 2 days</span><br />
+                                <span><strong>Target group:</strong> Machine operators</span><br />
+                                <span><strong>Target function:</strong> Maintenance and servicing;
+                                    Operation</span><br />
+                                <span><strong>Product:</strong> Inverter Drives 8400; Servo Drives 9400; EASY Starter;
+                                    L-force Engineer</span>
+                            </div>
+                            <div class="w3-col l12">
+                                <a id="20200226-register"
+                                    href="https://app.acuityscheduling.com/schedule.php?owner=16559558&appointmentType=12388532"
+                                    target="_blank" class="acuity-embed-button">Register</a>
+                                <button id="20200226-past" class="past-course-button">Course completed</button>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="course collapsible hide" id="DSD-CA-GH-20200317" data-id="DSD-CA-GH-20200317"
+                        data-cat-1="dsd" data-cat-2="comm-app" data-cat-3="glendale-heights" data-cat-4="mar">
+                        <span>Drive Solutions Designer (DSD)</span> <span class="new-course">NEW!</span>
+                        <span class="float-right">March 17-18, 2020</span>
+                    </div>
+                    <div class="content">
+                        <div id="20200317-2" class="subhead"><span><i class="fas fa-map-marker-alt"></i> Glendale
+                                Heights, IL</span><span class="float-right">Free</span></div>
+                        <div class="w3-row-padding course-info">
+                            <div class="w3-col l12">
+                                <span id="20200317" class="past-course">This course has passed.</span>
+                                <p><strong>Required Equipment:</strong> The participants are required to bring a
+                                    suitable laptop with them to the training course (operating system: Windows XP,
+                                    Vista, 7, 8 or 10, minimum 1 GB RAM)</p>
+                            </div>
+                            <div class="w3-col l8 m12 s12">
+                                <p><u><strong>Agenda</strong></u></p>
+                                <ul>
+                                    <li>DSD – A link in the engineering chain</li>
+                                    <li>DSD software (structure and architecture)</li>
+                                    <li>The DSD user interface</li>
+                                    <li>Preparing projects</li>
+                                    <li>Exploring DSD program flow</li>
+                                    <li>Results and logs</li>
+                                    <li>Motion planning in DSD</li>
+                                    <li>Basic multi-axis designs</li>
+                                    <li>Analyzing and optimizing designs</li>
+                                    <li>Application-oriented training exercises</li>
+                                </ul>
+                            </div>
+                            <div class="w3-col l4 m12 s12">
+                                <p><u><strong>Training objectives</strong></u></p>
+                                <p>This training offers participants a detailed overview of DSD software and functions.
+                                    Participants will learn how to use the software and be able to perform dimensioning
+                                    autonomously for Lenze drive systems.</p>
+                                <p><u><strong>Additional course details</strong></u></p>
+                                <span><strong>Training duration:</strong> 2 days</span><br />
+                                <span><strong>Target group:</strong> Plant and machine manufacturers</span><br />
+                                <span><strong>Target function:</strong> Electrical engineering and design; Machine
+                                    application; Project planning</span><br />
+                                <span><strong>Product:</strong> Drive Solution Designer</span>
+                            </div>
+                            <div class="w3-col l12">
+                                <a id="20200317-register"
+                                    href="https://app.acuityscheduling.com/schedule.php?owner=16559558&appointmentType=12388539"
+                                    target="_blank" class="acuity-embed-button">Register</a>
+                                <button id="20200317-past" class="past-course-button">Course completed</button>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="course collapsible hide" id="PLC-CA-GH-20200413" data-id="PLC-CA-GH-20200413"
+                        data-cat-1="plc_ds,contr" data-cat-2="comm-app" data-cat-3="glendale-heights" data-cat-4="apr">
+                        <span>PLC Designer Introduction</span>&nbsp;&nbsp;&nbsp;<img
+                            src="https://cdn2.hubspot.net/hubfs/1720957/Training/Motion%20Control%20Icon_Green%2022x22.png"
+                            class="motion-control-icon w3-image">
+                        <span class="float-right">April 13, 2020</span>
+                    </div>
+                    <div class="content">
+                        <div id="20200413-2" class="subhead"><span><i class="fas fa-map-marker-alt"></i> Glendale
+                                Heights, IL</span><span class="float-right">Free</span></div>
+                        <div class="w3-row-padding course-info">
+                            <div class="w3-col l12">
+                                <span id="20200413" class="past-course">This course has passed.</span>
+                                <p><strong>Online Training Available:</strong> As an alternative to attending this
+                                    in-person training class, participants can take <em>PLC Designer Basics – First
+                                        Steps</em> and <em>PLC Software Development</em> at <a
+                                        href="https://bhndienst.plateau.com/learning/user/portal.do?selectorLocaleID=English&siteID=TT%2dLAM"
+                                        target="_blank">Lenze’s Online Training Portal</a></p>
+                                <p><strong>Prerequisites:</strong> Knowledge of IEC61131-3 programming – This class
+                                    assumes you already know how to program and that you are familiar with IEC61131-3.
+                                    This class teaches you how to program IEC61131-3 using our PLC
+                                    Designer software tool.</p>
+                                <p><strong>Required Equipment:</strong> The participants are requested to bring a
+                                    suitable laptop with them to the training course (operating system: Microsoft
+                                    Windows® 7, 8 or 10 (32/64 bit).</p>
+                            </div>
+                            <div class="w3-col l8 m12 s12">
+                                <p><u><strong>Agenda</strong></u></p>
+                                <ul>
+                                    <li>Introduction to controller 3200 C and p500 and the I/O System 1000</li>
+                                    <li>Structure of »PLC Designer« V3</li>
+                                    <li>Standard project with I/O mapping, connecting to the controller</li>
+                                    <li>Project settings/-download, boot project, source code up-/download</li>
+                                    <li>Using libraries and the device repository</li>
+                                    <li>Presentation of variable & data types, POUs (program, function block, function),
+                                        tasks, persistent & retain variables</li>
+                                    <li>Using monitoring, variable forces, overwriting, trace, text list, logbook</li>
+                                    <li>Introduction to IEC61131-3 programming languages, focusing on the FUP languages
+                                        and structured text</li>
+                                    <li>Using basic data structures</li>
+                                    <li>Introduction to visualization with the PLC Designer</li>
+                                    <li>Practical exercises on the training equipment</li>
+                                </ul>
+                            </div>
+                            <div class="w3-col l4 m12 s12">
+                                <p><u><strong>Training objectives</strong></u></p>
+                                <p>The participants will gain technical knowledge on how to apply, program, commission
+                                    and use the diagnostics options of PLC Designer. They will learn the basics of how
+                                    to use this product and perform IEC61131-3 programming.</p>
+                                <p><u><strong>Additional course details</strong></u></p>
+                                <span><strong>Training duration:</strong> 1 day</span><br />
+                                <span><strong>Target group:</strong> Plant and machine manufacturers</span><br />
+                                <span><strong>Target function:</strong> Commissioning; Maintenance and servicing;
+                                    Machine application</span><br />
+                                <span><strong>Product:</strong> PLC Designer V3.x</span>
+                            </div>
+
+                            <div class="w3-col l12">
+                                <div style="margin-top:10px;"><img
+                                        src="https://cdn2.hubspot.net/hubfs/1720957/Training/Motion-Control-Training-DAYS-Graphic1-v3.png">
+                                </div>
+                                <a id="20200413-register"
+                                    href="https://app.acuityscheduling.com/schedule.php?owner=16559558&appointmentType=12388552"
+                                    target="_blank" class="acuity-embed-button">Register</a>
+                                <button id="20200413-past" class="past-course-button">Course completed</button>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="course collapsible hide" id="FAST-CA-GH-20200414" data-id="FAST-CA-GH-20200414"
+                        data-cat-1="i700_s,contr,plc_ds,x4remote" data-cat-2="comm-app" data-cat-3="glendale-heights"
+                        data-cat-4="apr"><span>Motion Control with FAST
+                            Application
+                            Software</span>&nbsp;&nbsp;&nbsp;<img
+                            src="https://cdn2.hubspot.net/hubfs/1720957/Training/Motion%20Control%20Icon_Green%2022x22.png"
+                            class="motion-control-icon w3-image">
+                        <span class="float-right">April 14-16, 2020</span>
+                    </div>
+                    <div class="content">
+                        <div id="20200414-2" class="subhead"><span><i class="fas fa-map-marker-alt"></i> Glendale
+                                Heights, IL</span><span class="float-right">Free</span></div>
+                        <div class="w3-row-padding course-info">
+                            <div class="w3-col l12">
+                                <span id="20200414" class="past-course">This course has passed.</span>
+                                <p><strong>Prerequisites:</strong> Know how to use PLC Designer to write IEC61131-3
+                                    programs – This class assumes you already know how to use the Lenze PLC Designer
+                                    software tool to write IEC61131-3 programs.</p>
+                                <p><strong>Required Equipment:</strong> The participants are requested to bring a
+                                    suitable laptop with them to the training course (operating system: Microsoft
+                                    Windows® 7, 8 or 10 (32/64 bit).</p>
+                            </div>
+                            <div class="w3-col l8 m12 s12">
+                                <p><u><strong>Agenda</strong></u></p>
+                                <ul>
+                                    <li>Introduction to the 3200 C controller, p500 panel controller, I/O System 1000,
+                                        Controller-based motion and «PLC Designer»</li>
+                                    <li>Introduction, configuration, commissioning of i700 servo inverters, SoftMotion
+                                        axis and EtherCAT fieldbus</li>
+
+                                    <li>Positioning with the FB-AxisBasicControl and "Application Sample i700"</li>
+
+                                    <li>Lenze touch probe function blocks</li>
+                                    <li>Drive and motion operating modes (csp, csv, cst)</li>
+                                    <li>Applying a virtual axis/Practical exercises</li>
+                                    <li>Introduction to Lenze FAST technology modules</li>
+                                    <li>Interfaces: Principle and scalability Technology modules "Electrical Shaft,
+                                        Virtual Master, FlexCam"</li>
+                                    <li>Modularization of machine modules</li>
+                                    <li>Introduction FAST Application Template: Elements and software structure; Machine
+                                        modules and applications, communication, state machine, error handling,
+                                        mechanisms during engagement; Visualization, diagnostics and operation</li>
+                                    <li>Introduction to the X4 Remote solution</li>
+                                </ul>
+                            </div>
+                            <div class="w3-col l4 m12 s12">
+                                <p><u><strong>Training objectives</strong></u></p>
+                                <p>The "Motion Control" training is an engineering-oriented system and application
+                                    training course. The participants will gain basic knowledge of how to test, evaluate
+                                    and implement applications. The "FAST Application Software"
+                                    course
+                                    focuses on engineering-oriented application training. After completing the training,
+                                    participants should be capable of applying the technology modules and the FAST
+                                    Application Template, as well as understanding and exploiting their
+                                    added
+                                    value in a standardized software and project structure. The training creates the
+                                    basis for participants to independently extend their knowledge within the scope of
+                                    projects.</p>
+                                <p><u><strong>Additional course details</strong></u></p>
+                                <span><strong>Training duration:</strong> 3 days</span><br />
+                                <span><strong>Target group:</strong> Plant and machine manufacturers</span><br />
+                                <span><strong>Target function:</strong> Machine application</span><br />
+                                <span><strong>Product:</strong> Controller 3200 C; Controller p500; IO System 1000; PLC
+                                    Designer; Servo Inverter i700; Servo Inverter i950; Frequency Inverter i500; X4
+                                    Remote Solution; Software - Application software</span>
+                            </div>
+                            <div class="w3-col l12">
+                                <div style="margin-top:10px;"><img
+                                        src="https://cdn2.hubspot.net/hubfs/1720957/Training/Motion-Control-Training-DAYS-Graphic2-v3.png">
+                                </div>
+                                <a id="20200414-register"
+                                    href="https://app.acuityscheduling.com/schedule.php?owner=16559558&appointmentType=12388558"
+                                    target="_blank" class="acuity-embed-button">Register</a>
+                                <button id="20200414-past" class="past-course-button">Course completed</button>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="course collapsible hide" id="VWN-CA-GH-20200417" data-id="VWN-CA-GH-20200417"
+                        data-cat-1="plc_ds,visiwinnet,contr" data-cat-2="comm-app" data-cat-3="glendale-heights"
+                        data-cat-4="apr"><span>VisiWinNet Smart Introduction</span>&nbsp;&nbsp;&nbsp;<img
+                            src="https://cdn2.hubspot.net/hubfs/1720957/Training/Motion%20Control%20Icon_Green%2022x22.png"
+                            class="motion-control-icon w3-image">
+                        <span class="float-right">April 17, 2020</span>
+                    </div>
+                    <div class="content">
+                        <div id="20200417-2" class="subhead"><span><i class="fas fa-map-marker-alt"></i> Glendale
+                                Heights, IL</span><span class="float-right">Free</span></div>
+                        <div class="w3-row-padding course-info">
+                            <div class="w3-col l12">
+                                <span id="20200417" class="past-course">This course has passed.</span>
+                                <p><strong>Required Equipment:</strong> The participants are requested to bring a
+                                    suitable laptop with them to the training course (operating system: Microsoft
+                                    Windows® 7, 8 or 10 (32/64 bit).</p>
+                            </div>
+                            <div class="w3-col l8 m12 s12">
+                                <p><u><strong>Agenda</strong></u></p>
+                                <ul>
+                                    <li>Connection to the controller</li>
+                                    <li>Overview of VisiWinNET Smart and further product versions </li>
+                                    <li>Introduction to VisiWinNET Smart Editor and the Project Wizard; to Form Designer
+                                        and project configuration; Defining internal and external (controller) variables
+                                        and user controls; Creating cross-references and performing
+                                        troubleshooting; Managing and switching between multiple languages; Using
+                                        alarms, trends and formulae; Using user management and logbook functions</li>
+                                    <li>Creating a basic visualization application</li>
+                                    <li>Practical exercises on the training equipment</li>
+                                </ul>
+                            </div>
+                            <div class="w3-col l4 m12 s12">
+                                <p><u><strong>Training objectives</strong></u></p>
+                                <p>The participants will be capable of independently configuring automation systems
+                                    using VisiWinNET® Smart, as well as implementing and commissioning basic
+                                    applications.</p>
+                                <p><u><strong>Additional course details</strong></u></p>
+                                <span><strong>Training duration:</strong> 1 day</span><br />
+                                <span><strong>Target group:</strong> Plant and machine manufacturers; Machine
+                                    operators</span><br />
+                                <span><strong>Target function:</strong> Machine application; Project
+                                    planning</span><br />
+                                <span><strong>Product:</strong> VisiWinNET; Industrial PC v800-C; Industrial PC
+                                    v800-P</span>
+                            </div>
+                            <div class="w3-col l12">
+                                <div style="margin-top:10px;"><img
+                                        src="https://cdn2.hubspot.net/hubfs/1720957/Training/Motion-Control-Training-DAYS-Graphic3-v3.png">
+                                </div>
+                                <a id="20200417-register"
+                                    href="https://app.acuityscheduling.com/schedule.php?owner=16559558&appointmentType=12388570"
+                                    target="_blank" class="acuity-embed-button">Register</a>
+                                <button id="20200417-past" class="past-course-button">Course completed</button>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="course collapsible hide" id="8200-SM-UX-20200504" data-id="8200-SM-UX-20200504"
+                        data-cat-1="8200_d,9300_s" data-cat-2="serv-main" data-cat-3="uxbridge" data-cat-4="may">
+                        <span>Inverter Drives 8200 & Servo Drives 9300 - Service</span>
+                        <span class="new-course">NEW!</span>
+                        <span class="float-right">May 4-5, 2020</span>
+                    </div>
+                    <div class="content">
+                        <div id="20200504-2" class="subhead"><span><i class="fas fa-map-marker-alt"></i> Uxbridge,
+                                MA</span><span class="float-right">$400</span></div>
+                        <div class="w3-row-padding course-info">
+                            <div class="w3-col l12">
+                                <span id="20200504" class="past-course">This course has passed.</span>
+                                <p><strong>Prerequisites:</strong> Basics of electrical engineering</p>
+                                <p><strong>Required Equipment:</strong> The participants are requested to bring a
+                                    suitable laptop with them to the training course (operating system: Microsoft
+                                    Windows® 7, 8 or 10 (32/64 bit).</p>
+                            </div>
+                            <div class="w3-col l8 m12 s12">
+                                <p><u><strong>Agenda</strong></u></p>
+                                <ul>
+                                    <li>Accessing parameters and exporting status information to the Inverter Drives
+                                        8200 and Servo Drives 9300 using the keypad</li>
+                                    <li>Diagnostics with the EASY Starter and Global Drive Control software packages
+                                        (device status, error response, logbook, trend, oscilloscope)</li>
+                                    <li>Commissioning specified user parameter settings</li>
+                                    <li>Steps for complete data backup</li>
+                                    <li>Service case "Device replacement"</li>
+                                    <li>Useful information on installation and operation</li>
+                                    <li>Practical exercises on the training equipment</li>
+                                </ul>
+                            </div>
+                            <div class="w3-col l4 m12 s12">
+                                <p><u><strong>Training objectives</strong></u></p>
+                                <p>In this training course, Participants will learn the basics of installing and
+                                    servicing the Inverter Drives 8200 and Servo Drives 9300.</p>
+                                <p>Participants will gain technical knowledge on:</p>
+                                <ul>
+                                    <li>Diagnostics and eliminating malfunctions (troubleshooting)</li>
+                                    <li>Using the keypad, EASY Starter, and additional service engineering tools</li>
+                                </ul>
+                                <p><u><strong>Additional course details</strong></u></p>
+                                <span><strong>Training duration:</strong> 2 days</span><br />
+                                <span><strong>Target group:</strong> Machine operators</span><br />
+                                <span><strong>Target function:</strong> Maintenance and servicing;
+                                    Operation</span><br />
+                                <span><strong>Product:</strong> Inverter Drives 8200; Servo Drives 9300; EASY Starter;
+                                    Global Drive Control</span>
+                            </div>
+                            <div class="w3-col l12">
+                                <a id="20200504-register"
+                                    href="https://app.acuityscheduling.com/schedule.php?owner=16559558&appointmentType=12388575"
+                                    target="_blank" class="acuity-embed-button">Register</a>
+                                <button id="20200504-past" class="past-course-button">Course completed</button>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="course collapsible hide" id="8400-SM-UX-20200506" data-id="8400-SM-UX-20200506"
+                        data-cat-1="8400_d,9400_s" data-cat-2="serv-main" data-cat-3="uxbridge" data-cat-4="may">
+                        <span>Inverter Drives 8400 & Servo Drives 9400 - Service</span>
+                        <span class="new-course">NEW!</span>
+                        <span class="float-right">May 6-7, 2020</span>
+                    </div>
+                    <div class="content">
+                        <div id="20200506-2" class="subhead"><span><i class="fas fa-map-marker-alt"></i> Uxbridge,
+                                MA</span><span class="float-right">$400</span></div>
+                        <div class="w3-row-padding course-info">
+                            <div class="w3-col l12">
+                                <span id="20200506" class="past-course">This course has passed.</span>
+                                <p><strong>Prerequisites:</strong> Basic prior knowledge of electrical engineering is
+                                    required.</p>
+                                <p><strong>Required Equipment:</strong> The participants are requested to bring a
+                                    suitable laptop with them to the training course (operating system: Microsoft
+                                    Windows® 7, 8 or 10 (32/64 bit).</p>
+                            </div>
+                            <div class="w3-col l8 m12 s12">
+                                <p><u><strong>Agenda</strong></u></p>
+                                <ul>
+                                    <li>Accessing parameters and exporting status information to the Inverter Drives
+                                        8400 & Servo Drives 9400 using the keypad</li>
+                                    <li>Diagnostics with the EASY Starter and L-force Engineer software packages (device
+                                        statuses, error responses, logbook, trend, data logger, oscilloscope)</li>
+                                    <li>Commissioning specified user parameter settings and/or pre-made applications
+                                    </li>
+                                    <li>Steps for complete data backup</li>
+                                    <li>Service case "Device replacement"</li>
+                                    <li>Useful information on installation and operation</li>
+                                    <li>Checking and optimizing the motor control</li>
+                                    <li>Practical exercises on the training equipment</li>
+                                </ul>
+                            </div>
+                            <div class="w3-col l4 m12 s12">
+                                <p><u><strong>Training objectives</strong></u></p>
+                                <p>In this training course, participants will learn the basics of installing and
+                                    servicing the Inverter Drives 8400 and the Servo Drives 9400. </p>
+                                <p> They will gain technical knowledge on:</p>
+                                <ul>
+                                    <li>Diagnostics and eliminating malfunctions (troubleshooting)</li>
+                                    <li>Using the keypad, EASY Starter, L-force Engineer, and additional service
+                                        engineering tools</li>
+                                </ul>
+                                <p><u><strong>Additional course details</strong></u></p>
+                                <span><strong>Training duration:</strong> 2 days</span><br />
+                                <span><strong>Target group:</strong> Machine operators</span><br />
+                                <span><strong>Target function:</strong> Maintenance and servicing;
+                                    Operation</span><br />
+                                <span><strong>Product:</strong> Inverter Drives 8400; Servo Drives 9400; EASY Starter;
+                                    L-force Engineer</span>
+                            </div>
+                            <div class="w3-col l12">
+                                <a id="20200506-register"
+                                    href="https://app.acuityscheduling.com/schedule.php?owner=16559558&appointmentType=12388633"
+                                    target="_blank" class="acuity-embed-button">Register</a>
+                                <button id="20200506-past" class="past-course-button">Course completed</button>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="course collapsible hide" id="PLC-CA-UX-20200511" data-id="PLC-CA-UX-20200511"
+                        data-cat-1="plc_ds,contr" data-cat-2="comm-app" data-cat-3="uxbridge" data-cat-4="may"><span>PLC
+                            Designer Introduction</span>&nbsp;&nbsp;&nbsp;<img
+                            src="https://cdn2.hubspot.net/hubfs/1720957/Training/Motion%20Control%20Icon_Green%2022x22.png"
+                            class="motion-control-icon w3-image">
+                        <span class="float-right">May 11, 2020</span>
+                    </div>
+                    <div class="content">
+                        <div id="20200511-2" class="subhead"><span><i class="fas fa-map-marker-alt"></i> Uxbridge,
+                                MA</span><span class="float-right">Free</span></div>
+                        <div class="w3-row-padding course-info">
+                            <div class="w3-col l12">
+                                <span id="20200511" class="past-course">This course has passed.</span>
+                                <p><strong>Online Training Available:</strong> As an alternative to attending this
+                                    in-person training class, participants can take <em>PLC Designer Basics – First
+                                        Steps</em> and <em>PLC Software Development</em> at <a
+                                        href="https://bhndienst.plateau.com/learning/user/portal.do?selectorLocaleID=English&siteID=TT%2dLAM"
+                                        target="_blank">Lenze’s Online Training Portal</a></p>
+                                <p><strong>Prerequisites:</strong> Knowledge of IEC61131-3 programming – This class
+                                    assumes you already know how to program and that you are familiar with IEC61131-3.
+                                    This class teaches you how to program IEC61131-3 using our PLC
+                                    Designer software tool.</p>
+                                <p><strong>Required Equipment:</strong> The participants are requested to bring a
+                                    suitable laptop with them to the training course (operating system: Microsoft
+                                    Windows® 7, 8 or 10 (32/64 bit).</p>
+                            </div>
+                            <div class="w3-col l8 m12 s12">
+                                <p><u><strong>Agenda</strong></u></p>
+                                <ul>
+                                    <li>Introduction to controller 3200 C and p500 and the I/O System 1000</li>
+                                    <li>Structure of »PLC Designer« V3</li>
+                                    <li>Standard project with I/O mapping, connecting to the controller</li>
+                                    <li>Project settings/-download, boot project, source code up-/download</li>
+                                    <li>Using libraries and the device repository</li>
+                                    <li>Presentation of variable & data types, POUs (program, function block, function),
+                                        tasks, persistent & retain variables</li>
+                                    <li>Using monitoring, variable forces, overwriting, trace, text list, logbook</li>
+                                    <li>Introduction to IEC61131-3 programming languages, focusing on the FUP languages
+                                        and structured text</li>
+                                    <li>Using basic data structures</li>
+                                    <li>Introduction to visualization with the PLC Designer</li>
+                                    <li>Practical exercises on the training equipment</li>
+                                </ul>
+                            </div>
+                            <div class="w3-col l4 m12 s12">
+                                <p><u><strong>Training objectives</strong></u></p>
+                                <p>The participants will gain technical knowledge on how to apply, program, commission
+                                    and use the diagnostics options of PLC Designer. They will learn the basics of how
+                                    to use this product and perform IEC61131-3 programming.</p>
+                                <p><u><strong>Additional course details</strong></u></p>
+                                <span><strong>Training duration:</strong> 1 day</span><br />
+                                <span><strong>Target group:</strong> Plant and machine manufacturers</span><br />
+                                <span><strong>Target function:</strong> Commissioning; Maintenance and servicing;
+                                    Machine application</span><br />
+                                <span><strong>Product:</strong> PLC Designer V3.x</span>
+                            </div>
+                            <div class="w3-col l12">
+                                <div style="margin-top:10px;"><img
+                                        src="https://cdn2.hubspot.net/hubfs/1720957/Training/Motion-Control-Training-DAYS-Graphic1-v3.png">
+                                </div>
+                                <a id="20200511-register"
+                                    href="https://app.acuityscheduling.com/schedule.php?owner=16559558&appointmentType=12388693"
+                                    target="_blank" class="acuity-embed-button">Register</a>
+                                <button id="20200511-past" class="past-course-button">Course completed</button>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="course collapsible hide" id="FAST-CA-UX-20200512" data-id="FAST-CA-UX-20200512"
+                        data-cat-1="i700_s,contr,plc_ds,x4remote" data-cat-2="comm-app" data-cat-3="uxbridge"
+                        data-cat-4="may"><span>Motion Control with FAST
+                            Application
+                            Software</span>&nbsp;&nbsp;&nbsp;<img
+                            src="https://cdn2.hubspot.net/hubfs/1720957/Training/Motion%20Control%20Icon_Green%2022x22.png"
+                            class="motion-control-icon w3-image">
+                        <span class="float-right">May 12-14, 2020</span>
+                    </div>
+                    <div class="content">
+                        <div id="20200512-2" class="subhead"><span><i class="fas fa-map-marker-alt"></i> Uxbridge,
+                                MA</span><span class="float-right">Free</span></div>
+                        <div class="w3-row-padding course-info">
+                            <div class="w3-col l12">
+                                <span id="20200512" class="past-course">This course has passed.</span>
+                                <p><strong>Prerequisites:</strong> Know how to use PLC Designer to write IEC61131-3
+                                    programs – This class assumes you already know how to use the Lenze PLC Designer
+                                    software tool to write IEC61131-3 programs.</p>
+                                <p><strong>Required Equipment:</strong> The participants are requested to bring a
+                                    suitable laptop with them to the training course (operating system: Microsoft
+                                    Windows® 7, 8 or 10 (32/64 bit).</p>
+                            </div>
+                            <div class="w3-col l8 m12 s12">
+                                <p><u><strong>Agenda</strong></u></p>
+                                <ul>
+                                    <li>Introduction to the 3200 C controller, p500 panel controller, I/O System 1000,
+                                        Controller-based motion and «PLC Designer»</li>
+                                    <li>Introduction, configuration, commissioning of i700 servo inverters, SoftMotion
+                                        axis and EtherCAT fieldbus</li>
+
+                                    <li>Positioning with the FB-AxisBasicControl and "Application Sample i700"</li>
+
+                                    <li>Lenze touch probe function blocks</li>
+                                    <li>Drive and motion operating modes (csp, csv, cst)</li>
+                                    <li>Applying a virtual axis/Practical exercises</li>
+                                    <li>Introduction to Lenze FAST technology modules</li>
+                                    <li>Interfaces: Principle and scalability Technology modules "Electrical Shaft,
+                                        Virtual Master, FlexCam"</li>
+                                    <li>Modularization of machine modules</li>
+                                    <li>Introduction FAST Application Template: Elements and software structure; Machine
+                                        modules and applications, communication, state machine, error handling,
+                                        mechanisms during engagement; Visualization, diagnostics and operation</li>
+                                    <li>Introduction to the X4 Remote solution</li>
+                                </ul>
+                            </div>
+                            <div class="w3-col l4 m12 s12">
+                                <p><u><strong>Training objectives</strong></u></p>
+                                <p>The "Motion Control" training is an engineering-oriented system and application
+                                    training course. The participants will gain basic knowledge of how to test, evaluate
+                                    and implement applications. The "FAST Application Software"
+                                    course
+                                    focuses on engineering-oriented application training. After completing the training,
+                                    participants should be capable of applying the technology modules and the FAST
+                                    Application Template, as well as understanding and exploiting their
+                                    added
+                                    value in a standardized software and project structure. The training creates the
+                                    basis for participants to independently extend their knowledge within the scope of
+                                    projects.</p>
+                                <p><u><strong>Additional course details</strong></u></p>
+                                <span><strong>Training duration:</strong> 3 days</span><br />
+                                <span><strong>Target group:</strong> Plant and machine manufacturers</span><br />
+                                <span><strong>Target function:</strong> Machine application</span><br />
+                                <span><strong>Product:</strong> Controller 3200 C; Controller p500; IO System 1000; PLC
+                                    Designer; Servo Inverter i700; Servo Inverter i950; Frequency Inverter i500; X4
+                                    Remote Solution; Software - Application software</span>
+                            </div>
+                            <div class="w3-col l12">
+                                <div style="margin-top:10px;"><img
+                                        src="https://cdn2.hubspot.net/hubfs/1720957/Training/Motion-Control-Training-DAYS-Graphic2-v3.png">
+                                </div>
+                                <a id="20200512-register"
+                                    href="https://app.acuityscheduling.com/schedule.php?owner=16559558&appointmentType=12388700"
+                                    target="_blank" class="acuity-embed-button">Register</a>
+                                <button id="20200512-past" class="past-course-button">Course completed</button>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="course collapsible hide" id="VWN-CA-UX-20200515" data-id="VWN-CA-UX-20200515"
+                        data-cat-1="plc_ds,visiwinnet,contr" data-cat-2="comm-app" data-cat-3="uxbridge"
+                        data-cat-4="may"><span>VisiWinNet Smart Introduction</span>&nbsp;&nbsp;&nbsp;<img
+                            src="https://cdn2.hubspot.net/hubfs/1720957/Training/Motion%20Control%20Icon_Green%2022x22.png"
+                            class="motion-control-icon w3-image">
+                        <span class="float-right">May 15, 2020</span>
+                    </div>
+                    <div class="content">
+                        <div id="20200515-2" class="subhead"><span><i class="fas fa-map-marker-alt"></i> Uxbridge,
+                                MA</span><span class="float-right">Free</span></div>
+                        <div class="w3-row-padding course-info">
+                            <div class="w3-col l12">
+                                <span id="20200515" class="past-course">This course has passed.</span>
+                                <p><strong>Required Equipment:</strong> The participants are requested to bring a
+                                    suitable laptop with them to the training course (operating system: Microsoft
+                                    Windows® 7, 8 or 10 (32/64 bit).</p>
+                            </div>
+                            <div class="w3-col l8 m12 s12">
+                                <p><u><strong>Agenda</strong></u></p>
+                                <ul>
+                                    <li>Connection to the controller</li>
+                                    <li>Overview of VisiWinNET Smart and further product versions </li>
+                                    <li>Introduction to VisiWinNET Smart Editor and the Project Wizard; to Form Designer
+                                        and project configuration; Defining internal and external (controller) variables
+                                        and user controls; Creating cross-references and performing
+                                        troubleshooting; Managing and switching between multiple languages; Using
+                                        alarms, trends and formulae; Using user management and logbook functions</li>
+                                    <li>Creating a basic visualization application</li>
+                                    <li>Practical exercises on the training equipment</li>
+                                </ul>
+                            </div>
+                            <div class="w3-col l4 m12 s12">
+                                <p><u><strong>Training objectives</strong></u></p>
+                                <p>The participants will be capable of independently configuring automation systems
+                                    using VisiWinNET® Smart, as well as implementing and commissioning basic
+                                    applications.</p>
+                                <p><u><strong>Additional course details</strong></u></p>
+                                <span><strong>Training duration:</strong> 1 day</span><br />
+                                <span><strong>Target group:</strong> Plant and machine manufacturers; Machine
+                                    operators</span><br />
+                                <span><strong>Target function:</strong> Machine application; Project
+                                    planning</span><br />
+                                <span><strong>Product:</strong> VisiWinNET; Industrial PC v800-C; Industrial PC
+                                    v800-P</span>
+                            </div>
+                            <div class="w3-col l12">
+                                <div style="margin-top:10px;"><img
+                                        src="https://cdn2.hubspot.net/hubfs/1720957/Training/Motion-Control-Training-DAYS-Graphic3-v3.png">
+                                </div>
+                                <a id="20200515-register"
+                                    href="https://app.acuityscheduling.com/schedule.php?owner=16559558&appointmentType=12388716"
+                                    target="_blank" class="acuity-embed-button">Register</a>
+                                <button id="20200515-past" class="past-course-button">Course completed</button>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="course collapsible" id="PLC-CA-UX-20200713" data-id="PLC-CA-UX-20200713"
+                        data-cat-1="plc_ds,contr" data-cat-2="comm-app" data-cat-3="uxbridge" data-cat-4="jul"><span>PLC
+                            Designer Introduction</span>&nbsp;&nbsp;&nbsp;<img
+                            src="https://cdn2.hubspot.net/hubfs/1720957/Training/Motion%20Control%20Icon_Green%2022x22.png"
+                            class="motion-control-icon w3-image">
+                        <span class="float-right">July 13, 2020</span>
+                    </div>
+                    <div class="content">
+                        <div id="20200713-2" class="subhead"><span><i class="fas fa-map-marker-alt"></i> Uxbridge,
+                                MA</span><span class="float-right">Free</span></div>
+                        <div class="w3-row-padding course-info">
+                            <div class="w3-col l12">
+                                <span id="20200713" class="past-course">This course has passed.</span>
+                                <p><strong>Online Training Available:</strong> As an alternative to attending this
+                                    in-person training class, participants can take <em>PLC Designer Basics – First
+                                        Steps</em> and <em>PLC Software Development</em> at <a
+                                        href="https://bhndienst.plateau.com/learning/user/portal.do?selectorLocaleID=English&siteID=TT%2dLAM"
+                                        target="_blank">Lenze’s Online Training Portal</a></p>
+                                <p><strong>Prerequisites:</strong> Knowledge of IEC61131-3 programming – This class
+                                    assumes you already know how to program and that you are familiar with IEC61131-3.
+                                    This class teaches you how to program IEC61131-3 using our PLC
+                                    Designer software tool.</p>
+                                <p><strong>Required Equipment:</strong> The participants are requested to bring a
+                                    suitable laptop with them to the training course (operating system: Microsoft
+                                    Windows® 7, 8 or 10 (32/64 bit).</p>
+                            </div>
+                            <div class="w3-col l8 m12 s12">
+                                <p><u><strong>Agenda</strong></u></p>
+                                <ul>
+                                    <li>Introduction to controller 3200 C and p500 and the I/O System 1000</li>
+                                    <li>Structure of »PLC Designer« V3</li>
+                                    <li>Standard project with I/O mapping, connecting to the controller</li>
+                                    <li>Project settings/-download, boot project, source code up-/download</li>
+                                    <li>Using libraries and the device repository</li>
+                                    <li>Presentation of variable & data types, POUs (program, function block, function),
+                                        tasks, persistent & retain variables</li>
+                                    <li>Using monitoring, variable forces, overwriting, trace, text list, logbook</li>
+                                    <li>Introduction to IEC61131-3 programming languages, focusing on the FUP languages
+                                        and structured text</li>
+                                    <li>Using basic data structures</li>
+                                    <li>Introduction to visualization with the PLC Designer</li>
+                                    <li>Practical exercises on the training equipment</li>
+                                </ul>
+                            </div>
+                            <div class="w3-col l4 m12 s12">
+                                <p><u><strong>Training objectives</strong></u></p>
+                                <p>The participants will gain technical knowledge on how to apply, program, commission
+                                    and use the diagnostics options of PLC Designer. They will learn the basics of how
+                                    to use this product and perform IEC61131-3 programming.</p>
+                                <p><u><strong>Additional course details</strong></u></p>
+                                <span><strong>Training duration:</strong> 1 day</span><br />
+                                <span><strong>Target group:</strong> Plant and machine manufacturers</span><br />
+                                <span><strong>Target function:</strong> Commissioning; Maintenance and servicing;
+                                    Machine application</span><br />
+                                <span><strong>Product:</strong> PLC Designer V3.x</span>
+                            </div>
+                            <div class="w3-col l12">
+                                <div style="margin-top:10px;"><img
+                                        src="https://cdn2.hubspot.net/hubfs/1720957/Training/Motion-Control-Training-DAYS-Graphic1-v3.png">
+                                </div>
+                                <a id="20200713-register"
+                                    href="https://app.acuityscheduling.com/schedule.php?owner=16559558&appointmentType=12388721"
+                                    target="_blank" class="acuity-embed-button">Register</a>
+                                <button id="20200713-past" class="past-course-button">Course completed</button>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="course collapsible" id="FAST-CA-UX-20200714" data-id="FAST-CA-UX-20200714"
+                        data-cat-1="i700_s,contr,plc_ds,x4remote" data-cat-2="comm-app" data-cat-3="uxbridge"
+                        data-cat-4="jul"><span>Motion Control with FAST
+                            Application Software</span>&nbsp;&nbsp;&nbsp;<img
+                            src="https://cdn2.hubspot.net/hubfs/1720957/Training/Motion%20Control%20Icon_Green%2022x22.png"
+                            class="motion-control-icon w3-image">
+                        <span class="float-right">July 14-16, 2020</span>
+                    </div>
+                    <div class="content">
+                        <div id="20200714-2" class="subhead"><span><i class="fas fa-map-marker-alt"></i> Uxbridge,
+                                MA</span><span class="float-right">Free</span></div>
+                        <div class="w3-row-padding course-info">
+                            <div class="w3-col l12">
+                                <span id="20200714" class="past-course">This course has passed.</span>
+                                <p><strong>Prerequisites:</strong> Know how to use PLC Designer to write IEC61131-3
+                                    programs – This class assumes you already know how to use the Lenze PLC Designer
+                                    software tool to write IEC61131-3 programs.</p>
+                                <p><strong>Required Equipment:</strong> The participants are requested to bring a
+                                    suitable laptop with them to the training course (operating system: Microsoft
+                                    Windows® 7, 8 or 10 (32/64 bit).</p>
+                            </div>
+                            <div class="w3-col l8 m12 s12">
+                                <p><u><strong>Agenda</strong></u></p>
+                                <ul>
+                                    <li>Introduction to the 3200 C controller, p500 panel controller, I/O System 1000,
+                                        Controller-based motion and «PLC Designer»</li>
+                                    <li>Introduction, configuration, commissioning of i700 servo inverters, SoftMotion
+                                        axis and EtherCAT fieldbus</li>
+
+                                    <li>Positioning with the FB-AxisBasicControl and "Application Sample i700"</li>
+
+                                    <li>Lenze touch probe function blocks</li>
+                                    <li>Drive and motion operating modes (csp, csv, cst)</li>
+                                    <li>Applying a virtual axis/Practical exercises</li>
+                                    <li>Introduction to Lenze FAST technology modules</li>
+                                    <li>Interfaces: Principle and scalability Technology modules "Electrical Shaft,
+                                        Virtual Master, FlexCam"</li>
+                                    <li>Modularization of machine modules</li>
+                                    <li>Introduction FAST Application Template: Elements and software structure; Machine
+                                        modules and applications, communication, state machine, error handling,
+                                        mechanisms during engagement; Visualization, diagnostics and operation</li>
+                                    <li>Introduction to the X4 Remote solution</li>
+                                </ul>
+                            </div>
+                            <div class="w3-col l4 m12 s12">
+                                <p><u><strong>Training objectives</strong></u></p>
+                                <p>The "Motion Control" training is an engineering-oriented system and application
+                                    training course. The participants will gain basic knowledge of how to test, evaluate
+                                    and implement applications. The "FAST Application Software"
+                                    course
+                                    focuses on engineering-oriented application training. After completing the training,
+                                    participants should be capable of applying the technology modules and the FAST
+                                    Application Template, as well as understanding and exploiting their
+                                    added
+                                    value in a standardized software and project structure. The training creates the
+                                    basis for participants to independently extend their knowledge within the scope of
+                                    projects.</p>
+                                <p><u><strong>Additional course details</strong></u></p>
+                                <span><strong>Training duration:</strong> 3 days</span><br />
+                                <span><strong>Target group:</strong> Plant and machine manufacturers</span><br />
+                                <span><strong>Target function:</strong> Machine application</span><br />
+                                <span><strong>Product:</strong> Controller 3200 C; Controller p500; IO System 1000; PLC
+                                    Designer; Servo Inverter i700; Servo Inverter i950; Frequency Inverter i500; X4
+                                    Remote Solution; Software - Application software</span>
+                            </div>
+                            <div class="w3-col l12">
+                                <div style="margin-top:10px;"><img
+                                        src="https://cdn2.hubspot.net/hubfs/1720957/Training/Motion-Control-Training-DAYS-Graphic2-v3.png">
+                                </div>
+                                <a id="20200714-register"
+                                    href="https://app.acuityscheduling.com/schedule.php?owner=16559558&appointmentType=12388733"
+                                    target="_blank" class="acuity-embed-button">Register</a>
+                                <button id="20200714-past" class="past-course-button">Course completed</button>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="course collapsible" id="VWN-CA-UX-20200717" data-id="VWN-CA-UX-20200717"
+                        data-cat-1="plc_ds,visiwinnet,contr" data-cat-2="comm-app" data-cat-3="uxbridge"
+                        data-cat-4="may"><span>VisiWinNet Smart Introduction</span>&nbsp;&nbsp;&nbsp;<img
+                            src="https://cdn2.hubspot.net/hubfs/1720957/Training/Motion%20Control%20Icon_Green%2022x22.png"
+                            class="motion-control-icon w3-image">
+                        <span class="float-right">July 17, 2020</span>
+                    </div>
+                    <div class="content">
+                        <div id="20200717-2" class="subhead"><span><i class="fas fa-map-marker-alt"></i> Uxbridge,
+                                MA</span><span class="float-right">Free</span></div>
+                        <div class="w3-row-padding course-info">
+                            <div class="w3-col l12">
+                                <span id="20200717" class="past-course">This course has passed.</span>
+                                <p><strong>Required Equipment:</strong> The participants are requested to bring a
+                                    suitable laptop with them to the training course (operating system: Microsoft
+                                    Windows® 7, 8 or 10 (32/64 bit).</p>
+                            </div>
+                            <div class="w3-col l8 m12 s12">
+                                <p><u><strong>Agenda</strong></u></p>
+                                <ul>
+                                    <li>Connection to the controller</li>
+                                    <li>Overview of VisiWinNET Smart and further product versions </li>
+                                    <li>Introduction to VisiWinNET Smart Editor and the Project Wizard; to Form Designer
+                                        and project configuration; Defining internal and external (controller) variables
+                                        and user controls; Creating cross-references and performing
+                                        troubleshooting; Managing and switching between multiple languages; Using
+                                        alarms, trends and formulae; Using user management and logbook functions</li>
+                                    <li>Creating a basic visualization application</li>
+                                    <li>Practical exercises on the training equipment</li>
+                                </ul>
+                            </div>
+                            <div class="w3-col l4 m12 s12">
+                                <p><u><strong>Training objectives</strong></u></p>
+                                <p>The participants will be capable of independently configuring automation systems
+                                    using VisiWinNET® Smart, as well as implementing and commissioning basic
+                                    applications.</p>
+                                <p><u><strong>Additional course details</strong></u></p>
+                                <span><strong>Training duration:</strong> 1 day</span><br />
+                                <span><strong>Target group:</strong> Plant and machine manufacturers; Machine
+                                    operators</span><br />
+                                <span><strong>Target function:</strong> Machine application; Project
+                                    planning</span><br />
+                                <span><strong>Product:</strong> VisiWinNET; Industrial PC v800-C; Industrial PC
+                                    v800-P</span>
+                            </div>
+                            <div class="w3-col l12">
+                                <div style="margin-top:10px;"><img
+                                        src="https://cdn2.hubspot.net/hubfs/1720957/Training/Motion-Control-Training-DAYS-Graphic3-v3.png">
+                                </div>
+                                <a id="20200717-register"
+                                    href="https://app.acuityscheduling.com/schedule.php?owner=16559558&appointmentType=12388745"
+                                    target="_blank" class="acuity-embed-button">Register</a>
+                                <button id="20200717-past" class="past-course-button">Course completed</button>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="course collapsible" id="DSD-CA-GH-20200929" data-id="DSD-CA-GH-20200929"
+                        data-cat-1="dsd" data-cat-2="comm-app" data-cat-3="glendale-heights" data-cat-4="sep">
+                        <span>Drive Solutions Designer (DSD)</span> <span class="new-course">NEW!</span>
+                        <span class="float-right">September 29-30, 2020</span>
+                    </div>
+                    <div class="content">
+                        <div id="20200929-2" class="subhead"><span><i class="fas fa-map-marker-alt"></i> Glendale
+                                Heights, IL</span><span class="float-right">Free</span></div>
+                        <div class="w3-row-padding course-info">
+                            <div class="w3-col l12">
+                                <span id="20200929" class="past-course">This course has passed.</span>
+                                <p><strong>Required Equipment:</strong> The participants are required to bring a
+                                    suitable laptop with them to the training course (operating system: Windows XP,
+                                    Vista, 7, 8 or 10, minimum 1 GB RAM)</p>
+                            </div>
+                            <div class="w3-col l8 m12 s12">
+                                <p><u><strong>Agenda</strong></u></p>
+                                <ul>
+                                    <li>DSD – A link in the engineering chain</li>
+                                    <li>DSD software (structure and architecture)</li>
+                                    <li>The DSD user interface</li>
+                                    <li>Preparing projects</li>
+                                    <li>Exploring DSD program flow</li>
+                                    <li>Results and logs</li>
+                                    <li>Motion planning in DSD</li>
+                                    <li>Basic multi-axis designs</li>
+                                    <li>Analyzing and optimizing designs</li>
+                                    <li>Application-oriented training exercises</li>
+                                </ul>
+                            </div>
+                            <div class="w3-col l4 m12 s12">
+                                <p><u><strong>Training objectives</strong></u></p>
+                                <p>This training offers participants a detailed overview of DSD software and functions.
+                                    Participants will learn how to use the software and be able to perform dimensioning
+                                    autonomously for Lenze drive systems.</p>
+                                <p><u><strong>Additional course details</strong></u></p>
+                                <span><strong>Training duration:</strong> 2 days</span><br />
+                                <span><strong>Target group:</strong> Plant and machine manufacturers</span><br />
+                                <span><strong>Target function:</strong> Electrical engineering and design; Machine
+                                    application; Project planning</span><br />
+                                <span><strong>Product:</strong> Drive Solution Designer</span>
+                            </div>
+                            <div class="w3-col l12">
+                                <a id="20200929-register"
+                                    href="https://app.acuityscheduling.com/schedule.php?owner=16559558&appointmentType=12388753"
+                                    target="_blank" class="acuity-embed-button">Register</a>
+                                <button id="20200929-past" class="past-course-button">Course completed</button>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="course collapsible" id="PLC-CA-GH-20201005" data-id="PLC-CA-GH-20201005"
+                        data-cat-1="plc_ds,contr" data-cat-2="comm-app" data-cat-3="glendale-heights" data-cat-4="oct">
+                        <span>PLC Designer Introduction</span>&nbsp;&nbsp;&nbsp;<img
+                            src="https://cdn2.hubspot.net/hubfs/1720957/Training/Motion%20Control%20Icon_Green%2022x22.png"
+                            class="motion-control-icon w3-image">
+                        <span class="float-right">October 5, 2020</span>
+                    </div>
+                    <div class="content">
+                        <div id="20201005-2" class="subhead"><span><i class="fas fa-map-marker-alt"></i> Glendale
+                                Heights, IL</span><span class="float-right">Free</span></div>
+                        <div class="w3-row-padding course-info">
+                            <div class="w3-col l12">
+                                <span id="20201005" class="past-course">This course has passed.</span>
+                                <p><strong>Online Training Available:</strong> As an alternative to attending this
+                                    in-person training class, participants can take <em>PLC Designer Basics – First
+                                        Steps</em> and <em>PLC Software Development</em> at <a href=" https://bhndienst.plateau.com/learning/user/portal.do?selectorLocaleID=English&siteID=TT%2dLAM
+                    “ target=" _blank">Lenze’s Online Training Portal</a></p>
+                                <p><strong>Prerequisites:</strong> Knowledge of IEC61131-3 programming – This class
+                                    assumes you already know how to program and that you are familiar with IEC61131-3.
+                                    This class teaches you how to program IEC61131-3 using our PLC
+                                    Designer software tool.</p>
+                                <p><strong>Required Equipment:</strong> The participants are requested to bring a
+                                    suitable laptop with them to the training course (operating system: Microsoft
+                                    Windows® 7, 8 or 10 (32/64 bit).</p>
+                            </div>
+                            <div class="w3-col l8 m12 s12">
+                                <p><u><strong>Agenda</strong></u></p>
+                                <ul>
+                                    <li>Introduction to controller 3200 C and p500 and the I/O System 1000</li>
+                                    <li>Structure of »PLC Designer« V3</li>
+                                    <li>Standard project with I/O mapping, connecting to the controller</li>
+                                    <li>Project settings/-download, boot project, source code up-/download</li>
+                                    <li>Using libraries and the device repository</li>
+                                    <li>Presentation of variable & data types, POUs (program, function block, function),
+                                        tasks, persistent & retain variables</li>
+                                    <li>Using monitoring, variable forces, overwriting, trace, text list, logbook</li>
+                                    <li>Introduction to IEC61131-3 programming languages, focusing on the FUP languages
+                                        and structured text</li>
+                                    <li>Using basic data structures</li>
+                                    <li>Introduction to visualization with the PLC Designer</li>
+                                    <li>Practical exercises on the training equipment</li>
+                                </ul>
+                            </div>
+                            <div class="w3-col l4 m12 s12">
+                                <p><u><strong>Training objectives</strong></u></p>
+                                <p>The participants will gain technical knowledge on how to apply, program, commission
+                                    and use the diagnostics options of PLC Designer. They will learn the basics of how
+                                    to use this product and perform IEC61131-3 programming.</p>
+                                <p><u><strong>Additional course details</strong></u></p>
+                                <span><strong>Training duration:</strong> 1 day</span><br />
+                                <span><strong>Target group:</strong> Plant and machine manufacturers</span><br />
+                                <span><strong>Target function:</strong> Commissioning; Maintenance and servicing;
+                                    Machine application</span>
+                                <span><strong>Product:</strong> PLC Designer V3.x</span><br />
+                            </div>
+                            <div class="w3-col l12">
+                                <div style="margin-top:10px;"><img
+                                        src="https://cdn2.hubspot.net/hubfs/1720957/Training/Motion-Control-Training-DAYS-Graphic1-v3.png">
+                                </div>
+                                <a id="20201005-register"
+                                    href="https://app.acuityscheduling.com/schedule.php?owner=16559558&appointmentType=12388766"
+                                    target="_blank" class="acuity-embed-button">Register</a>
+                                <button id="20201005-past" class="past-course-button">Course completed</button>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="course collapsible" id="FAST-CA-GH-20201006" data-id="FAST-CA-GH-20201006"
+                        data-cat-1="i700_s,contr,plc_ds,x4remote" data-cat-2="comm-app" data-cat-3="glendale-heights"
+                        data-cat-4="oct"><span>Motion Control with FAST Application
+                            Software</span>&nbsp;&nbsp;&nbsp;<img
+                            src="https://cdn2.hubspot.net/hubfs/1720957/Training/Motion%20Control%20Icon_Green%2022x22.png"
+                            class="motion-control-icon w3-image">
+                        <span class="float-right">October 6-8, 2020</span>
+                    </div>
+                    <div class="content">
+                        <div id="20201006-2" class="subhead"><span><i class="fas fa-map-marker-alt"></i> Glendale
+                                Heights, IL</span><span class="float-right">Free</span></div>
+                        <div class="w3-row-padding course-info">
+                            <div class="w3-col l12">
+                                <span id="20201006" class="past-course">This course has passed.</span>
+                                <p><strong>Prerequisites:</strong> Know how to use PLC Designer to write IEC61131-3
+                                    programs – This class assumes you already know how to use the Lenze PLC Designer
+                                    software tool to write IEC61131-3 programs.</p>
+                                <p><strong>Required Equipment:</strong> The participants are requested to bring a
+                                    suitable laptop with them to the training course (operating system: Microsoft
+                                    Windows® 7, 8 or 10 (32/64 bit).</p>
+                            </div>
+                            <div class="w3-col l8 m12 s12">
+                                <p><u><strong>Agenda</strong></u></p>
+                                <ul>
+                                    <li>Introduction to the 3200 C controller, p500 panel controller, I/O System 1000,
+                                        Controller-based motion and «PLC Designer»</li>
+                                    <li>Introduction, configuration, commissioning of i700 servo inverters, SoftMotion
+                                        axis and EtherCAT fieldbus</li>
+
+                                    <li>Positioning with the FB-AxisBasicControl and "Application Sample i700"</li>
+
+                                    <li>Lenze touch probe function blocks</li>
+                                    <li>Drive and motion operating modes (csp, csv, cst)</li>
+                                    <li>Applying a virtual axis/Practical exercises</li>
+                                    <li>Introduction to Lenze FAST technology modules</li>
+                                    <li>Interfaces: Principle and scalability Technology modules "Electrical Shaft,
+                                        Virtual Master, FlexCam"</li>
+                                    <li>Modularization of machine modules</li>
+                                    <li>Introduction FAST Application Template: Elements and software structure; Machine
+                                        modules and applications, communication, state machine, error handling,
+                                        mechanisms during engagement; Visualization, diagnostics and operation</li>
+                                    <li>Introduction to the X4 Remote solution</li>
+                                </ul>
+                            </div>
+                            <div class="w3-col l4 m12 s12">
+                                <p><u><strong>Training objectives</strong></u></p>
+                                <p>The "Motion Control" training is an engineering-oriented system and application
+                                    training course. The participants will gain basic knowledge of how to test, evaluate
+                                    and implement applications. The "FAST Application Software"
+                                    course
+                                    focuses on engineering-oriented application training. After completing the training,
+                                    participants should be capable of applying the technology modules and the FAST
+                                    Application Template, as well as understanding and exploiting
+                                    their added
+                                    value in a standardized software and project structure. The training creates the
+                                    basis for participants to independently extend their knowledge within the scope of
+                                    projects.</p>
+                                <p><u><strong>Additional course details</strong></u></p>
+                                <span><strong>Training duration:</strong> 3 days</span><br />
+                                <span><strong>Target group:</strong> Plant and machine manufacturers</span><br />
+                                <span><strong>Target function:</strong> Machine application</span><br />
+                                <span><strong>Product:</strong> Controller 3200 C; Controller p500; IO System 1000; PLC
+                                    Designer; Servo Inverter i700; Servo Inverter i950; Frequency Inverter i500; X4
+                                    Remote Solution; Software - Application software</span>
+                            </div>
+
+                            <div class="w3-col l12">
+                                <div style="margin-top:10px;"><img
+                                        src="https://cdn2.hubspot.net/hubfs/1720957/Training/Motion-Control-Training-DAYS-Graphic2-v3.png">
+                                </div>
+                                <a id="20201006-register"
+                                    href="https://app.acuityscheduling.com/schedule.php?owner=16559558&appointmentType=12388775"
+                                    target="_blank" class="acuity-embed-button">Register</a>
+                                <button id="20201006-past" class="past-course-button">Course completed</button>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="course collapsible" id="VWN-CA-GH-20201009" data-id="VWN-CA-GH-20201009"
+                        data-cat-1="plc_ds,visiwinnet,contr" data-cat-2="comm-app" data-cat-3="glendale-heights"
+                        data-cat-4="oct"><span>VisiWinNet Smart Introduction</span>&nbsp;&nbsp;&nbsp;<img
+                            src="https://cdn2.hubspot.net/hubfs/1720957/Training/Motion%20Control%20Icon_Green%2022x22.png"
+                            class="motion-control-icon w3-image">
+                        <span class="float-right">October 9, 2020</span>
+                    </div>
+                    <div class="content">
+                        <div id="20201009-2" class="subhead"><span><i class="fas fa-map-marker-alt"></i> Glendale
+                                Heights, IL</span><span class="float-right">Free</span></div>
+                        <div class="w3-row-padding course-info">
+                            <div class="w3-col l12">
+                                <span id="20201009" class="past-course">This course has passed.</span>
+                                <p><strong>Required Equipment:</strong> The participants are requested to bring a
+                                    suitable laptop with them to the training course (operating system: Microsoft
+                                    Windows® 7, 8 or 10 (32/64 bit).</p>
+                            </div>
+                            <div class="w3-col l8 m12 s12">
+                                <p><u><strong>Agenda</strong></u></p>
+                                <ul>
+                                    <li>Connection to the controller</li>
+                                    <li>Overview of VisiWinNET Smart and further product versions </li>
+                                    <li>Introduction to VisiWinNET Smart Editor and the Project Wizard; to Form Designer
+                                        and project configuration; Defining internal and external (controller) variables
+                                        and user controls; Creating cross-references and performing
+                                        troubleshooting; Managing and switching between multiple languages; Using
+                                        alarms, trends and formulae; Using user management and logbook functions</li>
+                                    <li>Creating a basic visualization application</li>
+                                    <li>Practical exercises on the training equipment</li>
+                                </ul>
+                            </div>
+                            <div class="w3-col l4 m12 s12">
+                                <p><u><strong>Training objectives</strong></u></p>
+                                <p>The participants will be capable of independently configuring automation systems
+                                    using VisiWinNET® Smart, as well as implementing and commissioning basic
+                                    applications.</p>
+                                <p><u><strong>Additional course details</strong></u></p>
+                                <span><strong>Training duration:</strong> 1 day</span><br />
+                                <span><strong>Target group:</strong> Plant and machine manufacturers; Machine
+                                    operators</span><br />
+                                <span><strong>Target function:</strong> Machine application; Project
+                                    planning</span><br />
+                                <span><strong>Product:</strong> VisiWinNET; Industrial PC v800-C; Industrial PC
+                                    v800-P</span>
+                            </div>
+                            <div class="w3-col l12">
+                                <div style="margin-top:10px;"><img
+                                        src="https://cdn2.hubspot.net/hubfs/1720957/Training/Motion-Control-Training-DAYS-Graphic3-v3.png">
+                                </div>
+                                <a id="20201009-register"
+                                    href="https://app.acuityscheduling.com/schedule.php?owner=16559558&appointmentType=12388784"
+                                    target="_blank" class="acuity-embed-button">Register</a>
+                                <button id="20201009-past" class="past-course-button">Course completed</button>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="course collapsible" id="8200-SM-UX-20201019" data-id="8200-SM-UX-20201019"
+                        data-cat-1="8200_d,9300_s" data-cat-2="serv-main" data-cat-3="uxbridge" data-cat-4="oct">
+                        <span>Inverter Drives 8200 & Servo Drives 9300 - Service</span>
+                        <span class="new-course">NEW!</span>
+                        <span class="float-right">October 19-20, 2020</span>
+                    </div>
+                    <div class="content">
+                        <div id="20201019-2" class="subhead"><span><i class="fas fa-map-marker-alt"></i> Uxbridge,
+                                MA</span><span class="float-right">$400</span></div>
+                        <div class="w3-row-padding course-info">
+                            <div class="w3-col l12">
+                                <span id="20201019" class="past-course">This course has passed.</span>
+                                <p><strong>Prerequisites:</strong> Basics of electrical engineering</p>
+                                <p><strong>Required Equipment:</strong> The participants are requested to bring a
+                                    suitable laptop with them to the training course (operating system: Microsoft
+                                    Windows® 7, 8 or 10 (32/64 bit).</p>
+                            </div>
+                            <div class="w3-col l8 m12 s12">
+                                <p><u><strong>Agenda</strong></u></p>
+                                <ul>
+                                    <li>Accessing parameters and exporting status information to the Inverter Drives
+                                        8200 and Servo Drives 9300 using the keypad</li>
+                                    <li>Diagnostics with the EASY Starter and Global Drive Control software packages
+                                        (device status, error response, logbook, trend, oscilloscope)</li>
+                                    <li>Commissioning specified user parameter settings</li>
+                                    <li>Steps for complete data backup</li>
+                                    <li>Service case "Device replacement"</li>
+                                    <li>Useful information on installation and operation</li>
+                                    <li>Practical exercises on the training equipment</li>
+                                </ul>
+                            </div>
+                            <div class="w3-col l4 m12 s12">
+                                <p><u><strong>Training objectives</strong></u></p>
+                                <p>In this training course, Participants will learn the basics of installing and
+                                    servicing the Inverter Drives 8200 and Servo Drives 9300.</p>
+                                <p>Participants will gain technical knowledge on:</p>
+                                <ul>
+                                    <li>Diagnostics and eliminating malfunctions (troubleshooting)</li>
+                                    <li>Using the keypad, EASY Starter, and additional service engineering tools</li>
+                                </ul>
+                                <p><u><strong>Additional course details</strong></u></p>
+                                <span><strong>Training duration:</strong> 2 days</span><br />
+                                <span><strong>Target group:</strong> Machine operators</span><br />
+                                <span><strong>Target function:</strong> Maintenance and servicing;
+                                    Operation</span><br />
+                                <span><strong>Product:</strong> Inverter Drives 8200; Servo Drives 9300; EASY Starter;
+                                    Global Drive Control</span>
+                            </div>
+                            <div class="w3-col l12">
+                                <a id="20201019-register"
+                                    href="https://app.acuityscheduling.com/schedule.php?owner=16559558&appointmentType=12388796"
+                                    target="_blank" class="acuity-embed-button">Register</a>
+                                <button id="20201019-past" class="past-course-button">Course completed</button>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="course collapsible" id="8400-SM-UX-20201021" data-id="8400-SM-UX-20201021"
+                        data-cat-1="8400_d,9400_s" data-cat-2="serv-main" data-cat-3="uxbridge" data-cat-4="oct">
+                        <span>Inverter Drives 8400 & Servo Drives 9400 - Service</span>
+                        <span class="new-course">NEW!</span>
+                        <span class="float-right">October 21-22, 2020</span>
+                    </div>
+                    <div class="content">
+                        <div id="20201021-2" class="subhead"><span><i class="fas fa-map-marker-alt"></i> Uxbridge,
+                                MA</span><span class="float-right">$400</span></div>
+                        <div class="w3-row-padding course-info">
+                            <div class="w3-col l12">
+                                <span id="20201021" class="past-course">This course has passed.</span>
+                                <p><strong>Prerequisites:</strong> Basic prior knowledge of electrical engineering is
+                                    required.</p>
+                                <p><strong>Required Equipment:</strong> The participants are requested to bring a
+                                    suitable laptop with them to the training course (operating system: Microsoft
+                                    Windows® 7, 8 or 10 (32/64 bit).</p>
+                            </div>
+                            <div class="w3-col l8 m12 s12">
+                                <p><u><strong>Agenda</strong></u></p>
+                                <ul>
+                                    <li>Accessing parameters and exporting status information to the Inverter Drives
+                                        8400 & Servo Drives 9400 using the keypad</li>
+                                    <li>Diagnostics with the EASY Starter and L-force Engineer software packages (device
+                                        statuses, error responses, logbook, trend, data logger, oscilloscope)</li>
+                                    <li>Commissioning specified user parameter settings and/or pre-made applications
+                                    </li>
+                                    <li>Steps for complete data backup</li>
+                                    <li>Service case "Device replacement"</li>
+                                    <li>Useful information on installation and operation</li>
+                                    <li>Checking and optimizing the motor control</li>
+                                    <li>Practical exercises on the training equipment</li>
+                                </ul>
+                            </div>
+                            <div class="w3-col l4 m12 s12">
+                                <p><u><strong>Training objectives</strong></u></p>
+                                <p>In this training course, participants will learn the basics of installing and
+                                    servicing the Inverter Drives 8400 and the Servo Drives 9400. </p>
+                                <p> They will gain technical knowledge on:</p>
+                                <ul>
+                                    <li>Diagnostics and eliminating malfunctions (troubleshooting)</li>
+                                    <li>Using the keypad, EASY Starter, L-force Engineer, and additional service
+                                        engineering tools</li>
+                                </ul>
+                                <p><u><strong>Additional course details</strong></u></p>
+                                <span><strong>Training duration:</strong> 2 days</span><br />
+                                <span><strong>Target group:</strong> Machine operators</span><br />
+                                <span><strong>Target function:</strong> Maintenance and servicing;
+                                    Operation</span><br />
+                                <span><strong>Product:</strong> Inverter Drives 8400; Servo Drives 9400; EASY Starter;
+                                    L-force Engineer</span>
+                            </div>
+                            <div class="w3-col l12">
+                                <a id="20201021-register"
+                                    href="https://app.acuityscheduling.com/schedule.php?owner=16559558&appointmentType=12388806"
+                                    target="_blank" class="acuity-embed-button">Register</a>
+                                <button id="20201021-past" class="past-course-button">Course completed</button>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="course collapsible" id="PLC-CA-UX-20201207" data-id="PLC-CA-UX-20201207"
+                        data-cat-1="plc_ds,contr" data-cat-2="comm-app" data-cat-3="uxbridge" data-cat-4="dec"><span>PLC
+                            Designer Introduction</span>&nbsp;&nbsp;&nbsp;<img
+                            src="https://cdn2.hubspot.net/hubfs/1720957/Training/Motion%20Control%20Icon_Green%2022x22.png"
+                            class="motion-control-icon w3-image">
+                        <span class="float-right">December 7, 2020</span>
+                    </div>
+                    <div class="content">
+                        <div id="20201207-2" class="subhead"><span><i class="fas fa-map-marker-alt"></i> Uxbridge,
+                                MA</span><span class="float-right">Free</span></div>
+                        <div class="w3-row-padding course-info">
+                            <div class="w3-col l12">
+                                <span id="20201207" class="past-course">This course has passed.</span>
+                                <p><strong>Online Training Available:</strong> As an alternative to attending this
+                                    in-person training class, participants can take <em>PLC Designer Basics – First
+                                        Steps</em> and <em>PLC Software Development</em> at <a href=" https://bhndienst.plateau.com/learning/user/portal.do?selectorLocaleID=English&siteID=TT%2dLAM
+                    “ target=" _blank">Lenze’s Online Training Portal</a></p>
+                                <p><strong>Prerequisites:</strong> Knowledge of IEC61131-3 programming – This class
+                                    assumes you already know how to program and that you are familiar with IEC61131-3.
+                                    This class teaches you how to program IEC61131-3 using our PLC
+                                    Designer software tool.</p>
+                                <p><strong>Required Equipment:</strong> The participants are requested to bring a
+                                    suitable laptop with them to the training course (operating system: Microsoft
+                                    Windows® 7, 8 or 10 (32/64 bit).</p>
+                            </div>
+                            <div class="w3-col l8 m12 s12">
+                                <p><u><strong>Agenda</strong></u></p>
+                                <ul>
+                                    <li>Introduction to controller 3200 C and p500 and the I/O System 1000</li>
+                                    <li>Structure of »PLC Designer« V3</li>
+                                    <li>Standard project with I/O mapping, connecting to the controller</li>
+                                    <li>Project settings/-download, boot project, source code up-/download</li>
+                                    <li>Using libraries and the device repository</li>
+                                    <li>Presentation of variable & data types, POUs (program, function block, function),
+                                        tasks, persistent & retain variables</li>
+                                    <li>Using monitoring, variable forces, overwriting, trace, text list, logbook</li>
+                                    <li>Introduction to IEC61131-3 programming languages, focusing on the FUP languages
+                                        and structured text</li>
+                                    <li>Using basic data structures</li>
+                                    <li>Introduction to visualization with the PLC Designer</li>
+                                    <li>Practical exercises on the training equipment</li>
+                                </ul>
+                            </div>
+                            <div class="w3-col l4 m12 s12">
+                                <p><u><strong>Training objectives</strong></u></p>
+                                <p>The participants will gain technical knowledge on how to apply, program, commission
+                                    and use the diagnostics options of PLC Designer. They will learn the basics of how
+                                    to use this product and perform IEC61131-3 programming.</p>
+                                <p><u><strong>Additional course details</strong></u></p>
+                                <span><strong>Training duration:</strong> 1 day</span><br />
+                                <span><strong>Target group:</strong> Plant and machine manufacturers</span><br />
+                                <span><strong>Target function:</strong> Commissioning; Maintenance and servicing;
+                                    Machine application</span><br />
+                                <span><strong>Product:</strong> PLC Designer V3.x</span>
+                            </div>
+                            <div class="w3-col l12">
+                                <div style="margin-top:10px;"><img
+                                        src="https://cdn2.hubspot.net/hubfs/1720957/Training/Motion-Control-Training-DAYS-Graphic1-v3.png">
+                                </div>
+                                <a id="20201207-register"
+                                    href="https://app.acuityscheduling.com/schedule.php?owner=16559558&appointmentType=12388813"
+                                    target="_blank" class="acuity-embed-button">Register</a>
+                                <button id="20201207-past" class="past-course-button">Course completed</button>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="course collapsible" id="FAST-CA-UX-20201208" data-id="FAST-CA-UX-20201208"
+                        data-cat-1="i700_s,contr,plc_ds,x4remote" data-cat-2="comm-app" data-cat-3="uxbridge"
+                        data-cat-4="dec"><span>Motion Control with FAST
+                            Application
+                            Software</span>&nbsp;&nbsp;&nbsp;<img
+                            src="https://cdn2.hubspot.net/hubfs/1720957/Training/Motion%20Control%20Icon_Green%2022x22.png"
+                            class="motion-control-icon w3-image">
+                        <span class="float-right">December 8-10, 2020</span>
+                    </div>
+                    <div class="content">
+                        <div id="20201208-2" class="subhead"><span><i class="fas fa-map-marker-alt"></i> Uxbridge,
+                                MA</span><span class="float-right">Free</span></div>
+                        <div class="w3-row-padding course-info">
+                            <div class="w3-col l12">
+                                <span id="20201208" class="past-course">This course has passed.</span>
+                                <p><strong>Prerequisites:</strong> Know how to use PLC Designer to write IEC61131-3
+                                    programs – This class assumes you already know how to use the Lenze PLC Designer
+                                    software tool to write IEC61131-3 programs.</p>
+                                <p><strong>Required Equipment:</strong> The participants are requested to bring a
+                                    suitable laptop with them to the training course (operating system: Microsoft
+                                    Windows® 7, 8 or 10 (32/64 bit).</p>
+                            </div>
+                            <div class="w3-col l8 m12 s12">
+                                <p><u><strong>Agenda</strong></u></p>
+                                <ul>
+                                    <li>Introduction to the 3200 C controller, p500 panel controller, I/O System 1000,
+                                        Controller-based motion and «PLC Designer»</li>
+                                    <li>Introduction, configuration, commissioning of i700 servo inverters, SoftMotion
+                                        axis and EtherCAT fieldbus</li>
+
+                                    <li>Positioning with the FB-AxisBasicControl and "Application Sample i700"</li>
+
+                                    <li>Lenze touch probe function blocks</li>
+                                    <li>Drive and motion operating modes (csp, csv, cst)</li>
+                                    <li>Applying a virtual axis/Practical exercises</li>
+                                    <li>Introduction to Lenze FAST technology modules</li>
+                                    <li>Interfaces: Principle and scalability Technology modules "Electrical Shaft,
+                                        Virtual Master, FlexCam"</li>
+                                    <li>Modularization of machine modules</li>
+                                    <li>Introduction FAST Application Template: Elements and software structure; Machine
+                                        modules and applications, communication, state machine, error handling,
+                                        mechanisms during engagement; Visualization, diagnostics and operation</li>
+                                    <li>Introduction to the X4 Remote solution</li>
+                                </ul>
+                            </div>
+                            <div class="w3-col l4 m12 s12">
+                                <p><u><strong>Training objectives</strong></u></p>
+                                <p>The "Motion Control" training is an engineering-oriented system and application
+                                    training course. The participants will gain basic knowledge of how to test, evaluate
+                                    and implement applications. The "FAST Application Software"
+                                    course
+                                    focuses on engineering-oriented application training. After completing the training,
+                                    participants should be capable of applying the technology modules and the FAST
+                                    Application Template, as well as understanding and exploiting
+                                    their added
+                                    value in a standardized software and project structure. The training creates the
+                                    basis for participants to independently extend their knowledge within the scope of
+                                    projects.</p>
+                                <p><u><strong>Additional course details</strong></u></p>
+                                <span><strong>Training duration:</strong> 3 days</span><br />
+                                <span><strong>Target group:</strong> Plant and machine manufacturers</span><br />
+                                <span><strong>Target function:</strong> Machine application</span><br />
+                                <span><strong>Product:</strong> Controller 3200 C; Controller p500; IO System 1000; PLC
+                                    Designer; Servo Inverter i700; Servo Inverter i950; Frequency Inverter i500; X4
+                                    Remote Solution; Software - Application software</span>
+                            </div>
+
+                            <div class="w3-col l12">
+                                <div style="margin-top:10px;"><img
+                                        src="https://cdn2.hubspot.net/hubfs/1720957/Training/Motion-Control-Training-DAYS-Graphic2-v3.png">
+                                </div>
+                                <a id="20201208-register"
+                                    href="https://app.acuityscheduling.com/schedule.php?owner=16559558&appointmentType=12388820"
+                                    target="_blank" class="acuity-embed-button">Register</a>
+                                <button id="20201208-past" class="past-course-button">Course completed</button>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="course collapsible" id="VWN-CA-UX-20201211" data-id="VWN-CA-UX-20201211"
+                        data-cat-1="plc_ds,visiwinnet,contr" data-cat-2="comm-app" data-cat-3="uxbridge"
+                        data-cat-4="dec"><span>VisiWinNet Smart Introduction</span>&nbsp;&nbsp;&nbsp;<img
+                            src="https://cdn2.hubspot.net/hubfs/1720957/Training/Motion%20Control%20Icon_Green%2022x22.png"
+                            class="motion-control-icon w3-image">
+                        <span class="float-right">December 11, 2020</span>
+                    </div>
+                    <div class="content">
+                        <div id="20201211-2" class="subhead"><span><i class="fas fa-map-marker-alt"></i> Uxbridge,
+                                MA</span><span class="float-right">Free</span></div>
+                        <div class="w3-row-padding course-info">
+                            <div class="w3-col l12">
+                                <span id="20201211" class="past-course">This course has passed.</span>
+                                <p><strong>Required Equipment:</strong> The participants are requested to bring a
+                                    suitable laptop with them to the training course (operating system: Microsoft
+                                    Windows® 7, 8 or 10 (32/64 bit).</p>
+                            </div>
+                            <div class="w3-col l8 m12 s12">
+                                <p><u><strong>Agenda</strong></u></p>
+                                <ul>
+                                    <li>Connection to the controller</li>
+                                    <li>Overview of VisiWinNET Smart and further product versions </li>
+                                    <li>Introduction to VisiWinNET Smart Editor and the Project Wizard; to Form Designer
+                                        and project configuration; Defining internal and external (controller) variables
+                                        and user controls; Creating cross-references and performing
+                                        troubleshooting; Managing and switching between multiple languages; Using
+                                        alarms, trends and formulae; Using user management and logbook functions</li>
+                                    <li>Creating a basic visualization application</li>
+                                    <li>Practical exercises on the training equipment</li>
+                                </ul>
+                            </div>
+                            <div class="w3-col l4 m12 s12">
+                                <p><u><strong>Training objectives</strong></u></p>
+                                <p>The participants will be capable of independently configuring automation systems
+                                    using VisiWinNET® Smart, as well as implementing and commissioning basic
+                                    applications.</p>
+                                <p><u><strong>Additional course details</strong></u></p>
+                                <span><strong>Training duration:</strong> 1 day</span><br />
+                                <span><strong>Target group:</strong> Plant and machine manufacturers; Machine
+                                    operators</span><br />
+                                <span><strong>Target function:</strong> Machine application; Project
+                                    planning</span><br />
+                                <span><strong>Product:</strong> VisiWinNET; Industrial PC v800-C; Industrial PC
+                                    v800-P</span>
+                            </div>
+                            <div class="w3-col l12">
+                                <div style="margin-top:10px;"><img
+                                        src="https://cdn2.hubspot.net/hubfs/1720957/Training/Motion-Control-Training-DAYS-Graphic3-v3.png">
+                                </div>
+                                <a id="20201211-register"
+                                    href="https://app.acuityscheduling.com/schedule.php?owner=16559558&appointmentType=12388831"
+                                    target="_blank" class="acuity-embed-button">Register</a>
+                                <button id="20201211-past" class="past-course-button">Course completed</button>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+
+        </div>
+    </div>
+    {{ standard_footer_includes }}
+</body>
+<script>
+    $(function () {
+
+        var current = new Date();
+        var date = new Date("January 28, 2020")
+
+
+        if (current.getTime() > date.getTime()) {
+            $('#DSD-CA-GH-20200128').addClass("past-course-title");
+            $('#20200128-2').addClass("past-course-title");
+            $('#20200128-register').hide();
+            $('#20200128-past').show();
+        }
+    });
+
+    $(function () {
+
+        var current = new Date();
+        var date = new Date("February 10, 2020")
+
+
+        if (current.getTime() > date.getTime()) {
+            $('#PLC-CA-UX-20200210').addClass("past-course-title");
+            $('#20200210-2').addClass("past-course-title");
+            $('#20200210-register').hide();
+            $('#20200210-past').show();
+        }
+    });
+
+    $(function () {
+
+        var current = new Date();
+        var date = new Date("February 11, 2020")
+
+
+        if (current.getTime() > date.getTime()) {
+            $('#FAST-CA-UX-20200211').addClass("past-course-title");
+            $('#20200211-2').addClass("past-course-title");
+            $('#20200211-register').hide();
+            $('#20200211-past').show();
+        }
+    });
+
+    $(function () {
+
+        var current = new Date();
+        var date = new Date("February 14, 2020")
+
+
+        if (current.getTime() > date.getTime()) {
+            $('#VWN-CA-UX-20200214').addClass("past-course-title");
+            $('#20200214-2').addClass("past-course-title");
+            $('#20200214-register').hide();
+            $('#20200214-past').show();
+        }
+    });
+
+    $(function () {
+
+        var current = new Date();
+        var date = new Date("February 24, 2020")
+
+
+        if (current.getTime() > date.getTime()) {
+            $('#8200-SM-UX-20200224').addClass("past-course-title");
+            $('#20200224-2').addClass("past-course-title");
+            $('#20200224-register').hide();
+            $('#20200224-past').show();
+        }
+    });
+
+    $(function () {
+
+        var current = new Date();
+        var date = new Date("February 26, 2020")
+
+
+        if (current.getTime() > date.getTime()) {
+            $('#8400-SM-UX-20200226').addClass("past-course-title");
+            $('#20200226-2').addClass("past-course-title");
+            $('#20200226-register').hide();
+            $('#20200226-past').show();
+        }
+    });
+
+    $(function () {
+
+        var current = new Date();
+        var date = new Date("March 17, 2020")
+
+
+        if (current.getTime() > date.getTime()) {
+            $('#DSD-CA-GH-20200317').addClass("past-course-title");
+            $('#20200317-2').addClass("past-course-title");
+            $('#20200317-register').hide();
+            $('#20200317-past').show();
+        }
+    });
+
+    $(function () {
+
+        var current = new Date();
+        var date = new Date("April 13, 2020")
+
+
+        if (current.getTime() > date.getTime()) {
+            $('#PLC-CA-GH-20200413').addClass("past-course-title");
+            $('#20200413-2').addClass("past-course-title");
+            $('#20200413-register').hide();
+            $('#20200413-past').show();
+        }
+    });
+
+    $(function () {
+
+        var current = new Date();
+        var date = new Date("April 14, 2020")
+
+
+        if (current.getTime() > date.getTime()) {
+            $('#FAST-CA-GH-20200414').addClass("past-course-title");
+            $('#20200414-2').addClass("past-course-title");
+            $('#20200414-register').hide();
+            $('#20200414-past').show();
+        }
+    });
+
+    $(function () {
+
+        var current = new Date();
+        var date = new Date("April 17, 2020")
+
+
+        if (current.getTime() > date.getTime()) {
+            $('#VWN-CA-GH-20200417').addClass("past-course-title");
+            $('#20200417-2').addClass("past-course-title");
+            $('#20200417-register').hide();
+            $('#20200417-past').show();
+        }
+    });
+
+    $(function () {
+
+        var current = new Date();
+        var date = new Date("May 4, 2020")
+
+
+        if (current.getTime() > date.getTime()) {
+            $('#8200-SM-UX-20200504').addClass("past-course-title");
+            $('#20200504-2').addClass("past-course-title");
+            $('#20200504-register').hide();
+            $('#20200504-past').show();
+        }
+    });
+
+    $(function () {
+
+        var current = new Date();
+        var date = new Date("May 6, 2020")
+
+
+        if (current.getTime() > date.getTime()) {
+            $('#8400-SM-UX-20200506').addClass("past-course-title");
+            $('#20200506-2').addClass("past-course-title");
+            $('#20200506-register').hide();
+            $('#20200506-past').show();
+        }
+    });
+
+    $(function () {
+
+        var current = new Date();
+        var date = new Date("May 11, 2020")
+
+
+        if (current.getTime() > date.getTime()) {
+            $('#PLC-CA-UX-20200511').addClass("past-course-title");
+            $('#20200511-2').addClass("past-course-title");
+            $('#20200511-register').hide();
+            $('#20200511-past').show();
+        }
+    });
+
+    $(function () {
+
+        var current = new Date();
+        var date = new Date("May 12, 2020")
+
+
+        if (current.getTime() > date.getTime()) {
+            $('#FAST-CA-UX-20200512').addClass("past-course-title");
+            $('#20200512-2').addClass("past-course-title");
+            $('#20200512-register').hide();
+            $('#20200512-past').show();
+        }
+    });
+
+    $(function () {
+
+        var current = new Date();
+        var date = new Date("May 15, 2020")
+
+
+        if (current.getTime() > date.getTime()) {
+            $('#VWN-CA-UX-20200515').addClass("past-course-title");
+            $('#20200515-2').addClass("past-course-title");
+            $('#20200515-register').hide();
+            $('#20200515-past').show();
+        }
+    });
+
+    $(function () {
+
+        var current = new Date();
+        var date = new Date("July 13, 2020")
+
+
+        if (current.getTime() > date.getTime()) {
+            $('#PLC-CA-UX-20200713').addClass("past-course-title");
+            $('#20200713-2').addClass("past-course-title");
+            $('#20200713-register').hide();
+            $('#20200713-past').show();
+        }
+    });
+
+    $(function () {
+
+        var current = new Date();
+        var date = new Date("July 14, 2020")
+
+
+        if (current.getTime() > date.getTime()) {
+            $('#FAST-CA-UX-20200714').addClass("past-course-title");
+            $('#20200714-2').addClass("past-course-title");
+            $('#20200714-register').hide();
+            $('#20200714-past').show();
+        }
+    });
+
+    $(function () {
+
+        var current = new Date();
+        var date = new Date("July 17, 2020")
+
+
+        if (current.getTime() > date.getTime()) {
+            $('#VWN-CA-UX-20200717').addClass("past-course-title");
+            $('#20200717-2').addClass("past-course-title");
+            $('#20200717-register').hide();
+            $('#20200717-past').show();
+        }
+    });
+
+    $(function () {
+
+        var current = new Date();
+        var date = new Date("September 29, 2020")
+
+
+        if (current.getTime() > date.getTime()) {
+            $('#DSD-CA-GH-20200929').addClass("past-course-title");
+            $('#20200929-2').addClass("past-course-title");
+            $('#20200929-register').hide();
+            $('#20200929-past').show();
+        }
+    });
+
+    $(function () {
+
+        var current = new Date();
+        var date = new Date("October 5, 2020")
+
+
+        if (current.getTime() > date.getTime()) {
+            $('#PLC-CA-GH-20201005').addClass("past-course-title");
+            $('#20201005-2').addClass("past-course-title");
+            $('#20201005-register').hide();
+            $('#20201005-past').show();
+        }
+    });
+
+    $(function () {
+
+        var current = new Date();
+        var date = new Date("October 6, 2020")
+
+
+        if (current.getTime() > date.getTime()) {
+            $('#FAST-CA-GH-20201006').addClass("past-course-title");
+            $('#20201006-2').addClass("past-course-title");
+            $('#20201006-register').hide();
+            $('#20201006-past').show();
+        }
+    });
+
+    $(function () {
+
+        var current = new Date();
+        var date = new Date("October 9, 2020")
+
+
+        if (current.getTime() > date.getTime()) {
+            $('#VWN-CA-GH-20201009').addClass("past-course-title");
+            $('#20201009-2').addClass("past-course-title");
+            $('#20201009-register').hide();
+            $('#20201009-past').show();
+        }
+    });
+
+    $(function () {
+
+        var current = new Date();
+        var date = new Date("October 19, 2020")
+
+
+        if (current.getTime() > date.getTime()) {
+            $('#8200-SM-UX-20201019').addClass("past-course-title");
+            $('#20201019-2').addClass("past-course-title");
+            $('#20201019-register').hide();
+            $('#20201019-past').show();
+        }
+    });
+
+    $(function () {
+
+        var current = new Date();
+        var date = new Date("October 21, 2020")
+
+
+        if (current.getTime() > date.getTime()) {
+            $('#8400-SM-UX-20201021').addClass("past-course-title");
+            $('#20201021-2').addClass("past-course-title");
+            $('#20201021-register').hide();
+            $('#20201021-past').show();
+        }
+    });
+
+    $(function () {
+
+        var current = new Date();
+        var date = new Date("December 7, 2020")
+
+
+        if (current.getTime() > date.getTime()) {
+            $('#PLC-CA-UX-20201207').addClass("past-course-title");
+            $('#20201207-2').addClass("past-course-title");
+            $('#20201207-register').hide();
+            $('#20201207-past').show();
+        }
+    });
+
+    $(function () {
+
+        var current = new Date();
+        var date = new Date("December 8, 2020")
+
+
+        if (current.getTime() > date.getTime()) {
+            $('#FAST-CA-UX-20201208').addClass("past-course-title");
+            $('#20201208-2').addClass("past-course-title");
+            $('#20201208-register').hide();
+            $('#20201208-past').show();
+        }
+    });
+
+    $(function () {
+
+        var current = new Date();
+        var date = new Date("December 11, 2020")
+
+
+        if (current.getTime() > date.getTime()) {
+            $('#VWN-CA-UX-20201211').addClass("past-course-title");
+            $('#20201211-2').addClass("past-course-title");
+            $('#20201211-register').hide();
+            $('#20201211-past').show();
+        }
+    });
+
+
+
+    $(".showAll").click(function () {
+        location.reload();
+    });
+
+    var coll = document.getElementsByClassName("collapsible-sn");
+    var i;
+
+    for (i = 0; i < coll.length; i++) {
+        coll[i].addEventListener("click", function () {
+            this.classList.toggle("active-sn");
+            var content = this.nextElementSibling;
+            if (content.style.display === "block") {
+                content.style.display = "none";
+            } else {
+                content.style.display = "block";
+            }
+        });
+    }
+
+
+    var coll = document.getElementsByClassName("collapsible");
+    var i;
+
+    for (i = 0; i < coll.length; i++) {
+        coll[i].addEventListener("click", function () {
+            this.classList.toggle("active");
+            var content = this.nextElementSibling;
+            if (content.style.display === "block") {
+                content.style.display = "none";
+            } else {
+                content.style.display = "block";
+            }
+        });
+    }
+
+    function sidebar_open() {
+        document.getElementById("mySidebar").style.width = "100%";
+        document.getElementById("mySidebar").style.display = "block";
+    }
+
+    function sidebar_close() {
+        document.getElementById("mySidebar").style.display = "none";
+    }
+
+    // constant: number of categories (this could be calculated if properly designed)
+    var NUM_CATEGORIES = 4;
+
+    // every time an option is clicked
+    $("input[type='checkbox']").on("click", function () {
+
+        // generate an array with the checked options per category
+        var selected = new Array(NUM_CATEGORIES);
+        // for each category
+
+        var _loop = function _loop(x) {
+            // generate an array
+            selected[x] = [];
+            // populate it with the values of the checked options
+            $("input[name=cat" + (x + 1) + "]:checked").each(function () {
+                selected[x].push($(this).val());
+            });
+        };
+
+        for (var x = 0; x < NUM_CATEGORIES; x++) {
+            _loop(x);
+        }
+
+        // for each course
+        $(".course").each(function () {
+            var _this = this;
+
+            // by default it is going to be displayed
+            var show = true;
+
+            // we check all the categories
+
+            var _loop2 = function _loop2(x) {
+                // if they have a checked value
+                if (selected[x].length) {
+                    // if the course has a value for that category
+                    if (_this.dataset["cat-" + (x + 1)]) {
+                        // convert the value into an array (in case there are multiple)
+                        catValues = _this.dataset["cat-" + (x + 1)].split(",");
+                        // check if any of the values of the array is a selected category
+
+                        show = catValues.some(function (val) {
+                            return selected[x].indexOf(val) >= 0;
+                        });
+                        // if not, hide and no need to keep checking
+                        if (!show) return "break";
+                    }
+                    // if the course does not have a value for that checked category
+                    else {
+                        // hide and no need to keep checking
+                        show = false;
+                        return "break";
+                    }
+                }
+            };
+
+            for (var x = 0; x < NUM_CATEGORIES; x++) {
+                var catValues;
+
+                var _ret2 = _loop2(x);
+
+                if (_ret2 === "break") break;
+            }
+
+            // hide or show depending on if it has fulfilled the condition
+            $(this).toggleClass("hidden", !show);
+        });
+
+
+
+
+    });
+
+</script>
+
+</html>

@@ -1,0 +1,427 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+  <script src="filter.js"></script>
+  <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+  <title>i510 protec stock update</title>
+  <style>
+    body {
+      font-size: 14px !important;
+      font-family: Open Sans, Arial, Helvetica, sans-serif !important;
+    }
+
+    h6 {
+      font-size: 14px !important;
+      font-weight: bold;
+      font-family: Open Sans, Arial, Helvetica, sans-serif !important;
+    }
+
+    a {
+      color: #209CDF;
+      text-decoration: none;
+    }
+
+    a:hover {
+      color: #4DC9F1;
+    }
+
+    table {
+      border-collapse: collapse;
+      border-spacing: 0;
+      width: 100%;
+      border-bottom: 1pt solid #B2B2B2;
+    }
+
+    table,
+    td {
+      font-size: 12px !important;
+      font-family: Open Sans, Arial, Helvetica, sans-serif;
+      padding: 8px;
+    }
+
+    thead th {
+      position: sticky !important;
+      top: 0 !important;
+      border-bottom: 1pt solid #B2B2B2;
+    }
+
+    th {
+      font-size: 14px !important;
+      font-family: Open Sans, Arial, Helvetica, sans-serif;
+      padding: 14px 8px;
+      text-align: left;
+      cursor: pointer;
+      position: sticky !important;
+      top: 0 !important;
+    }
+
+
+    th,
+    tr:nth-child(even) {
+      background-color: #f2f2f2;
+    }
+
+    /* Customize the label (the container) */
+    .container {
+      display: block;
+      position: relative;
+      padding-left: 26px;
+      margin-bottom: 14px;
+      cursor: pointer;
+      font-size: 13px;
+      -webkit-user-select: none;
+      -moz-user-select: none;
+      -ms-user-select: none;
+      user-select: none;
+    }
+
+    /* Hide the browser's default checkbox */
+    .container input {
+      position: absolute;
+      opacity: 0;
+      cursor: pointer;
+      height: 0;
+      width: 0;
+    }
+
+    /* Create a custom checkbox */
+    .checkmark {
+      position: absolute;
+      top: 0;
+      left: 0;
+      height: 20px;
+      width: 20px;
+      background-color: #eee;
+    }
+
+    /* On mouse-over, add a grey background color */
+    .container:hover input~.checkmark {
+      background-color: #ccc;
+    }
+
+    /* When the checkbox is checked, add a blue background */
+    .container input:checked~.checkmark {
+      background-color: #209cdf;
+    }
+
+    /* Create the checkmark/indicator (hidden when not checked) */
+    .checkmark:after {
+      content: "";
+      position: absolute;
+      display: none;
+    }
+
+    /* Show the checkmark when checked */
+    .container input:checked~.checkmark:after {
+      display: block;
+    }
+
+    /* Style the checkmark/indicator */
+    .container .checkmark:after {
+      left: 7px;
+      top: 2px;
+      width: 6px;
+      height: 13px;
+      border: solid white;
+      border-width: 0 2.5px 2.5px 0;
+      -webkit-transform: rotate(45deg);
+      -ms-transform: rotate(45deg);
+      transform: rotate(45deg);
+    }
+
+    .hidden {
+      display: none;
+    }
+  </style>
+
+  <script>
+    function sortTable(n) {
+      var table, rows, switching, i, x, y, shouldSwitch, dir, switchcount = 0;
+
+      table = document.getElementById("stockdata");
+      switching = true;
+      dir = "asc";
+      while (switching) {
+        switching = false;
+        rows = table.getElementsByTagName("TR");
+        for (i = 1; i < (rows.length - 1); i++) {
+          shouldSwitch = false;
+          x = rows[i].getElementsByTagName("TD")[n];
+          y = rows[i + 1].getElementsByTagName("TD")[n];
+          var cmpX = isNaN(parseInt(x.innerHTML)) ? x.innerHTML.toLowerCase() : parseInt(x.innerHTML);
+          var cmpY = isNaN(parseInt(y.innerHTML)) ? y.innerHTML.toLowerCase() : parseInt(y.innerHTML);
+          cmpX = (cmpX == '-') ? 0 : cmpX;
+          cmpY = (cmpY == '-') ? 0 : cmpY;
+          if (dir == "asc") {
+            if (cmpX > cmpY) {
+              shouldSwitch = true;
+              break;
+            }
+          } else if (dir == "desc") {
+            if (cmpX < cmpY) {
+              shouldSwitch = true;
+              break;
+            }
+          }
+        }
+        if (shouldSwitch) {
+          rows[i].parentNode.insertBefore(rows[i + 1], rows[i]);
+          switching = true;
+          switchcount++;
+        } else {
+          if (switchcount == 0 && dir == "asc") {
+            dir = "desc";
+            switching = true;
+          }
+        }
+      }
+    }
+
+    fetch('timestamp.json')
+      .then((response) => response.json())
+      .then((data) => document.getElementById("timestamp").innerHTML = data[0].update.timestamp);
+
+
+    $(function () {
+      $.getJSON('https://github.com/StevenEricksonLenze/i510-protec-stocking/blob/f68890644d71b82716ee33feecd771f99b91a4c0/stock-update.json', function (data) {
+        $.each(data, function (i, f) {
+          var tblRow = '<tr class="i510protec" id="' + f.product.material_id + '" data-cat-1="' + f.product.power_hp_cat + '" data-cat-2="' + f.product.phase_cat + '" data-cat-3="' + f.product.fieldbus_cat + '" data-cat-4="' + f.product.module_cat + '">' +
+            '<td><strong><a href="https://accstorefront.ci9qprcp-bhndienst1-p1-public.model-t.cc.commerce.ondemand.com/store/lenzeUS/en/USD/Products/Inverters/Motor-mounting-or-wall-mounting/i510-protec-frequency-inverters/Frequency-inverters/' + f.product.type_code + '/p/0000000000' + f.product.material_id + '">' + f.product.material_id + '</a></strong></td>' +
+            '<td>' + f.product.type_code + '</td>' +
+            '<td>' + f.product.power_hp + '</td>' +
+            '<td>' + f.product.power_kw + '</td>' +
+            '<td>' + f.product.phase + '</td>' +
+            '<td>' + f.product.fieldbus + '</td>' +
+            '<td>' + f.product.module + '</td>' +
+            '<td>' + f.product.stock + '</td>'
+          '</tr>'
+          $(tblRow).appendTo("#stockdata tbody");
+        });
+
+      });
+
+
+
+      var NUM_CATEGORIES = 4;
+
+      // every time an option is clicked
+      $("input[type='checkbox']").on("click", function () {
+        // generate an array with the checked options per category
+
+        var selected = new Array(NUM_CATEGORIES);
+        // for each category
+
+        var _loop = function _loop(x) {
+          // generate an array
+          selected[x] = [];
+          // populate it with the values of the checked options
+          $("input[name=cat" + (x + 1) + "]:checked").each(function () {
+            selected[x].push($(this).val());
+          });
+        };
+
+        for (var x = 0; x < NUM_CATEGORIES; x++) {
+          _loop(x);
+        }
+
+        // for each course
+        $(".i510protec").each(function () {
+          var _this = this;
+          // by default it is going to be displayed
+          var show = true;
+
+          // we check all the categories
+
+          var _loop2 = function _loop2(x) {
+            // if they have a checked value
+            if (selected[x].length) {
+              // if the course has a value for that category
+              if (_this.dataset["cat-" + (x + 1)]) {
+                // convert the value into an array (in case there are multiple)
+                catValues = _this.dataset["cat-" + (x + 1)].split(",");
+                // check if any of the values of the array is a selected category
+
+                show = catValues.some(function (val) {
+                  return selected[x].indexOf(val) >= 0;
+                });
+                // if not, hide and no need to keep checking
+                if (!show) return "break";
+              }
+              // if the course does not have a value for that checked category
+              else {
+                // hide and no need to keep checking
+                show = false;
+                return "break";
+              }
+            }
+          };
+
+          for (var x = 0; x < NUM_CATEGORIES; x++) {
+            var catValues;
+
+            var _ret2 = _loop2(x);
+
+            if (_ret2 === "break") break;
+          }
+
+          // hide or show depending on if it has fulfilled the condition
+          $(this).toggleClass("hidden", !show);
+        });
+      });
+
+    });
+  </script>
+</head>
+
+<body>
+  <div class="w3-container">
+    <div class="w3-row-padding">
+      <div class="w3-col s12 w3-margin-top w3-right-align">
+        <div class="w3-container">
+          <span style="font-size: 12px;"><em>Last updated on <span id="timestamp"></span></em></span>
+        </div>
+      </div>
+    </div>
+    <div class="w3-row-padding">
+      <div class="w3-sidebar w3-bar-block" style="width:200px">
+        <div class="w3-row w3-margin-top">
+          <div id="power" class="w3-container w3-border">
+            <h6>Power</h6>
+            <label class="container">0.50 hp / 0.37 kW
+              <input type="checkbox" name="cat1" value="0.50hp" id="0.50hp">
+              <span class="checkmark"></span>
+            </label>
+
+            <label class="container">1.0 hp / 0.75 kW
+              <input type="checkbox" name="cat1" value="1.0hp" id="1.0hp">
+              <span class="checkmark"></span>
+            </label>
+
+            <label class="container">1.5 hp / 1.1 kW
+              <input type="checkbox" name="cat1" value="1.5hp" id="1.5hp">
+              <span class="checkmark"></span>
+            </label>
+
+            <label class="container">2.0 hp / 1.5 kW
+              <input type="checkbox" name="cat1" value="2.0hp" id="2.0hp">
+              <span class="checkmark"></span>
+            </label>
+            <label class="container">3.0 hp / 2.2 kW
+              <input type="checkbox" name="cat1" value="3.0hp" id="3.0hp">
+              <span class="checkmark"></span>
+            </label>
+            <label class="container">4.0 hp / 3.0 kW
+              <input type="checkbox" name="cat1" value="4.0hp" id="4.0hp">
+              <span class="checkmark"></span>
+            </label>
+            <label class="container">5.0 hp / 4.0 kW
+              <input type="checkbox" name="cat1" value="5.0hp" id="5.0hp">
+              <span class="checkmark"></span>
+            </label>
+            <label class="container">7.5 hp / 5.5 kW
+              <input type="checkbox" name="cat1" value="7.5hp" id="7.5hp">
+              <span class="checkmark"></span>
+            </label>
+          </div>
+        </div>
+        <div class="w3-row w3-margin-top">
+          <div class="w3-container w3-border">
+            <h6>Phase</h6>
+            <label class="container">1ph 120V
+              <input type="checkbox" name="cat2" value="1ph120v" id="1ph120v">
+              <span class="checkmark"></span>
+            </label>
+
+            <label class="container">1/3ph 230V
+              <input type="checkbox" name="cat2" value="1_3ph230v" id="1_3ph230v">
+              <span class="checkmark"></span>
+            </label>
+
+            <label class="container">3ph 230V
+              <input type="checkbox" name="cat2" value="3ph230v" id="3ph230v">
+              <span class="checkmark"></span>
+            </label>
+            <label class="container">3ph 400/480V
+              <input type="checkbox" name="cat2" value="3ph400_480v" id="3ph400_480v">
+              <span class="checkmark"></span>
+            </label>
+          </div>
+        </div>
+        <div class="w3-row w3-margin-top">
+          <div class="w3-container w3-border">
+            <h6>Fieldbus network</h6>
+            <label class="container">Standard I/O
+              <input type="checkbox" name="cat3" value="standardio" id="standardio">
+              <span class="checkmark"></span>
+            </label>
+
+            <label class="container">CANopen
+              <input type="checkbox" name="cat3" value="canopen" id="canopen">
+              <span class="checkmark"></span>
+            </label>
+
+            <label class="container">Modbus RTU
+              <input type="checkbox" name="cat3" value="modbusrtu" id="modbusrtu">
+              <span class="checkmark"></span>
+            </label>
+          </div>
+        </div>
+        <div class="w3-row w3-margin-top">
+          <div class="w3-container w3-border">
+            <h6>Module</h6>
+            <label class="container">without diagnostic module
+              <input type="checkbox" name="cat4" value="none" id="none">
+              <span class="checkmark"></span>
+            </label>
+
+            <label class="container">LCD Keypad module
+              <input type="checkbox" name="cat4" value="keypad" id="keypad">
+              <span class="checkmark"></span>
+            </label>
+
+            <label class="container">WLAN module
+              <input type="checkbox" name="cat4" value="wifi" id="wifi">
+              <span class="checkmark"></span>
+            </label>
+
+            <label class="container">USB module
+              <input type="checkbox" name="cat4" value="usb" id="usb">
+              <span class="checkmark"></span>
+            </label>
+          </div>
+        </div>
+      </div>
+      <div class="w3-rest" style="margin-left:200px">
+        <div class="w3-container w3-margin-top">
+          <table id="stockdata">
+            <thead>
+              <th onclick="sortTable(0)">Material ID</th>
+              <th onclick="sortTable(1)">Type Code</th>
+              <th onclick="sortTable(2)">Power (hp)</th>
+              <th onclick="sortTable(3)">Power (kW)</th>
+              <th onclick="sortTable(4)">Phase</th>
+              <th onclick="sortTable(5)">Fieldbus network</th>
+              <th onclick="sortTable(6)">Module</th>
+              <th onclick="sortTable(7)">Stock</th>
+            </thead>
+            <tbody>
+            </tbody>
+          </table>
+        </div>
+      </div>
+    </div>
+  </div>
+</body>
+
+
+
+
+
+</script>
+
+</html>

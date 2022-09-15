@@ -1,0 +1,3074 @@
+[
+ {
+   "product": {
+      "material_id": 16559175,
+      "type_code": "I51AP137A00001000S",
+      "power_hp": "0.50 hp",
+      "power_hp_cat": "0.50hp",
+      "power_kw": "0.37 kW",
+      "phase": "1ph 120V",
+      "phase_cat": "1ph120v",
+      "fieldbus": "Standard I/O",
+      "fieldbus_cat": "standardio",
+      "module": "without diagnostic module",
+      "module_cat": "none",
+      "stock": 1
+   }
+},
+ {
+   "product": {
+      "material_id": 16559174,
+      "type_code": "I51AP137A00001002S",
+      "power_hp": "0.50 hp",
+      "power_hp_cat": "0.50hp",
+      "power_kw": "0.37 kW",
+      "phase": "1ph 120V",
+      "phase_cat": "1ph120v",
+      "fieldbus": "CANopen",
+      "fieldbus_cat": "canopen",
+      "module": "without diagnostic module",
+      "module_cat": "none",
+      "stock": 2
+   }
+},
+ {
+   "product": {
+      "material_id": 16559178,
+      "type_code": "I51AP137A00001003S",
+      "power_hp": "0.50 hp",
+      "power_hp_cat": "0.50hp",
+      "power_kw": "0.37 kW",
+      "phase": "1ph 120V",
+      "phase_cat": "1ph120v",
+      "fieldbus": "Modbus RTU",
+      "fieldbus_cat": "modbusrtu",
+      "module": "without diagnostic module",
+      "module_cat": "none",
+      "stock": 3
+   }
+},
+ {
+   "product": {
+      "material_id": 16533926,
+      "type_code": "I51AP137A00001K00S",
+      "power_hp": "0.50 hp",
+      "power_hp_cat": "0.50hp",
+      "power_kw": "0.37 kW",
+      "phase": "1ph 120V",
+      "phase_cat": "1ph120v",
+      "fieldbus": "Standard I/O",
+      "fieldbus_cat": "standardio",
+      "module": "LCD Keypad module",
+      "module_cat": "keypad",
+      "stock": 4
+   }
+},
+ {
+   "product": {
+      "material_id": 16559493,
+      "type_code": "I51AP137A00001K02S",
+      "power_hp": "0.50 hp",
+      "power_hp_cat": "0.50hp",
+      "power_kw": "0.37 kW",
+      "phase": "1ph 120V",
+      "phase_cat": "1ph120v",
+      "fieldbus": "CANopen",
+      "fieldbus_cat": "canopen",
+      "module": "LCD Keypad module",
+      "module_cat": "keypad",
+      "stock": 5
+   }
+},
+ {
+   "product": {
+      "material_id": 16559494,
+      "type_code": "I51AP137A00001K03S",
+      "power_hp": "0.50 hp",
+      "power_hp_cat": "0.50hp",
+      "power_kw": "0.37 kW",
+      "phase": "1ph 120V",
+      "phase_cat": "1ph120v",
+      "fieldbus": "Modbus RTU",
+      "fieldbus_cat": "modbusrtu",
+      "module": "LCD Keypad module",
+      "module_cat": "keypad",
+      "stock": 6
+   }
+},
+ {
+   "product": {
+      "material_id": 16559281,
+      "type_code": "I51AP137A00001U00S",
+      "power_hp": "0.50 hp",
+      "power_hp_cat": "0.50hp",
+      "power_kw": "0.37 kW",
+      "phase": "1ph 120V",
+      "phase_cat": "1ph120v",
+      "fieldbus": "Standard I/O",
+      "fieldbus_cat": "standardio",
+      "module": "USB module",
+      "module_cat": "usb",
+      "stock": 7
+   }
+},
+ {
+   "product": {
+      "material_id": 16559280,
+      "type_code": "I51AP137A00001U02S",
+      "power_hp": "0.50 hp",
+      "power_hp_cat": "0.50hp",
+      "power_kw": "0.37 kW",
+      "phase": "1ph 120V",
+      "phase_cat": "1ph120v",
+      "fieldbus": "CANopen",
+      "fieldbus_cat": "canopen",
+      "module": "USB module",
+      "module_cat": "usb",
+      "stock": 8
+   }
+},
+ {
+   "product": {
+      "material_id": 16559293,
+      "type_code": "I51AP137A00001U03S",
+      "power_hp": "0.50 hp",
+      "power_hp_cat": "0.50hp",
+      "power_kw": "0.37 kW",
+      "phase": "1ph 120V",
+      "phase_cat": "1ph120v",
+      "fieldbus": "Modbus RTU",
+      "fieldbus_cat": "modbusrtu",
+      "module": "USB module",
+      "module_cat": "usb",
+      "stock": 9
+   }
+},
+ {
+   "product": {
+      "material_id": 16559354,
+      "type_code": "I51AP137A00001W00S",
+      "power_hp": "0.50 hp",
+      "power_hp_cat": "0.50hp",
+      "power_kw": "0.37 kW",
+      "phase": "1ph 120V",
+      "phase_cat": "1ph120v",
+      "fieldbus": "Standard I/O",
+      "fieldbus_cat": "standardio",
+      "module": "WLAN module",
+      "module_cat": "wifi",
+      "stock": 10
+   }
+},
+ {
+   "product": {
+      "material_id": 16559353,
+      "type_code": "I51AP137A00001W02S",
+      "power_hp": "0.50 hp",
+      "power_hp_cat": "0.50hp",
+      "power_kw": "0.37 kW",
+      "phase": "1ph 120V",
+      "phase_cat": "1ph120v",
+      "fieldbus": "CANopen",
+      "fieldbus_cat": "canopen",
+      "module": "WLAN module",
+      "module_cat": "wifi",
+      "stock": 11
+   }
+},
+ {
+   "product": {
+      "material_id": 16559356,
+      "type_code": "I51AP137A00001W03S",
+      "power_hp": "0.50 hp",
+      "power_hp_cat": "0.50hp",
+      "power_kw": "0.37 kW",
+      "phase": "1ph 120V",
+      "phase_cat": "1ph120v",
+      "fieldbus": "Modbus RTU",
+      "fieldbus_cat": "modbusrtu",
+      "module": "WLAN module",
+      "module_cat": "wifi",
+      "stock": 12
+   }
+},
+ {
+   "product": {
+      "material_id": 16559477,
+      "type_code": "I51AP137D00001000S",
+      "power_hp": "0.50 hp",
+      "power_hp_cat": "0.50hp",
+      "power_kw": "0.37 kW",
+      "phase": "1/3ph 230V",
+      "phase_cat": "1_3ph230v",
+      "fieldbus": "Standard I/O",
+      "fieldbus_cat": "standardio",
+      "module": "without diagnostic module",
+      "module_cat": "none",
+      "stock": 13
+   }
+},
+ {
+   "product": {
+      "material_id": 16559476,
+      "type_code": "I51AP137D00001002S",
+      "power_hp": "0.50 hp",
+      "power_hp_cat": "0.50hp",
+      "power_kw": "0.37 kW",
+      "phase": "1/3ph 230V",
+      "phase_cat": "1_3ph230v",
+      "fieldbus": "CANopen",
+      "fieldbus_cat": "canopen",
+      "module": "without diagnostic module",
+      "module_cat": "none",
+      "stock": 14
+   }
+},
+ {
+   "product": {
+      "material_id": 16559478,
+      "type_code": "I51AP137D00001003S",
+      "power_hp": "0.50 hp",
+      "power_hp_cat": "0.50hp",
+      "power_kw": "0.37 kW",
+      "phase": "1/3ph 230V",
+      "phase_cat": "1_3ph230v",
+      "fieldbus": "Modbus RTU",
+      "fieldbus_cat": "modbusrtu",
+      "module": "without diagnostic module",
+      "module_cat": "none",
+      "stock": 15
+   }
+},
+ {
+   "product": {
+      "material_id": 16545777,
+      "type_code": "I51AP137D00001K00S",
+      "power_hp": "0.50 hp",
+      "power_hp_cat": "0.50hp",
+      "power_kw": "0.37 kW",
+      "phase": "1/3ph 230V",
+      "phase_cat": "1_3ph230v",
+      "fieldbus": "Standard I/O",
+      "fieldbus_cat": "standardio",
+      "module": "LCD Keypad module",
+      "module_cat": "keypad",
+      "stock": 16
+   }
+},
+ {
+   "product": {
+      "material_id": 16559531,
+      "type_code": "I51AP137D00001K02S",
+      "power_hp": "0.50 hp",
+      "power_hp_cat": "0.50hp",
+      "power_kw": "0.37 kW",
+      "phase": "1/3ph 230V",
+      "phase_cat": "1_3ph230v",
+      "fieldbus": "CANopen",
+      "fieldbus_cat": "canopen",
+      "module": "LCD Keypad module",
+      "module_cat": "keypad",
+      "stock": 17
+   }
+},
+ {
+   "product": {
+      "material_id": 16559265,
+      "type_code": "I51AP137D00001K03S",
+      "power_hp": "0.50 hp",
+      "power_hp_cat": "0.50hp",
+      "power_kw": "0.37 kW",
+      "phase": "1/3ph 230V",
+      "phase_cat": "1_3ph230v",
+      "fieldbus": "Modbus RTU",
+      "fieldbus_cat": "modbusrtu",
+      "module": "LCD Keypad module",
+      "module_cat": "keypad",
+      "stock": 18
+   }
+},
+ {
+   "product": {
+      "material_id": 16559332,
+      "type_code": "I51AP137D00001U00S",
+      "power_hp": "0.50 hp",
+      "power_hp_cat": "0.50hp",
+      "power_kw": "0.37 kW",
+      "phase": "1/3ph 230V",
+      "phase_cat": "1_3ph230v",
+      "fieldbus": "Standard I/O",
+      "fieldbus_cat": "standardio",
+      "module": "USB module",
+      "module_cat": "usb",
+      "stock": 19
+   }
+},
+ {
+   "product": {
+      "material_id": 16559331,
+      "type_code": "I51AP137D00001U02S",
+      "power_hp": "0.50 hp",
+      "power_hp_cat": "0.50hp",
+      "power_kw": "0.37 kW",
+      "phase": "1/3ph 230V",
+      "phase_cat": "1_3ph230v",
+      "fieldbus": "CANopen",
+      "fieldbus_cat": "canopen",
+      "module": "USB module",
+      "module_cat": "usb",
+      "stock": 20
+   }
+},
+ {
+   "product": {
+      "material_id": 16559333,
+      "type_code": "I51AP137D00001U03S",
+      "power_hp": "0.50 hp",
+      "power_hp_cat": "0.50hp",
+      "power_kw": "0.37 kW",
+      "phase": "1/3ph 230V",
+      "phase_cat": "1_3ph230v",
+      "fieldbus": "Modbus RTU",
+      "fieldbus_cat": "modbusrtu",
+      "module": "USB module",
+      "module_cat": "usb",
+      "stock": 21
+   }
+},
+ {
+   "product": {
+      "material_id": 16559432,
+      "type_code": "I51AP137D00001W00S",
+      "power_hp": "0.50 hp",
+      "power_hp_cat": "0.50hp",
+      "power_kw": "0.37 kW",
+      "phase": "1/3ph 230V",
+      "phase_cat": "1_3ph230v",
+      "fieldbus": "Standard I/O",
+      "fieldbus_cat": "standardio",
+      "module": "WLAN module",
+      "module_cat": "wifi",
+      "stock": 22
+   }
+},
+ {
+   "product": {
+      "material_id": 16559431,
+      "type_code": "I51AP137D00001W02S",
+      "power_hp": "0.50 hp",
+      "power_hp_cat": "0.50hp",
+      "power_kw": "0.37 kW",
+      "phase": "1/3ph 230V",
+      "phase_cat": "1_3ph230v",
+      "fieldbus": "CANopen",
+      "fieldbus_cat": "canopen",
+      "module": "WLAN module",
+      "module_cat": "wifi",
+      "stock": 23
+   }
+},
+ {
+   "product": {
+      "material_id": 16559434,
+      "type_code": "I51AP137D00001W03S",
+      "power_hp": "0.50 hp",
+      "power_hp_cat": "0.50hp",
+      "power_kw": "0.37 kW",
+      "phase": "1/3ph 230V",
+      "phase_cat": "1_3ph230v",
+      "fieldbus": "Modbus RTU",
+      "fieldbus_cat": "modbusrtu",
+      "module": "WLAN module",
+      "module_cat": "wifi",
+      "stock": 24
+   }
+},
+ {
+   "product": {
+      "material_id": 16504265,
+      "type_code": "I51AP175A00001000S",
+      "power_hp": "1.0 hp",
+      "power_hp_cat": "1.0hp",
+      "power_kw": "0.75 kW",
+      "phase": "1ph 120V",
+      "phase_cat": "1ph120v",
+      "fieldbus": "Standard I/O",
+      "fieldbus_cat": "standardio",
+      "module": "without diagnostic module",
+      "module_cat": "none",
+      "stock": 25
+   }
+},
+ {
+   "product": {
+      "material_id": 16559180,
+      "type_code": "I51AP175A00001002S",
+      "power_hp": "1.0 hp",
+      "power_hp_cat": "1.0hp",
+      "power_kw": "0.75 kW",
+      "phase": "1ph 120V",
+      "phase_cat": "1ph120v",
+      "fieldbus": "CANopen",
+      "fieldbus_cat": "canopen",
+      "module": "without diagnostic module",
+      "module_cat": "none",
+      "stock": 26
+   }
+},
+ {
+   "product": {
+      "material_id": 16531090,
+      "type_code": "I51AP175A00001003S",
+      "power_hp": "1.0 hp",
+      "power_hp_cat": "1.0hp",
+      "power_kw": "0.75 kW",
+      "phase": "1ph 120V",
+      "phase_cat": "1ph120v",
+      "fieldbus": "Modbus RTU",
+      "fieldbus_cat": "modbusrtu",
+      "module": "without diagnostic module",
+      "module_cat": "none",
+      "stock": 27
+   }
+},
+ {
+   "product": {
+      "material_id": 16520666,
+      "type_code": "I51AP175A00001K00S",
+      "power_hp": "1.0 hp",
+      "power_hp_cat": "1.0hp",
+      "power_kw": "0.75 kW",
+      "phase": "1ph 120V",
+      "phase_cat": "1ph120v",
+      "fieldbus": "Standard I/O",
+      "fieldbus_cat": "standardio",
+      "module": "LCD Keypad module",
+      "module_cat": "keypad",
+      "stock": 28
+   }
+},
+ {
+   "product": {
+      "material_id": 16544217,
+      "type_code": "I51AP175A00001K02S",
+      "power_hp": "1.0 hp",
+      "power_hp_cat": "1.0hp",
+      "power_kw": "0.75 kW",
+      "phase": "1ph 120V",
+      "phase_cat": "1ph120v",
+      "fieldbus": "CANopen",
+      "fieldbus_cat": "canopen",
+      "module": "LCD Keypad module",
+      "module_cat": "keypad",
+      "stock": 29
+   }
+},
+ {
+   "product": {
+      "material_id": 16533927,
+      "type_code": "I51AP175A00001K03S",
+      "power_hp": "1.0 hp",
+      "power_hp_cat": "1.0hp",
+      "power_kw": "0.75 kW",
+      "phase": "1ph 120V",
+      "phase_cat": "1ph120v",
+      "fieldbus": "Modbus RTU",
+      "fieldbus_cat": "modbusrtu",
+      "module": "LCD Keypad module",
+      "module_cat": "keypad",
+      "stock": 30
+   }
+},
+ {
+   "product": {
+      "material_id": 16559297,
+      "type_code": "I51AP175A00001U00S",
+      "power_hp": "1.0 hp",
+      "power_hp_cat": "1.0hp",
+      "power_kw": "0.75 kW",
+      "phase": "1ph 120V",
+      "phase_cat": "1ph120v",
+      "fieldbus": "Standard I/O",
+      "fieldbus_cat": "standardio",
+      "module": "USB module",
+      "module_cat": "usb",
+      "stock": 31
+   }
+},
+ {
+   "product": {
+      "material_id": 16559295,
+      "type_code": "I51AP175A00001U02S",
+      "power_hp": "1.0 hp",
+      "power_hp_cat": "1.0hp",
+      "power_kw": "0.75 kW",
+      "phase": "1ph 120V",
+      "phase_cat": "1ph120v",
+      "fieldbus": "CANopen",
+      "fieldbus_cat": "canopen",
+      "module": "USB module",
+      "module_cat": "usb",
+      "stock": 32
+   }
+},
+ {
+   "product": {
+      "material_id": 16559299,
+      "type_code": "I51AP175A00001U03S",
+      "power_hp": "1.0 hp",
+      "power_hp_cat": "1.0hp",
+      "power_kw": "0.75 kW",
+      "phase": "1ph 120V",
+      "phase_cat": "1ph120v",
+      "fieldbus": "Modbus RTU",
+      "fieldbus_cat": "modbusrtu",
+      "module": "USB module",
+      "module_cat": "usb",
+      "stock": 33
+   }
+},
+ {
+   "product": {
+      "material_id": 16559358,
+      "type_code": "I51AP175A00001W00S",
+      "power_hp": "1.0 hp",
+      "power_hp_cat": "1.0hp",
+      "power_kw": "0.75 kW",
+      "phase": "1ph 120V",
+      "phase_cat": "1ph120v",
+      "fieldbus": "Standard I/O",
+      "fieldbus_cat": "standardio",
+      "module": "WLAN module",
+      "module_cat": "wifi",
+      "stock": 34
+   }
+},
+ {
+   "product": {
+      "material_id": 16559357,
+      "type_code": "I51AP175A00001W02S",
+      "power_hp": "1.0 hp",
+      "power_hp_cat": "1.0hp",
+      "power_kw": "0.75 kW",
+      "phase": "1ph 120V",
+      "phase_cat": "1ph120v",
+      "fieldbus": "CANopen",
+      "fieldbus_cat": "canopen",
+      "module": "WLAN module",
+      "module_cat": "wifi",
+      "stock": 35
+   }
+},
+ {
+   "product": {
+      "material_id": 16559360,
+      "type_code": "I51AP175A00001W03S",
+      "power_hp": "1.0 hp",
+      "power_hp_cat": "1.0hp",
+      "power_kw": "0.75 kW",
+      "phase": "1ph 120V",
+      "phase_cat": "1ph120v",
+      "fieldbus": "Modbus RTU",
+      "fieldbus_cat": "modbusrtu",
+      "module": "WLAN module",
+      "module_cat": "wifi",
+      "stock": 36
+   }
+},
+ {
+   "product": {
+      "material_id": 16559481,
+      "type_code": "I51AP175D00001000S",
+      "power_hp": "1.0 hp",
+      "power_hp_cat": "1.0hp",
+      "power_kw": "0.75 kW",
+      "phase": "1/3ph 230V",
+      "phase_cat": "1_3ph230v",
+      "fieldbus": "Standard I/O",
+      "fieldbus_cat": "standardio",
+      "module": "without diagnostic module",
+      "module_cat": "none",
+      "stock": 37
+   }
+},
+ {
+   "product": {
+      "material_id": 16559480,
+      "type_code": "I51AP175D00001002S",
+      "power_hp": "1.0 hp",
+      "power_hp_cat": "1.0hp",
+      "power_kw": "0.75 kW",
+      "phase": "1/3ph 230V",
+      "phase_cat": "1_3ph230v",
+      "fieldbus": "CANopen",
+      "fieldbus_cat": "canopen",
+      "module": "without diagnostic module",
+      "module_cat": "none",
+      "stock": 38
+   }
+},
+ {
+   "product": {
+      "material_id": 16504267,
+      "type_code": "I51AP175D00001003S",
+      "power_hp": "1.0 hp",
+      "power_hp_cat": "1.0hp",
+      "power_kw": "0.75 kW",
+      "phase": "1/3ph 230V",
+      "phase_cat": "1_3ph230v",
+      "fieldbus": "Modbus RTU",
+      "fieldbus_cat": "modbusrtu",
+      "module": "without diagnostic module",
+      "module_cat": "none",
+      "stock": 39
+   }
+},
+ {
+   "product": {
+      "material_id": 16532108,
+      "type_code": "I51AP175D00001K00S",
+      "power_hp": "1.0 hp",
+      "power_hp_cat": "1.0hp",
+      "power_kw": "0.75 kW",
+      "phase": "1/3ph 230V",
+      "phase_cat": "1_3ph230v",
+      "fieldbus": "Standard I/O",
+      "fieldbus_cat": "standardio",
+      "module": "LCD Keypad module",
+      "module_cat": "keypad",
+      "stock": 40
+   }
+},
+ {
+   "product": {
+      "material_id": 16559266,
+      "type_code": "I51AP175D00001K02S",
+      "power_hp": "1.0 hp",
+      "power_hp_cat": "1.0hp",
+      "power_kw": "0.75 kW",
+      "phase": "1/3ph 230V",
+      "phase_cat": "1_3ph230v",
+      "fieldbus": "CANopen",
+      "fieldbus_cat": "canopen",
+      "module": "LCD Keypad module",
+      "module_cat": "keypad",
+      "stock": 41
+   }
+},
+ {
+   "product": {
+      "material_id": 16559268,
+      "type_code": "I51AP175D00001K03S",
+      "power_hp": "1.0 hp",
+      "power_hp_cat": "1.0hp",
+      "power_kw": "0.75 kW",
+      "phase": "1/3ph 230V",
+      "phase_cat": "1_3ph230v",
+      "fieldbus": "Modbus RTU",
+      "fieldbus_cat": "modbusrtu",
+      "module": "LCD Keypad module",
+      "module_cat": "keypad",
+      "stock": 42
+   }
+},
+ {
+   "product": {
+      "material_id": 16559337,
+      "type_code": "I51AP175D00001U00S",
+      "power_hp": "1.0 hp",
+      "power_hp_cat": "1.0hp",
+      "power_kw": "0.75 kW",
+      "phase": "1/3ph 230V",
+      "phase_cat": "1_3ph230v",
+      "fieldbus": "Standard I/O",
+      "fieldbus_cat": "standardio",
+      "module": "USB module",
+      "module_cat": "usb",
+      "stock": 43
+   }
+},
+ {
+   "product": {
+      "material_id": 16559334,
+      "type_code": "I51AP175D00001U02S",
+      "power_hp": "1.0 hp",
+      "power_hp_cat": "1.0hp",
+      "power_kw": "0.75 kW",
+      "phase": "1/3ph 230V",
+      "phase_cat": "1_3ph230v",
+      "fieldbus": "CANopen",
+      "fieldbus_cat": "canopen",
+      "module": "USB module",
+      "module_cat": "usb",
+      "stock": 44
+   }
+},
+ {
+   "product": {
+      "material_id": 16533246,
+      "type_code": "I51AP175D00001U03S",
+      "power_hp": "1.0 hp",
+      "power_hp_cat": "1.0hp",
+      "power_kw": "0.75 kW",
+      "phase": "1/3ph 230V",
+      "phase_cat": "1_3ph230v",
+      "fieldbus": "Modbus RTU",
+      "fieldbus_cat": "modbusrtu",
+      "module": "USB module",
+      "module_cat": "usb",
+      "stock": 45
+   }
+},
+ {
+   "product": {
+      "material_id": 16559436,
+      "type_code": "I51AP175D00001W00S",
+      "power_hp": "1.0 hp",
+      "power_hp_cat": "1.0hp",
+      "power_kw": "0.75 kW",
+      "phase": "1/3ph 230V",
+      "phase_cat": "1_3ph230v",
+      "fieldbus": "Standard I/O",
+      "fieldbus_cat": "standardio",
+      "module": "WLAN module",
+      "module_cat": "wifi",
+      "stock": 46
+   }
+},
+ {
+   "product": {
+      "material_id": 16559435,
+      "type_code": "I51AP175D00001W02S",
+      "power_hp": "1.0 hp",
+      "power_hp_cat": "1.0hp",
+      "power_kw": "0.75 kW",
+      "phase": "1/3ph 230V",
+      "phase_cat": "1_3ph230v",
+      "fieldbus": "CANopen",
+      "fieldbus_cat": "canopen",
+      "module": "WLAN module",
+      "module_cat": "wifi",
+      "stock": 47
+   }
+},
+ {
+   "product": {
+      "material_id": 16559438,
+      "type_code": "I51AP175D00001W03S",
+      "power_hp": "1.0 hp",
+      "power_hp_cat": "1.0hp",
+      "power_kw": "0.75 kW",
+      "phase": "1/3ph 230V",
+      "phase_cat": "1_3ph230v",
+      "fieldbus": "Modbus RTU",
+      "fieldbus_cat": "modbusrtu",
+      "module": "WLAN module",
+      "module_cat": "wifi",
+      "stock": 48
+   }
+},
+ {
+   "product": {
+      "material_id": 16515111,
+      "type_code": "I51AP175F00001000S",
+      "power_hp": "1.0 hp",
+      "power_hp_cat": "1.0hp",
+      "power_kw": "0.75 kW",
+      "phase": "3ph 400/480V",
+      "phase_cat": "3ph400_480v",
+      "fieldbus": "Standard I/O",
+      "fieldbus_cat": "standardio",
+      "module": "without diagnostic module",
+      "module_cat": "none",
+      "stock": 49
+   }
+},
+ {
+   "product": {
+      "material_id": 16559249,
+      "type_code": "I51AP175F00001002S",
+      "power_hp": "1.0 hp",
+      "power_hp_cat": "1.0hp",
+      "power_kw": "0.75 kW",
+      "phase": "3ph 400/480V",
+      "phase_cat": "3ph400_480v",
+      "fieldbus": "CANopen",
+      "fieldbus_cat": "canopen",
+      "module": "without diagnostic module",
+      "module_cat": "none",
+      "stock": 50
+   }
+},
+ {
+   "product": {
+      "material_id": 16559251,
+      "type_code": "I51AP175F00001003S",
+      "power_hp": "1.0 hp",
+      "power_hp_cat": "1.0hp",
+      "power_kw": "0.75 kW",
+      "phase": "3ph 400/480V",
+      "phase_cat": "3ph400_480v",
+      "fieldbus": "Modbus RTU",
+      "fieldbus_cat": "modbusrtu",
+      "module": "without diagnostic module",
+      "module_cat": "none",
+      "stock": 51
+   }
+},
+ {
+   "product": {
+      "material_id": 16532107,
+      "type_code": "I51AP175F00001K00S",
+      "power_hp": "1.0 hp",
+      "power_hp_cat": "1.0hp",
+      "power_kw": "0.75 kW",
+      "phase": "3ph 400/480V",
+      "phase_cat": "3ph400_480v",
+      "fieldbus": "Standard I/O",
+      "fieldbus_cat": "standardio",
+      "module": "LCD Keypad module",
+      "module_cat": "keypad",
+      "stock": 52
+   }
+},
+ {
+   "product": {
+      "material_id": 16559506,
+      "type_code": "I51AP175F00001K02S",
+      "power_hp": "1.0 hp",
+      "power_hp_cat": "1.0hp",
+      "power_kw": "0.75 kW",
+      "phase": "3ph 400/480V",
+      "phase_cat": "3ph400_480v",
+      "fieldbus": "CANopen",
+      "fieldbus_cat": "canopen",
+      "module": "LCD Keypad module",
+      "module_cat": "keypad",
+      "stock": 53
+   }
+},
+ {
+   "product": {
+      "material_id": 16559507,
+      "type_code": "I51AP175F00001K03S",
+      "power_hp": "1.0 hp",
+      "power_hp_cat": "1.0hp",
+      "power_kw": "0.75 kW",
+      "phase": "3ph 400/480V",
+      "phase_cat": "3ph400_480v",
+      "fieldbus": "Modbus RTU",
+      "fieldbus_cat": "modbusrtu",
+      "module": "LCD Keypad module",
+      "module_cat": "keypad",
+      "stock": 54
+   }
+},
+ {
+   "product": {
+      "material_id": 16559309,
+      "type_code": "I51AP175F00001U00S",
+      "power_hp": "1.0 hp",
+      "power_hp_cat": "1.0hp",
+      "power_kw": "0.75 kW",
+      "phase": "3ph 400/480V",
+      "phase_cat": "3ph400_480v",
+      "fieldbus": "Standard I/O",
+      "fieldbus_cat": "standardio",
+      "module": "USB module",
+      "module_cat": "usb",
+      "stock": 55
+   }
+},
+ {
+   "product": {
+      "material_id": 16559307,
+      "type_code": "I51AP175F00001U02S",
+      "power_hp": "1.0 hp",
+      "power_hp_cat": "1.0hp",
+      "power_kw": "0.75 kW",
+      "phase": "3ph 400/480V",
+      "phase_cat": "3ph400_480v",
+      "fieldbus": "CANopen",
+      "fieldbus_cat": "canopen",
+      "module": "USB module",
+      "module_cat": "usb",
+      "stock": 56
+   }
+},
+ {
+   "product": {
+      "material_id": 16533250,
+      "type_code": "I51AP175F00001U03S",
+      "power_hp": "1.0 hp",
+      "power_hp_cat": "1.0hp",
+      "power_kw": "0.75 kW",
+      "phase": "3ph 400/480V",
+      "phase_cat": "3ph400_480v",
+      "fieldbus": "Modbus RTU",
+      "fieldbus_cat": "modbusrtu",
+      "module": "USB module",
+      "module_cat": "usb",
+      "stock": 57
+   }
+},
+ {
+   "product": {
+      "material_id": 16559383,
+      "type_code": "I51AP175F00001W00S",
+      "power_hp": "1.0 hp",
+      "power_hp_cat": "1.0hp",
+      "power_kw": "0.75 kW",
+      "phase": "3ph 400/480V",
+      "phase_cat": "3ph400_480v",
+      "fieldbus": "Standard I/O",
+      "fieldbus_cat": "standardio",
+      "module": "WLAN module",
+      "module_cat": "wifi",
+      "stock": 58
+   }
+},
+ {
+   "product": {
+      "material_id": 16559381,
+      "type_code": "I51AP175F00001W02S",
+      "power_hp": "1.0 hp",
+      "power_hp_cat": "1.0hp",
+      "power_kw": "0.75 kW",
+      "phase": "3ph 400/480V",
+      "phase_cat": "3ph400_480v",
+      "fieldbus": "CANopen",
+      "fieldbus_cat": "canopen",
+      "module": "WLAN module",
+      "module_cat": "wifi",
+      "stock": 59
+   }
+},
+ {
+   "product": {
+      "material_id": 16559384,
+      "type_code": "I51AP175F00001W03S",
+      "power_hp": "1.0 hp",
+      "power_hp_cat": "1.0hp",
+      "power_kw": "0.75 kW",
+      "phase": "3ph 400/480V",
+      "phase_cat": "3ph400_480v",
+      "fieldbus": "Modbus RTU",
+      "fieldbus_cat": "modbusrtu",
+      "module": "WLAN module",
+      "module_cat": "wifi",
+      "stock": 60
+   }
+},
+ {
+   "product": {
+      "material_id": 16559484,
+      "type_code": "I51AP211D00001000S",
+      "power_hp": "1.5 hp",
+      "power_hp_cat": "1.5hp",
+      "power_kw": "1.1 kW",
+      "phase": "1/3ph 230V",
+      "phase_cat": "1_3ph230v",
+      "fieldbus": "Standard I/O",
+      "fieldbus_cat": "standardio",
+      "module": "without diagnostic module",
+      "module_cat": "none",
+      "stock": 61
+   }
+},
+ {
+   "product": {
+      "material_id": 16559483,
+      "type_code": "I51AP211D00001002S",
+      "power_hp": "1.5 hp",
+      "power_hp_cat": "1.5hp",
+      "power_kw": "1.1 kW",
+      "phase": "1/3ph 230V",
+      "phase_cat": "1_3ph230v",
+      "fieldbus": "CANopen",
+      "fieldbus_cat": "canopen",
+      "module": "without diagnostic module",
+      "module_cat": "none",
+      "stock": 62
+   }
+},
+ {
+   "product": {
+      "material_id": 16559485,
+      "type_code": "I51AP211D00001003S",
+      "power_hp": "1.5 hp",
+      "power_hp_cat": "1.5hp",
+      "power_kw": "1.1 kW",
+      "phase": "1/3ph 230V",
+      "phase_cat": "1_3ph230v",
+      "fieldbus": "Modbus RTU",
+      "fieldbus_cat": "modbusrtu",
+      "module": "without diagnostic module",
+      "module_cat": "none",
+      "stock": 63
+   }
+},
+ {
+   "product": {
+      "material_id": 16556058,
+      "type_code": "I51AP211D00001K00S",
+      "power_hp": "1.5 hp",
+      "power_hp_cat": "1.5hp",
+      "power_kw": "1.1 kW",
+      "phase": "1/3ph 230V",
+      "phase_cat": "1_3ph230v",
+      "fieldbus": "Standard I/O",
+      "fieldbus_cat": "standardio",
+      "module": "LCD Keypad module",
+      "module_cat": "keypad",
+      "stock": 64
+   }
+},
+ {
+   "product": {
+      "material_id": 16559269,
+      "type_code": "I51AP211D00001K02S",
+      "power_hp": "1.5 hp",
+      "power_hp_cat": "1.5hp",
+      "power_kw": "1.1 kW",
+      "phase": "1/3ph 230V",
+      "phase_cat": "1_3ph230v",
+      "fieldbus": "CANopen",
+      "fieldbus_cat": "canopen",
+      "module": "LCD Keypad module",
+      "module_cat": "keypad",
+      "stock": 65
+   }
+},
+ {
+   "product": {
+      "material_id": 16559272,
+      "type_code": "I51AP211D00001K03S",
+      "power_hp": "1.5 hp",
+      "power_hp_cat": "1.5hp",
+      "power_kw": "1.1 kW",
+      "phase": "1/3ph 230V",
+      "phase_cat": "1_3ph230v",
+      "fieldbus": "Modbus RTU",
+      "fieldbus_cat": "modbusrtu",
+      "module": "LCD Keypad module",
+      "module_cat": "keypad",
+      "stock": 66
+   }
+},
+ {
+   "product": {
+      "material_id": 16559340,
+      "type_code": "I51AP211D00001U00S",
+      "power_hp": "1.5 hp",
+      "power_hp_cat": "1.5hp",
+      "power_kw": "1.1 kW",
+      "phase": "1/3ph 230V",
+      "phase_cat": "1_3ph230v",
+      "fieldbus": "Standard I/O",
+      "fieldbus_cat": "standardio",
+      "module": "USB module",
+      "module_cat": "usb",
+      "stock": 67
+   }
+},
+ {
+   "product": {
+      "material_id": 16559339,
+      "type_code": "I51AP211D00001U02S",
+      "power_hp": "1.5 hp",
+      "power_hp_cat": "1.5hp",
+      "power_kw": "1.1 kW",
+      "phase": "1/3ph 230V",
+      "phase_cat": "1_3ph230v",
+      "fieldbus": "CANopen",
+      "fieldbus_cat": "canopen",
+      "module": "USB module",
+      "module_cat": "usb",
+      "stock": 68
+   }
+},
+ {
+   "product": {
+      "material_id": 16533247,
+      "type_code": "I51AP211D00001U03S",
+      "power_hp": "1.5 hp",
+      "power_hp_cat": "1.5hp",
+      "power_kw": "1.1 kW",
+      "phase": "1/3ph 230V",
+      "phase_cat": "1_3ph230v",
+      "fieldbus": "Modbus RTU",
+      "fieldbus_cat": "modbusrtu",
+      "module": "USB module",
+      "module_cat": "usb",
+      "stock": 69
+   }
+},
+ {
+   "product": {
+      "material_id": 16559441,
+      "type_code": "I51AP211D00001W00S",
+      "power_hp": "1.5 hp",
+      "power_hp_cat": "1.5hp",
+      "power_kw": "1.1 kW",
+      "phase": "1/3ph 230V",
+      "phase_cat": "1_3ph230v",
+      "fieldbus": "Standard I/O",
+      "fieldbus_cat": "standardio",
+      "module": "WLAN module",
+      "module_cat": "wifi",
+      "stock": 70
+   }
+},
+ {
+   "product": {
+      "material_id": 16559439,
+      "type_code": "I51AP211D00001W02S",
+      "power_hp": "1.5 hp",
+      "power_hp_cat": "1.5hp",
+      "power_kw": "1.1 kW",
+      "phase": "1/3ph 230V",
+      "phase_cat": "1_3ph230v",
+      "fieldbus": "CANopen",
+      "fieldbus_cat": "canopen",
+      "module": "WLAN module",
+      "module_cat": "wifi",
+      "stock": 71
+   }
+},
+ {
+   "product": {
+      "material_id": 16559442,
+      "type_code": "I51AP211D00001W03S",
+      "power_hp": "1.5 hp",
+      "power_hp_cat": "1.5hp",
+      "power_kw": "1.1 kW",
+      "phase": "1/3ph 230V",
+      "phase_cat": "1_3ph230v",
+      "fieldbus": "Modbus RTU",
+      "fieldbus_cat": "modbusrtu",
+      "module": "WLAN module",
+      "module_cat": "wifi",
+      "stock": 72
+   }
+},
+ {
+   "product": {
+      "material_id": 16559456,
+      "type_code": "I51AP211F00001000S",
+      "power_hp": "1.5 hp",
+      "power_hp_cat": "1.5hp",
+      "power_kw": "1.1 kW",
+      "phase": "3ph 400/480V",
+      "phase_cat": "3ph400_480v",
+      "fieldbus": "Standard I/O",
+      "fieldbus_cat": "standardio",
+      "module": "without diagnostic module",
+      "module_cat": "none",
+      "stock": 73
+   }
+},
+ {
+   "product": {
+      "material_id": 16559455,
+      "type_code": "I51AP211F00001002S",
+      "power_hp": "1.5 hp",
+      "power_hp_cat": "1.5hp",
+      "power_kw": "1.1 kW",
+      "phase": "3ph 400/480V",
+      "phase_cat": "3ph400_480v",
+      "fieldbus": "CANopen",
+      "fieldbus_cat": "canopen",
+      "module": "without diagnostic module",
+      "module_cat": "none",
+      "stock": 74
+   }
+},
+ {
+   "product": {
+      "material_id": 16559457,
+      "type_code": "I51AP211F00001003S",
+      "power_hp": "1.5 hp",
+      "power_hp_cat": "1.5hp",
+      "power_kw": "1.1 kW",
+      "phase": "3ph 400/480V",
+      "phase_cat": "3ph400_480v",
+      "fieldbus": "Modbus RTU",
+      "fieldbus_cat": "modbusrtu",
+      "module": "without diagnostic module",
+      "module_cat": "none",
+      "stock": 75
+   }
+},
+ {
+   "product": {
+      "material_id": 16559510,
+      "type_code": "I51AP211F00001K00S",
+      "power_hp": "1.5 hp",
+      "power_hp_cat": "1.5hp",
+      "power_kw": "1.1 kW",
+      "phase": "3ph 400/480V",
+      "phase_cat": "3ph400_480v",
+      "fieldbus": "Standard I/O",
+      "fieldbus_cat": "standardio",
+      "module": "LCD Keypad module",
+      "module_cat": "keypad",
+      "stock": 76
+   }
+},
+ {
+   "product": {
+      "material_id": 16559509,
+      "type_code": "I51AP211F00001K02S",
+      "power_hp": "1.5 hp",
+      "power_hp_cat": "1.5hp",
+      "power_kw": "1.1 kW",
+      "phase": "3ph 400/480V",
+      "phase_cat": "3ph400_480v",
+      "fieldbus": "CANopen",
+      "fieldbus_cat": "canopen",
+      "module": "LCD Keypad module",
+      "module_cat": "keypad",
+      "stock": 77
+   }
+},
+ {
+   "product": {
+      "material_id": 16559511,
+      "type_code": "I51AP211F00001K03S",
+      "power_hp": "1.5 hp",
+      "power_hp_cat": "1.5hp",
+      "power_kw": "1.1 kW",
+      "phase": "3ph 400/480V",
+      "phase_cat": "3ph400_480v",
+      "fieldbus": "Modbus RTU",
+      "fieldbus_cat": "modbusrtu",
+      "module": "LCD Keypad module",
+      "module_cat": "keypad",
+      "stock": 78
+   }
+},
+ {
+   "product": {
+      "material_id": 16559311,
+      "type_code": "I51AP211F00001U00S",
+      "power_hp": "1.5 hp",
+      "power_hp_cat": "1.5hp",
+      "power_kw": "1.1 kW",
+      "phase": "3ph 400/480V",
+      "phase_cat": "3ph400_480v",
+      "fieldbus": "Standard I/O",
+      "fieldbus_cat": "standardio",
+      "module": "USB module",
+      "module_cat": "usb",
+      "stock": 79
+   }
+},
+ {
+   "product": {
+      "material_id": 16559310,
+      "type_code": "I51AP211F00001U02S",
+      "power_hp": "1.5 hp",
+      "power_hp_cat": "1.5hp",
+      "power_kw": "1.1 kW",
+      "phase": "3ph 400/480V",
+      "phase_cat": "3ph400_480v",
+      "fieldbus": "CANopen",
+      "fieldbus_cat": "canopen",
+      "module": "USB module",
+      "module_cat": "usb",
+      "stock": 80
+   }
+},
+ {
+   "product": {
+      "material_id": 16533251,
+      "type_code": "I51AP211F00001U03S",
+      "power_hp": "1.5 hp",
+      "power_hp_cat": "1.5hp",
+      "power_kw": "1.1 kW",
+      "phase": "3ph 400/480V",
+      "phase_cat": "3ph400_480v",
+      "fieldbus": "Modbus RTU",
+      "fieldbus_cat": "modbusrtu",
+      "module": "USB module",
+      "module_cat": "usb",
+      "stock": 81
+   }
+},
+ {
+   "product": {
+      "material_id": 16559387,
+      "type_code": "I51AP211F00001W00S",
+      "power_hp": "1.5 hp",
+      "power_hp_cat": "1.5hp",
+      "power_kw": "1.1 kW",
+      "phase": "3ph 400/480V",
+      "phase_cat": "3ph400_480v",
+      "fieldbus": "Standard I/O",
+      "fieldbus_cat": "standardio",
+      "module": "WLAN module",
+      "module_cat": "wifi",
+      "stock": 82
+   }
+},
+ {
+   "product": {
+      "material_id": 16559386,
+      "type_code": "I51AP211F00001W02S",
+      "power_hp": "1.5 hp",
+      "power_hp_cat": "1.5hp",
+      "power_kw": "1.1 kW",
+      "phase": "3ph 400/480V",
+      "phase_cat": "3ph400_480v",
+      "fieldbus": "CANopen",
+      "fieldbus_cat": "canopen",
+      "module": "WLAN module",
+      "module_cat": "wifi",
+      "stock": 83
+   }
+},
+ {
+   "product": {
+      "material_id": 16559388,
+      "type_code": "I51AP211F00001W03S",
+      "power_hp": "1.5 hp",
+      "power_hp_cat": "1.5hp",
+      "power_kw": "1.1 kW",
+      "phase": "3ph 400/480V",
+      "phase_cat": "3ph400_480v",
+      "fieldbus": "Modbus RTU",
+      "fieldbus_cat": "modbusrtu",
+      "module": "WLAN module",
+      "module_cat": "wifi",
+      "stock": 84
+   }
+},
+ {
+   "product": {
+      "material_id": 16559488,
+      "type_code": "I51AP215D00001000S",
+      "power_hp": "2.0 hp",
+      "power_hp_cat": "2.0hp",
+      "power_kw": "1.5 kW",
+      "phase": "1/3ph 230V",
+      "phase_cat": "1_3ph230v",
+      "fieldbus": "Standard I/O",
+      "fieldbus_cat": "standardio",
+      "module": "without diagnostic module",
+      "module_cat": "none",
+      "stock": 85
+   }
+},
+ {
+   "product": {
+      "material_id": 16559487,
+      "type_code": "I51AP215D00001002S",
+      "power_hp": "2.0 hp",
+      "power_hp_cat": "2.0hp",
+      "power_kw": "1.5 kW",
+      "phase": "1/3ph 230V",
+      "phase_cat": "1_3ph230v",
+      "fieldbus": "CANopen",
+      "fieldbus_cat": "canopen",
+      "module": "without diagnostic module",
+      "module_cat": "none",
+      "stock": 86
+   }
+},
+ {
+   "product": {
+      "material_id": 16559489,
+      "type_code": "I51AP215D00001003S",
+      "power_hp": "2.0 hp",
+      "power_hp_cat": "2.0hp",
+      "power_kw": "1.5 kW",
+      "phase": "1/3ph 230V",
+      "phase_cat": "1_3ph230v",
+      "fieldbus": "Modbus RTU",
+      "fieldbus_cat": "modbusrtu",
+      "module": "without diagnostic module",
+      "module_cat": "none",
+      "stock": 87
+   }
+},
+ {
+   "product": {
+      "material_id": 16559274,
+      "type_code": "I51AP215D00001K00S",
+      "power_hp": "2.0 hp",
+      "power_hp_cat": "2.0hp",
+      "power_kw": "1.5 kW",
+      "phase": "1/3ph 230V",
+      "phase_cat": "1_3ph230v",
+      "fieldbus": "Standard I/O",
+      "fieldbus_cat": "standardio",
+      "module": "LCD Keypad module",
+      "module_cat": "keypad",
+      "stock": 88
+   }
+},
+ {
+   "product": {
+      "material_id": 16559273,
+      "type_code": "I51AP215D00001K02S",
+      "power_hp": "2.0 hp",
+      "power_hp_cat": "2.0hp",
+      "power_kw": "1.5 kW",
+      "phase": "1/3ph 230V",
+      "phase_cat": "1_3ph230v",
+      "fieldbus": "CANopen",
+      "fieldbus_cat": "canopen",
+      "module": "LCD Keypad module",
+      "module_cat": "keypad",
+      "stock": 89
+   }
+},
+ {
+   "product": {
+      "material_id": 16559276,
+      "type_code": "I51AP215D00001K03S",
+      "power_hp": "2.0 hp",
+      "power_hp_cat": "2.0hp",
+      "power_kw": "1.5 kW",
+      "phase": "1/3ph 230V",
+      "phase_cat": "1_3ph230v",
+      "fieldbus": "Modbus RTU",
+      "fieldbus_cat": "modbusrtu",
+      "module": "LCD Keypad module",
+      "module_cat": "keypad",
+      "stock": 90
+   }
+},
+ {
+   "product": {
+      "material_id": 16559344,
+      "type_code": "I51AP215D00001U00S",
+      "power_hp": "2.0 hp",
+      "power_hp_cat": "2.0hp",
+      "power_kw": "1.5 kW",
+      "phase": "1/3ph 230V",
+      "phase_cat": "1_3ph230v",
+      "fieldbus": "Standard I/O",
+      "fieldbus_cat": "standardio",
+      "module": "USB module",
+      "module_cat": "usb",
+      "stock": 91
+   }
+},
+ {
+   "product": {
+      "material_id": 16559343,
+      "type_code": "I51AP215D00001U02S",
+      "power_hp": "2.0 hp",
+      "power_hp_cat": "2.0hp",
+      "power_kw": "1.5 kW",
+      "phase": "1/3ph 230V",
+      "phase_cat": "1_3ph230v",
+      "fieldbus": "CANopen",
+      "fieldbus_cat": "canopen",
+      "module": "USB module",
+      "module_cat": "usb",
+      "stock": 92
+   }
+},
+ {
+   "product": {
+      "material_id": 16533248,
+      "type_code": "I51AP215D00001U03S",
+      "power_hp": "2.0 hp",
+      "power_hp_cat": "2.0hp",
+      "power_kw": "1.5 kW",
+      "phase": "1/3ph 230V",
+      "phase_cat": "1_3ph230v",
+      "fieldbus": "Modbus RTU",
+      "fieldbus_cat": "modbusrtu",
+      "module": "USB module",
+      "module_cat": "usb",
+      "stock": 93
+   }
+},
+ {
+   "product": {
+      "material_id": 16559445,
+      "type_code": "I51AP215D00001W00S",
+      "power_hp": "2.0 hp",
+      "power_hp_cat": "2.0hp",
+      "power_kw": "1.5 kW",
+      "phase": "1/3ph 230V",
+      "phase_cat": "1_3ph230v",
+      "fieldbus": "Standard I/O",
+      "fieldbus_cat": "standardio",
+      "module": "WLAN module",
+      "module_cat": "wifi",
+      "stock": 94
+   }
+},
+ {
+   "product": {
+      "material_id": 16559443,
+      "type_code": "I51AP215D00001W02S",
+      "power_hp": "2.0 hp",
+      "power_hp_cat": "2.0hp",
+      "power_kw": "1.5 kW",
+      "phase": "1/3ph 230V",
+      "phase_cat": "1_3ph230v",
+      "fieldbus": "CANopen",
+      "fieldbus_cat": "canopen",
+      "module": "WLAN module",
+      "module_cat": "wifi",
+      "stock": 95
+   }
+},
+ {
+   "product": {
+      "material_id": 16559446,
+      "type_code": "I51AP215D00001W03S",
+      "power_hp": "2.0 hp",
+      "power_hp_cat": "2.0hp",
+      "power_kw": "1.5 kW",
+      "phase": "1/3ph 230V",
+      "phase_cat": "1_3ph230v",
+      "fieldbus": "Modbus RTU",
+      "fieldbus_cat": "modbusrtu",
+      "module": "WLAN module",
+      "module_cat": "wifi",
+      "stock": 96
+   }
+},
+ {
+   "product": {
+      "material_id": 16515212,
+      "type_code": "I51AP215F00001000S",
+      "power_hp": "2.0 hp",
+      "power_hp_cat": "2.0hp",
+      "power_kw": "1.5 kW",
+      "phase": "3ph 400/480V",
+      "phase_cat": "3ph400_480v",
+      "fieldbus": "Standard I/O",
+      "fieldbus_cat": "standardio",
+      "module": "without diagnostic module",
+      "module_cat": "none",
+      "stock": 97
+   }
+},
+ {
+   "product": {
+      "material_id": 16559460,
+      "type_code": "I51AP215F00001002S",
+      "power_hp": "2.0 hp",
+      "power_hp_cat": "2.0hp",
+      "power_kw": "1.5 kW",
+      "phase": "3ph 400/480V",
+      "phase_cat": "3ph400_480v",
+      "fieldbus": "CANopen",
+      "fieldbus_cat": "canopen",
+      "module": "without diagnostic module",
+      "module_cat": "none",
+      "stock": 98
+   }
+},
+ {
+   "product": {
+      "material_id": 16559461,
+      "type_code": "I51AP215F00001003S",
+      "power_hp": "2.0 hp",
+      "power_hp_cat": "2.0hp",
+      "power_kw": "1.5 kW",
+      "phase": "3ph 400/480V",
+      "phase_cat": "3ph400_480v",
+      "fieldbus": "Modbus RTU",
+      "fieldbus_cat": "modbusrtu",
+      "module": "without diagnostic module",
+      "module_cat": "none",
+      "stock": 99
+   }
+},
+ {
+   "product": {
+      "material_id": 16559514,
+      "type_code": "I51AP215F00001K00S",
+      "power_hp": "2.0 hp",
+      "power_hp_cat": "2.0hp",
+      "power_kw": "1.5 kW",
+      "phase": "3ph 400/480V",
+      "phase_cat": "3ph400_480v",
+      "fieldbus": "Standard I/O",
+      "fieldbus_cat": "standardio",
+      "module": "LCD Keypad module",
+      "module_cat": "keypad",
+      "stock": 100
+   }
+},
+ {
+   "product": {
+      "material_id": 16559513,
+      "type_code": "I51AP215F00001K02S",
+      "power_hp": "2.0 hp",
+      "power_hp_cat": "2.0hp",
+      "power_kw": "1.5 kW",
+      "phase": "3ph 400/480V",
+      "phase_cat": "3ph400_480v",
+      "fieldbus": "CANopen",
+      "fieldbus_cat": "canopen",
+      "module": "LCD Keypad module",
+      "module_cat": "keypad",
+      "stock": 101
+   }
+},
+ {
+   "product": {
+      "material_id": 16559516,
+      "type_code": "I51AP215F00001K03S",
+      "power_hp": "2.0 hp",
+      "power_hp_cat": "2.0hp",
+      "power_kw": "1.5 kW",
+      "phase": "3ph 400/480V",
+      "phase_cat": "3ph400_480v",
+      "fieldbus": "Modbus RTU",
+      "fieldbus_cat": "modbusrtu",
+      "module": "LCD Keypad module",
+      "module_cat": "keypad",
+      "stock": 102
+   }
+},
+ {
+   "product": {
+      "material_id": 16559314,
+      "type_code": "I51AP215F00001U00S",
+      "power_hp": "2.0 hp",
+      "power_hp_cat": "2.0hp",
+      "power_kw": "1.5 kW",
+      "phase": "3ph 400/480V",
+      "phase_cat": "3ph400_480v",
+      "fieldbus": "Standard I/O",
+      "fieldbus_cat": "standardio",
+      "module": "USB module",
+      "module_cat": "usb",
+      "stock": 103
+   }
+},
+ {
+   "product": {
+      "material_id": 16559313,
+      "type_code": "I51AP215F00001U02S",
+      "power_hp": "2.0 hp",
+      "power_hp_cat": "2.0hp",
+      "power_kw": "1.5 kW",
+      "phase": "3ph 400/480V",
+      "phase_cat": "3ph400_480v",
+      "fieldbus": "CANopen",
+      "fieldbus_cat": "canopen",
+      "module": "USB module",
+      "module_cat": "usb",
+      "stock": 104
+   }
+},
+ {
+   "product": {
+      "material_id": 16533432,
+      "type_code": "I51AP215F00001U03S",
+      "power_hp": "2.0 hp",
+      "power_hp_cat": "2.0hp",
+      "power_kw": "1.5 kW",
+      "phase": "3ph 400/480V",
+      "phase_cat": "3ph400_480v",
+      "fieldbus": "Modbus RTU",
+      "fieldbus_cat": "modbusrtu",
+      "module": "USB module",
+      "module_cat": "usb",
+      "stock": 105
+   }
+},
+ {
+   "product": {
+      "material_id": 16559391,
+      "type_code": "I51AP215F00001W00S",
+      "power_hp": "2.0 hp",
+      "power_hp_cat": "2.0hp",
+      "power_kw": "1.5 kW",
+      "phase": "3ph 400/480V",
+      "phase_cat": "3ph400_480v",
+      "fieldbus": "Standard I/O",
+      "fieldbus_cat": "standardio",
+      "module": "WLAN module",
+      "module_cat": "wifi",
+      "stock": 106
+   }
+},
+ {
+   "product": {
+      "material_id": 16559390,
+      "type_code": "I51AP215F00001W02S",
+      "power_hp": "2.0 hp",
+      "power_hp_cat": "2.0hp",
+      "power_kw": "1.5 kW",
+      "phase": "3ph 400/480V",
+      "phase_cat": "3ph400_480v",
+      "fieldbus": "CANopen",
+      "fieldbus_cat": "canopen",
+      "module": "WLAN module",
+      "module_cat": "wifi",
+      "stock": 107
+   }
+},
+ {
+   "product": {
+      "material_id": 16559413,
+      "type_code": "I51AP215F00001W03S",
+      "power_hp": "2.0 hp",
+      "power_hp_cat": "2.0hp",
+      "power_kw": "1.5 kW",
+      "phase": "3ph 400/480V",
+      "phase_cat": "3ph400_480v",
+      "fieldbus": "Modbus RTU",
+      "fieldbus_cat": "modbusrtu",
+      "module": "WLAN module",
+      "module_cat": "wifi",
+      "stock": 108
+   }
+},
+ {
+   "product": {
+      "material_id": 16519462,
+      "type_code": "I51AP222D00001000S",
+      "power_hp": "3.0 hp",
+      "power_hp_cat": "3.0hp",
+      "power_kw": "2.2 kW",
+      "phase": "1/3ph 230V",
+      "phase_cat": "1_3ph230v",
+      "fieldbus": "Standard I/O",
+      "fieldbus_cat": "standardio",
+      "module": "without diagnostic module",
+      "module_cat": "none",
+      "stock": 109
+   }
+},
+ {
+   "product": {
+      "material_id": 16559491,
+      "type_code": "I51AP222D00001002S",
+      "power_hp": "3.0 hp",
+      "power_hp_cat": "3.0hp",
+      "power_kw": "2.2 kW",
+      "phase": "1/3ph 230V",
+      "phase_cat": "1_3ph230v",
+      "fieldbus": "CANopen",
+      "fieldbus_cat": "canopen",
+      "module": "without diagnostic module",
+      "module_cat": "none",
+      "stock": 110
+   }
+},
+ {
+   "product": {
+      "material_id": 16504269,
+      "type_code": "I51AP222D00001003S",
+      "power_hp": "3.0 hp",
+      "power_hp_cat": "3.0hp",
+      "power_kw": "2.2 kW",
+      "phase": "1/3ph 230V",
+      "phase_cat": "1_3ph230v",
+      "fieldbus": "Modbus RTU",
+      "fieldbus_cat": "modbusrtu",
+      "module": "without diagnostic module",
+      "module_cat": "none",
+      "stock": 111
+   }
+},
+ {
+   "product": {
+      "material_id": 16551974,
+      "type_code": "I51AP222D00001K00S",
+      "power_hp": "3.0 hp",
+      "power_hp_cat": "3.0hp",
+      "power_kw": "2.2 kW",
+      "phase": "1/3ph 230V",
+      "phase_cat": "1_3ph230v",
+      "fieldbus": "Standard I/O",
+      "fieldbus_cat": "standardio",
+      "module": "LCD Keypad module",
+      "module_cat": "keypad",
+      "stock": 112
+   }
+},
+ {
+   "product": {
+      "material_id": 16559278,
+      "type_code": "I51AP222D00001K02S",
+      "power_hp": "3.0 hp",
+      "power_hp_cat": "3.0hp",
+      "power_kw": "2.2 kW",
+      "phase": "1/3ph 230V",
+      "phase_cat": "1_3ph230v",
+      "fieldbus": "CANopen",
+      "fieldbus_cat": "canopen",
+      "module": "LCD Keypad module",
+      "module_cat": "keypad",
+      "stock": 113
+   }
+},
+ {
+   "product": {
+      "material_id": 16545776,
+      "type_code": "I51AP222D00001K03S",
+      "power_hp": "3.0 hp",
+      "power_hp_cat": "3.0hp",
+      "power_kw": "2.2 kW",
+      "phase": "1/3ph 230V",
+      "phase_cat": "1_3ph230v",
+      "fieldbus": "Modbus RTU",
+      "fieldbus_cat": "modbusrtu",
+      "module": "LCD Keypad module",
+      "module_cat": "keypad",
+      "stock": 114
+   }
+},
+ {
+   "product": {
+      "material_id": 16559348,
+      "type_code": "I51AP222D00001U00S",
+      "power_hp": "3.0 hp",
+      "power_hp_cat": "3.0hp",
+      "power_kw": "2.2 kW",
+      "phase": "1/3ph 230V",
+      "phase_cat": "1_3ph230v",
+      "fieldbus": "Standard I/O",
+      "fieldbus_cat": "standardio",
+      "module": "USB module",
+      "module_cat": "usb",
+      "stock": 115
+   }
+},
+ {
+   "product": {
+      "material_id": 16559346,
+      "type_code": "I51AP222D00001U02S",
+      "power_hp": "3.0 hp",
+      "power_hp_cat": "3.0hp",
+      "power_kw": "2.2 kW",
+      "phase": "1/3ph 230V",
+      "phase_cat": "1_3ph230v",
+      "fieldbus": "CANopen",
+      "fieldbus_cat": "canopen",
+      "module": "USB module",
+      "module_cat": "usb",
+      "stock": 116
+   }
+},
+ {
+   "product": {
+      "material_id": 16559350,
+      "type_code": "I51AP222D00001U03S",
+      "power_hp": "3.0 hp",
+      "power_hp_cat": "3.0hp",
+      "power_kw": "2.2 kW",
+      "phase": "1/3ph 230V",
+      "phase_cat": "1_3ph230v",
+      "fieldbus": "Modbus RTU",
+      "fieldbus_cat": "modbusrtu",
+      "module": "USB module",
+      "module_cat": "usb",
+      "stock": 117
+   }
+},
+ {
+   "product": {
+      "material_id": 16559449,
+      "type_code": "I51AP222D00001W00S",
+      "power_hp": "3.0 hp",
+      "power_hp_cat": "3.0hp",
+      "power_kw": "2.2 kW",
+      "phase": "1/3ph 230V",
+      "phase_cat": "1_3ph230v",
+      "fieldbus": "Standard I/O",
+      "fieldbus_cat": "standardio",
+      "module": "WLAN module",
+      "module_cat": "wifi",
+      "stock": 118
+   }
+},
+ {
+   "product": {
+      "material_id": 16559448,
+      "type_code": "I51AP222D00001W02S",
+      "power_hp": "3.0 hp",
+      "power_hp_cat": "3.0hp",
+      "power_kw": "2.2 kW",
+      "phase": "1/3ph 230V",
+      "phase_cat": "1_3ph230v",
+      "fieldbus": "CANopen",
+      "fieldbus_cat": "canopen",
+      "module": "WLAN module",
+      "module_cat": "wifi",
+      "stock": 119
+   }
+},
+ {
+   "product": {
+      "material_id": 16559450,
+      "type_code": "I51AP222D00001W03S",
+      "power_hp": "3.0 hp",
+      "power_hp_cat": "3.0hp",
+      "power_kw": "2.2 kW",
+      "phase": "1/3ph 230V",
+      "phase_cat": "1_3ph230v",
+      "fieldbus": "Modbus RTU",
+      "fieldbus_cat": "modbusrtu",
+      "module": "WLAN module",
+      "module_cat": "wifi",
+      "stock": 120
+   }
+},
+ {
+   "product": {
+      "material_id": 16515213,
+      "type_code": "I51AP222F00001000S",
+      "power_hp": "3.0 hp",
+      "power_hp_cat": "3.0hp",
+      "power_kw": "2.2 kW",
+      "phase": "3ph 400/480V",
+      "phase_cat": "3ph400_480v",
+      "fieldbus": "Standard I/O",
+      "fieldbus_cat": "standardio",
+      "module": "without diagnostic module",
+      "module_cat": "none",
+      "stock": 121
+   }
+},
+ {
+   "product": {
+      "material_id": 16559463,
+      "type_code": "I51AP222F00001002S",
+      "power_hp": "3.0 hp",
+      "power_hp_cat": "3.0hp",
+      "power_kw": "2.2 kW",
+      "phase": "3ph 400/480V",
+      "phase_cat": "3ph400_480v",
+      "fieldbus": "CANopen",
+      "fieldbus_cat": "canopen",
+      "module": "without diagnostic module",
+      "module_cat": "none",
+      "stock": 122
+   }
+},
+ {
+   "product": {
+      "material_id": 16559464,
+      "type_code": "I51AP222F00001003S",
+      "power_hp": "3.0 hp",
+      "power_hp_cat": "3.0hp",
+      "power_kw": "2.2 kW",
+      "phase": "3ph 400/480V",
+      "phase_cat": "3ph400_480v",
+      "fieldbus": "Modbus RTU",
+      "fieldbus_cat": "modbusrtu",
+      "module": "without diagnostic module",
+      "module_cat": "none",
+      "stock": 123
+   }
+},
+ {
+   "product": {
+      "material_id": 16532796,
+      "type_code": "I51AP222F00001K00S",
+      "power_hp": "3.0 hp",
+      "power_hp_cat": "3.0hp",
+      "power_kw": "2.2 kW",
+      "phase": "3ph 400/480V",
+      "phase_cat": "3ph400_480v",
+      "fieldbus": "Standard I/O",
+      "fieldbus_cat": "standardio",
+      "module": "LCD Keypad module",
+      "module_cat": "keypad",
+      "stock": 124
+   }
+},
+ {
+   "product": {
+      "material_id": 16559517,
+      "type_code": "I51AP222F00001K02S",
+      "power_hp": "3.0 hp",
+      "power_hp_cat": "3.0hp",
+      "power_kw": "2.2 kW",
+      "phase": "3ph 400/480V",
+      "phase_cat": "3ph400_480v",
+      "fieldbus": "CANopen",
+      "fieldbus_cat": "canopen",
+      "module": "LCD Keypad module",
+      "module_cat": "keypad",
+      "stock": 125
+   }
+},
+ {
+   "product": {
+      "material_id": 16559519,
+      "type_code": "I51AP222F00001K03S",
+      "power_hp": "3.0 hp",
+      "power_hp_cat": "3.0hp",
+      "power_kw": "2.2 kW",
+      "phase": "3ph 400/480V",
+      "phase_cat": "3ph400_480v",
+      "fieldbus": "Modbus RTU",
+      "fieldbus_cat": "modbusrtu",
+      "module": "LCD Keypad module",
+      "module_cat": "keypad",
+      "stock": 126
+   }
+},
+ {
+   "product": {
+      "material_id": 16559317,
+      "type_code": "I51AP222F00001U00S",
+      "power_hp": "3.0 hp",
+      "power_hp_cat": "3.0hp",
+      "power_kw": "2.2 kW",
+      "phase": "3ph 400/480V",
+      "phase_cat": "3ph400_480v",
+      "fieldbus": "Standard I/O",
+      "fieldbus_cat": "standardio",
+      "module": "USB module",
+      "module_cat": "usb",
+      "stock": 127
+   }
+},
+ {
+   "product": {
+      "material_id": 16559316,
+      "type_code": "I51AP222F00001U02S",
+      "power_hp": "3.0 hp",
+      "power_hp_cat": "3.0hp",
+      "power_kw": "2.2 kW",
+      "phase": "3ph 400/480V",
+      "phase_cat": "3ph400_480v",
+      "fieldbus": "CANopen",
+      "fieldbus_cat": "canopen",
+      "module": "USB module",
+      "module_cat": "usb",
+      "stock": 128
+   }
+},
+ {
+   "product": {
+      "material_id": 16559319,
+      "type_code": "I51AP222F00001U03S",
+      "power_hp": "3.0 hp",
+      "power_hp_cat": "3.0hp",
+      "power_kw": "2.2 kW",
+      "phase": "3ph 400/480V",
+      "phase_cat": "3ph400_480v",
+      "fieldbus": "Modbus RTU",
+      "fieldbus_cat": "modbusrtu",
+      "module": "USB module",
+      "module_cat": "usb",
+      "stock": 129
+   }
+},
+ {
+   "product": {
+      "material_id": 16559415,
+      "type_code": "I51AP222F00001W00S",
+      "power_hp": "3.0 hp",
+      "power_hp_cat": "3.0hp",
+      "power_kw": "2.2 kW",
+      "phase": "3ph 400/480V",
+      "phase_cat": "3ph400_480v",
+      "fieldbus": "Standard I/O",
+      "fieldbus_cat": "standardio",
+      "module": "WLAN module",
+      "module_cat": "wifi",
+      "stock": 130
+   }
+},
+ {
+   "product": {
+      "material_id": 16559414,
+      "type_code": "I51AP222F00001W02S",
+      "power_hp": "3.0 hp",
+      "power_hp_cat": "3.0hp",
+      "power_kw": "2.2 kW",
+      "phase": "3ph 400/480V",
+      "phase_cat": "3ph400_480v",
+      "fieldbus": "CANopen",
+      "fieldbus_cat": "canopen",
+      "module": "WLAN module",
+      "module_cat": "wifi",
+      "stock": 131
+   }
+},
+ {
+   "product": {
+      "material_id": 16559417,
+      "type_code": "I51AP222F00001W03S",
+      "power_hp": "3.0 hp",
+      "power_hp_cat": "3.0hp",
+      "power_kw": "2.2 kW",
+      "phase": "3ph 400/480V",
+      "phase_cat": "3ph400_480v",
+      "fieldbus": "Modbus RTU",
+      "fieldbus_cat": "modbusrtu",
+      "module": "WLAN module",
+      "module_cat": "wifi",
+      "stock": 132
+   }
+},
+ {
+   "product": {
+      "material_id": 16559231,
+      "type_code": "I51AP230C00001000S",
+      "power_hp": "4.0 hp",
+      "power_hp_cat": "4.0hp",
+      "power_kw": "3.0 kW",
+      "phase": "3ph 230V",
+      "phase_cat": "3ph230v",
+      "fieldbus": "Standard I/O",
+      "fieldbus_cat": "standardio",
+      "module": "without diagnostic module",
+      "module_cat": "none",
+      "stock": 133
+   }
+},
+ {
+   "product": {
+      "material_id": 16559229,
+      "type_code": "I51AP230C00001002S",
+      "power_hp": "4.0 hp",
+      "power_hp_cat": "4.0hp",
+      "power_kw": "3.0 kW",
+      "phase": "3ph 230V",
+      "phase_cat": "3ph230v",
+      "fieldbus": "CANopen",
+      "fieldbus_cat": "canopen",
+      "module": "without diagnostic module",
+      "module_cat": "none",
+      "stock": 134
+   }
+},
+ {
+   "product": {
+      "material_id": 16559244,
+      "type_code": "I51AP230C00001003S",
+      "power_hp": "4.0 hp",
+      "power_hp_cat": "4.0hp",
+      "power_kw": "3.0 kW",
+      "phase": "3ph 230V",
+      "phase_cat": "3ph230v",
+      "fieldbus": "Modbus RTU",
+      "fieldbus_cat": "modbusrtu",
+      "module": "without diagnostic module",
+      "module_cat": "none",
+      "stock": 135
+   }
+},
+ {
+   "product": {
+      "material_id": 16559500,
+      "type_code": "I51AP230C00001K00S",
+      "power_hp": "4.0 hp",
+      "power_hp_cat": "4.0hp",
+      "power_kw": "3.0 kW",
+      "phase": "3ph 230V",
+      "phase_cat": "3ph230v",
+      "fieldbus": "Standard I/O",
+      "fieldbus_cat": "standardio",
+      "module": "LCD Keypad module",
+      "module_cat": "keypad",
+      "stock": 136
+   }
+},
+ {
+   "product": {
+      "material_id": 16559499,
+      "type_code": "I51AP230C00001K02S",
+      "power_hp": "4.0 hp",
+      "power_hp_cat": "4.0hp",
+      "power_kw": "3.0 kW",
+      "phase": "3ph 230V",
+      "phase_cat": "3ph230v",
+      "fieldbus": "CANopen",
+      "fieldbus_cat": "canopen",
+      "module": "LCD Keypad module",
+      "module_cat": "keypad",
+      "stock": 137
+   }
+},
+ {
+   "product": {
+      "material_id": 16559502,
+      "type_code": "I51AP230C00001K03S",
+      "power_hp": "4.0 hp",
+      "power_hp_cat": "4.0hp",
+      "power_kw": "3.0 kW",
+      "phase": "3ph 230V",
+      "phase_cat": "3ph230v",
+      "fieldbus": "Modbus RTU",
+      "fieldbus_cat": "modbusrtu",
+      "module": "LCD Keypad module",
+      "module_cat": "keypad",
+      "stock": 138
+   }
+},
+ {
+   "product": {
+      "material_id": 16559301,
+      "type_code": "I51AP230C00001U00S",
+      "power_hp": "4.0 hp",
+      "power_hp_cat": "4.0hp",
+      "power_kw": "3.0 kW",
+      "phase": "3ph 230V",
+      "phase_cat": "3ph230v",
+      "fieldbus": "Standard I/O",
+      "fieldbus_cat": "standardio",
+      "module": "USB module",
+      "module_cat": "usb",
+      "stock": 139
+   }
+},
+ {
+   "product": {
+      "material_id": 16559300,
+      "type_code": "I51AP230C00001U02S",
+      "power_hp": "4.0 hp",
+      "power_hp_cat": "4.0hp",
+      "power_kw": "3.0 kW",
+      "phase": "3ph 230V",
+      "phase_cat": "3ph230v",
+      "fieldbus": "CANopen",
+      "fieldbus_cat": "canopen",
+      "module": "USB module",
+      "module_cat": "usb",
+      "stock": 140
+   }
+},
+ {
+   "product": {
+      "material_id": 16559303,
+      "type_code": "I51AP230C00001U03S",
+      "power_hp": "4.0 hp",
+      "power_hp_cat": "4.0hp",
+      "power_kw": "3.0 kW",
+      "phase": "3ph 230V",
+      "phase_cat": "3ph230v",
+      "fieldbus": "Modbus RTU",
+      "fieldbus_cat": "modbusrtu",
+      "module": "USB module",
+      "module_cat": "usb",
+      "stock": 141
+   }
+},
+ {
+   "product": {
+      "material_id": 16559373,
+      "type_code": "I51AP230C00001W00S",
+      "power_hp": "4.0 hp",
+      "power_hp_cat": "4.0hp",
+      "power_kw": "3.0 kW",
+      "phase": "3ph 230V",
+      "phase_cat": "3ph230v",
+      "fieldbus": "Standard I/O",
+      "fieldbus_cat": "standardio",
+      "module": "WLAN module",
+      "module_cat": "wifi",
+      "stock": 142
+   }
+},
+ {
+   "product": {
+      "material_id": 16559372,
+      "type_code": "I51AP230C00001W02S",
+      "power_hp": "4.0 hp",
+      "power_hp_cat": "4.0hp",
+      "power_kw": "3.0 kW",
+      "phase": "3ph 230V",
+      "phase_cat": "3ph230v",
+      "fieldbus": "CANopen",
+      "fieldbus_cat": "canopen",
+      "module": "WLAN module",
+      "module_cat": "wifi",
+      "stock": 143
+   }
+},
+ {
+   "product": {
+      "material_id": 16559375,
+      "type_code": "I51AP230C00001W03S",
+      "power_hp": "4.0 hp",
+      "power_hp_cat": "4.0hp",
+      "power_kw": "3.0 kW",
+      "phase": "3ph 230V",
+      "phase_cat": "3ph230v",
+      "fieldbus": "Modbus RTU",
+      "fieldbus_cat": "modbusrtu",
+      "module": "WLAN module",
+      "module_cat": "wifi",
+      "stock": 144
+   }
+},
+ {
+   "product": {
+      "material_id": 16559467,
+      "type_code": "I51AP230F00001000S",
+      "power_hp": "4.0 hp",
+      "power_hp_cat": "4.0hp",
+      "power_kw": "3.0 kW",
+      "phase": "3ph 400/480V",
+      "phase_cat": "3ph400_480v",
+      "fieldbus": "Standard I/O",
+      "fieldbus_cat": "standardio",
+      "module": "without diagnostic module",
+      "module_cat": "none",
+      "stock": 145
+   }
+},
+ {
+   "product": {
+      "material_id": 16559466,
+      "type_code": "I51AP230F00001002S",
+      "power_hp": "4.0 hp",
+      "power_hp_cat": "4.0hp",
+      "power_kw": "3.0 kW",
+      "phase": "3ph 400/480V",
+      "phase_cat": "3ph400_480v",
+      "fieldbus": "CANopen",
+      "fieldbus_cat": "canopen",
+      "module": "without diagnostic module",
+      "module_cat": "none",
+      "stock": 146
+   }
+},
+ {
+   "product": {
+      "material_id": 16559469,
+      "type_code": "I51AP230F00001003S",
+      "power_hp": "4.0 hp",
+      "power_hp_cat": "4.0hp",
+      "power_kw": "3.0 kW",
+      "phase": "3ph 400/480V",
+      "phase_cat": "3ph400_480v",
+      "fieldbus": "Modbus RTU",
+      "fieldbus_cat": "modbusrtu",
+      "module": "without diagnostic module",
+      "module_cat": "none",
+      "stock": 147
+   }
+},
+ {
+   "product": {
+      "material_id": 16559521,
+      "type_code": "I51AP230F00001K00S",
+      "power_hp": "4.0 hp",
+      "power_hp_cat": "4.0hp",
+      "power_kw": "3.0 kW",
+      "phase": "3ph 400/480V",
+      "phase_cat": "3ph400_480v",
+      "fieldbus": "Standard I/O",
+      "fieldbus_cat": "standardio",
+      "module": "LCD Keypad module",
+      "module_cat": "keypad",
+      "stock": 148
+   }
+},
+ {
+   "product": {
+      "material_id": 16559520,
+      "type_code": "I51AP230F00001K02S",
+      "power_hp": "4.0 hp",
+      "power_hp_cat": "4.0hp",
+      "power_kw": "3.0 kW",
+      "phase": "3ph 400/480V",
+      "phase_cat": "3ph400_480v",
+      "fieldbus": "CANopen",
+      "fieldbus_cat": "canopen",
+      "module": "LCD Keypad module",
+      "module_cat": "keypad",
+      "stock": 149
+   }
+},
+ {
+   "product": {
+      "material_id": 16559523,
+      "type_code": "I51AP230F00001K03S",
+      "power_hp": "4.0 hp",
+      "power_hp_cat": "4.0hp",
+      "power_kw": "3.0 kW",
+      "phase": "3ph 400/480V",
+      "phase_cat": "3ph400_480v",
+      "fieldbus": "Modbus RTU",
+      "fieldbus_cat": "modbusrtu",
+      "module": "LCD Keypad module",
+      "module_cat": "keypad",
+      "stock": 150
+   }
+},
+ {
+   "product": {
+      "material_id": 16559322,
+      "type_code": "I51AP230F00001U00S",
+      "power_hp": "4.0 hp",
+      "power_hp_cat": "4.0hp",
+      "power_kw": "3.0 kW",
+      "phase": "3ph 400/480V",
+      "phase_cat": "3ph400_480v",
+      "fieldbus": "Standard I/O",
+      "fieldbus_cat": "standardio",
+      "module": "USB module",
+      "module_cat": "usb",
+      "stock": 151
+   }
+},
+ {
+   "product": {
+      "material_id": 16559320,
+      "type_code": "I51AP230F00001U02S",
+      "power_hp": "4.0 hp",
+      "power_hp_cat": "4.0hp",
+      "power_kw": "3.0 kW",
+      "phase": "3ph 400/480V",
+      "phase_cat": "3ph400_480v",
+      "fieldbus": "CANopen",
+      "fieldbus_cat": "canopen",
+      "module": "USB module",
+      "module_cat": "usb",
+      "stock": 152
+   }
+},
+ {
+   "product": {
+      "material_id": 16559323,
+      "type_code": "I51AP230F00001U03S",
+      "power_hp": "4.0 hp",
+      "power_hp_cat": "4.0hp",
+      "power_kw": "3.0 kW",
+      "phase": "3ph 400/480V",
+      "phase_cat": "3ph400_480v",
+      "fieldbus": "Modbus RTU",
+      "fieldbus_cat": "modbusrtu",
+      "module": "USB module",
+      "module_cat": "usb",
+      "stock": 153
+   }
+},
+ {
+   "product": {
+      "material_id": 16559419,
+      "type_code": "I51AP230F00001W00S",
+      "power_hp": "4.0 hp",
+      "power_hp_cat": "4.0hp",
+      "power_kw": "3.0 kW",
+      "phase": "3ph 400/480V",
+      "phase_cat": "3ph400_480v",
+      "fieldbus": "Standard I/O",
+      "fieldbus_cat": "standardio",
+      "module": "WLAN module",
+      "module_cat": "wifi",
+      "stock": 154
+   }
+},
+ {
+   "product": {
+      "material_id": 16559418,
+      "type_code": "I51AP230F00001W02S",
+      "power_hp": "4.0 hp",
+      "power_hp_cat": "4.0hp",
+      "power_kw": "3.0 kW",
+      "phase": "3ph 400/480V",
+      "phase_cat": "3ph400_480v",
+      "fieldbus": "CANopen",
+      "fieldbus_cat": "canopen",
+      "module": "WLAN module",
+      "module_cat": "wifi",
+      "stock": 155
+   }
+},
+ {
+   "product": {
+      "material_id": 16559420,
+      "type_code": "I51AP230F00001W03S",
+      "power_hp": "4.0 hp",
+      "power_hp_cat": "4.0hp",
+      "power_kw": "3.0 kW",
+      "phase": "3ph 400/480V",
+      "phase_cat": "3ph400_480v",
+      "fieldbus": "Modbus RTU",
+      "fieldbus_cat": "modbusrtu",
+      "module": "WLAN module",
+      "module_cat": "wifi",
+      "stock": 156
+   }
+},
+ {
+   "product": {
+      "material_id": 16519463,
+      "type_code": "I51AP240C00001000S",
+      "power_hp": "5.0 hp",
+      "power_hp_cat": "5.0hp",
+      "power_kw": "4.0 kW",
+      "phase": "3ph 230V",
+      "phase_cat": "3ph230v",
+      "fieldbus": "Standard I/O",
+      "fieldbus_cat": "standardio",
+      "module": "without diagnostic module",
+      "module_cat": "none",
+      "stock": 157
+   }
+},
+ {
+   "product": {
+      "material_id": 16559245,
+      "type_code": "I51AP240C00001002S",
+      "power_hp": "5.0 hp",
+      "power_hp_cat": "5.0hp",
+      "power_kw": "4.0 kW",
+      "phase": "3ph 230V",
+      "phase_cat": "3ph230v",
+      "fieldbus": "CANopen",
+      "fieldbus_cat": "canopen",
+      "module": "without diagnostic module",
+      "module_cat": "none",
+      "stock": 158
+   }
+},
+ {
+   "product": {
+      "material_id": 16559248,
+      "type_code": "I51AP240C00001003S",
+      "power_hp": "5.0 hp",
+      "power_hp_cat": "5.0hp",
+      "power_kw": "4.0 kW",
+      "phase": "3ph 230V",
+      "phase_cat": "3ph230v",
+      "fieldbus": "Modbus RTU",
+      "fieldbus_cat": "modbusrtu",
+      "module": "without diagnostic module",
+      "module_cat": "none",
+      "stock": 159
+   }
+},
+ {
+   "product": {
+      "material_id": 16554488,
+      "type_code": "I51AP240C00001K00S",
+      "power_hp": "5.0 hp",
+      "power_hp_cat": "5.0hp",
+      "power_kw": "4.0 kW",
+      "phase": "3ph 230V",
+      "phase_cat": "3ph230v",
+      "fieldbus": "Standard I/O",
+      "fieldbus_cat": "standardio",
+      "module": "LCD Keypad module",
+      "module_cat": "keypad",
+      "stock": 160
+   }
+},
+ {
+   "product": {
+      "material_id": 16559504,
+      "type_code": "I51AP240C00001K02S",
+      "power_hp": "5.0 hp",
+      "power_hp_cat": "5.0hp",
+      "power_kw": "4.0 kW",
+      "phase": "3ph 230V",
+      "phase_cat": "3ph230v",
+      "fieldbus": "CANopen",
+      "fieldbus_cat": "canopen",
+      "module": "LCD Keypad module",
+      "module_cat": "keypad",
+      "stock": 161
+   }
+},
+ {
+   "product": {
+      "material_id": 16532640,
+      "type_code": "I51AP240C00001K03S",
+      "power_hp": "5.0 hp",
+      "power_hp_cat": "5.0hp",
+      "power_kw": "4.0 kW",
+      "phase": "3ph 230V",
+      "phase_cat": "3ph230v",
+      "fieldbus": "Modbus RTU",
+      "fieldbus_cat": "modbusrtu",
+      "module": "LCD Keypad module",
+      "module_cat": "keypad",
+      "stock": 162
+   }
+},
+ {
+   "product": {
+      "material_id": 16559306,
+      "type_code": "I51AP240C00001U00S",
+      "power_hp": "5.0 hp",
+      "power_hp_cat": "5.0hp",
+      "power_kw": "4.0 kW",
+      "phase": "3ph 230V",
+      "phase_cat": "3ph230v",
+      "fieldbus": "Standard I/O",
+      "fieldbus_cat": "standardio",
+      "module": "USB module",
+      "module_cat": "usb",
+      "stock": 163
+   }
+},
+ {
+   "product": {
+      "material_id": 16559304,
+      "type_code": "I51AP240C00001U02S",
+      "power_hp": "5.0 hp",
+      "power_hp_cat": "5.0hp",
+      "power_kw": "4.0 kW",
+      "phase": "3ph 230V",
+      "phase_cat": "3ph230v",
+      "fieldbus": "CANopen",
+      "fieldbus_cat": "canopen",
+      "module": "USB module",
+      "module_cat": "usb",
+      "stock": 164
+   }
+},
+ {
+   "product": {
+      "material_id": 16533249,
+      "type_code": "I51AP240C00001U03S",
+      "power_hp": "5.0 hp",
+      "power_hp_cat": "5.0hp",
+      "power_kw": "4.0 kW",
+      "phase": "3ph 230V",
+      "phase_cat": "3ph230v",
+      "fieldbus": "Modbus RTU",
+      "fieldbus_cat": "modbusrtu",
+      "module": "USB module",
+      "module_cat": "usb",
+      "stock": 165
+   }
+},
+ {
+   "product": {
+      "material_id": 16559378,
+      "type_code": "I51AP240C00001W00S",
+      "power_hp": "5.0 hp",
+      "power_hp_cat": "5.0hp",
+      "power_kw": "4.0 kW",
+      "phase": "3ph 230V",
+      "phase_cat": "3ph230v",
+      "fieldbus": "Standard I/O",
+      "fieldbus_cat": "standardio",
+      "module": "WLAN module",
+      "module_cat": "wifi",
+      "stock": 166
+   }
+},
+ {
+   "product": {
+      "material_id": 16559376,
+      "type_code": "I51AP240C00001W02S",
+      "power_hp": "5.0 hp",
+      "power_hp_cat": "5.0hp",
+      "power_kw": "4.0 kW",
+      "phase": "3ph 230V",
+      "phase_cat": "3ph230v",
+      "fieldbus": "CANopen",
+      "fieldbus_cat": "canopen",
+      "module": "WLAN module",
+      "module_cat": "wifi",
+      "stock": 167
+   }
+},
+ {
+   "product": {
+      "material_id": 16559379,
+      "type_code": "I51AP240C00001W03S",
+      "power_hp": "5.0 hp",
+      "power_hp_cat": "5.0hp",
+      "power_kw": "4.0 kW",
+      "phase": "3ph 230V",
+      "phase_cat": "3ph230v",
+      "fieldbus": "Modbus RTU",
+      "fieldbus_cat": "modbusrtu",
+      "module": "WLAN module",
+      "module_cat": "wifi",
+      "stock": 168
+   }
+},
+ {
+   "product": {
+      "material_id": 16533303,
+      "type_code": "I51AP240F00001000S",
+      "power_hp": "5.0 hp",
+      "power_hp_cat": "5.0hp",
+      "power_kw": "4.0 kW",
+      "phase": "3ph 400/480V",
+      "phase_cat": "3ph400_480v",
+      "fieldbus": "Standard I/O",
+      "fieldbus_cat": "standardio",
+      "module": "without diagnostic module",
+      "module_cat": "none",
+      "stock": 169
+   }
+},
+ {
+   "product": {
+      "material_id": 16504268,
+      "type_code": "I51AP240F00001002S",
+      "power_hp": "5.0 hp",
+      "power_hp_cat": "5.0hp",
+      "power_kw": "4.0 kW",
+      "phase": "3ph 400/480V",
+      "phase_cat": "3ph400_480v",
+      "fieldbus": "CANopen",
+      "fieldbus_cat": "canopen",
+      "module": "without diagnostic module",
+      "module_cat": "none",
+      "stock": 170
+   }
+},
+ {
+   "product": {
+      "material_id": 16559470,
+      "type_code": "I51AP240F00001003S",
+      "power_hp": "5.0 hp",
+      "power_hp_cat": "5.0hp",
+      "power_kw": "4.0 kW",
+      "phase": "3ph 400/480V",
+      "phase_cat": "3ph400_480v",
+      "fieldbus": "Modbus RTU",
+      "fieldbus_cat": "modbusrtu",
+      "module": "without diagnostic module",
+      "module_cat": "none",
+      "stock": 171
+   }
+},
+ {
+   "product": {
+      "material_id": 16533787,
+      "type_code": "I51AP240F00001K00S",
+      "power_hp": "5.0 hp",
+      "power_hp_cat": "5.0hp",
+      "power_kw": "4.0 kW",
+      "phase": "3ph 400/480V",
+      "phase_cat": "3ph400_480v",
+      "fieldbus": "Standard I/O",
+      "fieldbus_cat": "standardio",
+      "module": "LCD Keypad module",
+      "module_cat": "keypad",
+      "stock": 172
+   }
+},
+ {
+   "product": {
+      "material_id": 16559525,
+      "type_code": "I51AP240F00001K02S",
+      "power_hp": "5.0 hp",
+      "power_hp_cat": "5.0hp",
+      "power_kw": "4.0 kW",
+      "phase": "3ph 400/480V",
+      "phase_cat": "3ph400_480v",
+      "fieldbus": "CANopen",
+      "fieldbus_cat": "canopen",
+      "module": "LCD Keypad module",
+      "module_cat": "keypad",
+      "stock": 173
+   }
+},
+ {
+   "product": {
+      "material_id": 16543252,
+      "type_code": "I51AP240F00001K03S",
+      "power_hp": "5.0 hp",
+      "power_hp_cat": "5.0hp",
+      "power_kw": "4.0 kW",
+      "phase": "3ph 400/480V",
+      "phase_cat": "3ph400_480v",
+      "fieldbus": "Modbus RTU",
+      "fieldbus_cat": "modbusrtu",
+      "module": "LCD Keypad module",
+      "module_cat": "keypad",
+      "stock": 174
+   }
+},
+ {
+   "product": {
+      "material_id": 16559326,
+      "type_code": "I51AP240F00001U00S",
+      "power_hp": "5.0 hp",
+      "power_hp_cat": "5.0hp",
+      "power_kw": "4.0 kW",
+      "phase": "3ph 400/480V",
+      "phase_cat": "3ph400_480v",
+      "fieldbus": "Standard I/O",
+      "fieldbus_cat": "standardio",
+      "module": "USB module",
+      "module_cat": "usb",
+      "stock": 175
+   }
+},
+ {
+   "product": {
+      "material_id": 16559324,
+      "type_code": "I51AP240F00001U02S",
+      "power_hp": "5.0 hp",
+      "power_hp_cat": "5.0hp",
+      "power_kw": "4.0 kW",
+      "phase": "3ph 400/480V",
+      "phase_cat": "3ph400_480v",
+      "fieldbus": "CANopen",
+      "fieldbus_cat": "canopen",
+      "module": "USB module",
+      "module_cat": "usb",
+      "stock": 176
+   }
+},
+ {
+   "product": {
+      "material_id": 16533433,
+      "type_code": "I51AP240F00001U03S",
+      "power_hp": "5.0 hp",
+      "power_hp_cat": "5.0hp",
+      "power_kw": "4.0 kW",
+      "phase": "3ph 400/480V",
+      "phase_cat": "3ph400_480v",
+      "fieldbus": "Modbus RTU",
+      "fieldbus_cat": "modbusrtu",
+      "module": "USB module",
+      "module_cat": "usb",
+      "stock": 177
+   }
+},
+ {
+   "product": {
+      "material_id": 16559423,
+      "type_code": "I51AP240F00001W00S",
+      "power_hp": "5.0 hp",
+      "power_hp_cat": "5.0hp",
+      "power_kw": "4.0 kW",
+      "phase": "3ph 400/480V",
+      "phase_cat": "3ph400_480v",
+      "fieldbus": "Standard I/O",
+      "fieldbus_cat": "standardio",
+      "module": "WLAN module",
+      "module_cat": "wifi",
+      "stock": 178
+   }
+},
+ {
+   "product": {
+      "material_id": 16559422,
+      "type_code": "I51AP240F00001W02S",
+      "power_hp": "5.0 hp",
+      "power_hp_cat": "5.0hp",
+      "power_kw": "4.0 kW",
+      "phase": "3ph 400/480V",
+      "phase_cat": "3ph400_480v",
+      "fieldbus": "CANopen",
+      "fieldbus_cat": "canopen",
+      "module": "WLAN module",
+      "module_cat": "wifi",
+      "stock": 179
+   }
+},
+ {
+   "product": {
+      "material_id": 16559424,
+      "type_code": "I51AP240F00001W03S",
+      "power_hp": "5.0 hp",
+      "power_hp_cat": "5.0hp",
+      "power_kw": "4.0 kW",
+      "phase": "3ph 400/480V",
+      "phase_cat": "3ph400_480v",
+      "fieldbus": "Modbus RTU",
+      "fieldbus_cat": "modbusrtu",
+      "module": "WLAN module",
+      "module_cat": "wifi",
+      "stock": 180
+   }
+},
+ {
+   "product": {
+      "material_id": 16559473,
+      "type_code": "I51AP255F00001000S",
+      "power_hp": "7.5 hp",
+      "power_hp_cat": "7.5hp",
+      "power_kw": "5.5 kW",
+      "phase": "3ph 400/480V",
+      "phase_cat": "3ph400_480v",
+      "fieldbus": "Standard I/O",
+      "fieldbus_cat": "standardio",
+      "module": "without diagnostic module",
+      "module_cat": "none",
+      "stock": 181
+   }
+},
+ {
+   "product": {
+      "material_id": 16559471,
+      "type_code": "I51AP255F00001002S",
+      "power_hp": "7.5 hp",
+      "power_hp_cat": "7.5hp",
+      "power_kw": "5.5 kW",
+      "phase": "3ph 400/480V",
+      "phase_cat": "3ph400_480v",
+      "fieldbus": "CANopen",
+      "fieldbus_cat": "canopen",
+      "module": "without diagnostic module",
+      "module_cat": "none",
+      "stock": 182
+   }
+},
+ {
+   "product": {
+      "material_id": 16559474,
+      "type_code": "I51AP255F00001003S",
+      "power_hp": "7.5 hp",
+      "power_hp_cat": "7.5hp",
+      "power_kw": "5.5 kW",
+      "phase": "3ph 400/480V",
+      "phase_cat": "3ph400_480v",
+      "fieldbus": "Modbus RTU",
+      "fieldbus_cat": "modbusrtu",
+      "module": "without diagnostic module",
+      "module_cat": "none",
+      "stock": 183
+   }
+},
+ {
+   "product": {
+      "material_id": 16530711,
+      "type_code": "I51AP255F00001K00S",
+      "power_hp": "7.5 hp",
+      "power_hp_cat": "7.5hp",
+      "power_kw": "5.5 kW",
+      "phase": "3ph 400/480V",
+      "phase_cat": "3ph400_480v",
+      "fieldbus": "Standard I/O",
+      "fieldbus_cat": "standardio",
+      "module": "LCD Keypad module",
+      "module_cat": "keypad",
+      "stock": 184
+   }
+},
+ {
+   "product": {
+      "material_id": 16559527,
+      "type_code": "I51AP255F00001K02S",
+      "power_hp": "7.5 hp",
+      "power_hp_cat": "7.5hp",
+      "power_kw": "5.5 kW",
+      "phase": "3ph 400/480V",
+      "phase_cat": "3ph400_480v",
+      "fieldbus": "CANopen",
+      "fieldbus_cat": "canopen",
+      "module": "LCD Keypad module",
+      "module_cat": "keypad",
+      "stock": 185
+   }
+},
+ {
+   "product": {
+      "material_id": 16559530,
+      "type_code": "I51AP255F00001K03S",
+      "power_hp": "7.5 hp",
+      "power_hp_cat": "7.5hp",
+      "power_kw": "5.5 kW",
+      "phase": "3ph 400/480V",
+      "phase_cat": "3ph400_480v",
+      "fieldbus": "Modbus RTU",
+      "fieldbus_cat": "modbusrtu",
+      "module": "LCD Keypad module",
+      "module_cat": "keypad",
+      "stock": 186
+   }
+},
+ {
+   "product": {
+      "material_id": 16559329,
+      "type_code": "I51AP255F00001U00S",
+      "power_hp": "7.5 hp",
+      "power_hp_cat": "7.5hp",
+      "power_kw": "5.5 kW",
+      "phase": "3ph 400/480V",
+      "phase_cat": "3ph400_480v",
+      "fieldbus": "Standard I/O",
+      "fieldbus_cat": "standardio",
+      "module": "USB module",
+      "module_cat": "usb",
+      "stock": 187
+   }
+},
+ {
+   "product": {
+      "material_id": 16559328,
+      "type_code": "I51AP255F00001U02S",
+      "power_hp": "7.5 hp",
+      "power_hp_cat": "7.5hp",
+      "power_kw": "5.5 kW",
+      "phase": "3ph 400/480V",
+      "phase_cat": "3ph400_480v",
+      "fieldbus": "CANopen",
+      "fieldbus_cat": "canopen",
+      "module": "USB module",
+      "module_cat": "usb",
+      "stock": 188
+   }
+},
+ {
+   "product": {
+      "material_id": 16533434,
+      "type_code": "I51AP255F00001U03S",
+      "power_hp": "7.5 hp",
+      "power_hp_cat": "7.5hp",
+      "power_kw": "5.5 kW",
+      "phase": "3ph 400/480V",
+      "phase_cat": "3ph400_480v",
+      "fieldbus": "Modbus RTU",
+      "fieldbus_cat": "modbusrtu",
+      "module": "USB module",
+      "module_cat": "usb",
+      "stock": 189
+   }
+},
+ {
+   "product": {
+      "material_id": 16559428,
+      "type_code": "I51AP255F00001W00S",
+      "power_hp": "7.5 hp",
+      "power_hp_cat": "7.5hp",
+      "power_kw": "5.5 kW",
+      "phase": "3ph 400/480V",
+      "phase_cat": "3ph400_480v",
+      "fieldbus": "Standard I/O",
+      "fieldbus_cat": "standardio",
+      "module": "WLAN module",
+      "module_cat": "wifi",
+      "stock": 190
+   }
+},
+ {
+   "product": {
+      "material_id": 16559426,
+      "type_code": "I51AP255F00001W02S",
+      "power_hp": "7.5 hp",
+      "power_hp_cat": "7.5hp",
+      "power_kw": "5.5 kW",
+      "phase": "3ph 400/480V",
+      "phase_cat": "3ph400_480v",
+      "fieldbus": "CANopen",
+      "fieldbus_cat": "canopen",
+      "module": "WLAN module",
+      "module_cat": "wifi",
+      "stock": 191
+   }
+},
+ {
+   "product": {
+      "material_id": 16559429,
+      "type_code": "I51AP255F00001W03S",
+      "power_hp": "7.5 hp",
+      "power_hp_cat": "7.5hp",
+      "power_kw": "5.5 kW",
+      "phase": "3ph 400/480V",
+      "phase_cat": "3ph400_480v",
+      "fieldbus": "Modbus RTU",
+      "fieldbus_cat": "modbusrtu",
+      "module": "WLAN module",
+      "module_cat": "wifi",
+      "stock": 192
+   }
+}
+]

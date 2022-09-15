@@ -1,0 +1,193 @@
+product/material_id,product/type_code,product/power_hp,product/power_hp_cat,product/power_kw,product/phase,product/phase_cat,product/fieldbus,product/fieldbus_cat,product/module,product/module_cat,product/stock
+16559175,I51AP137A00001000S,0.50 hp,0.50hp,0.37 kW,1ph 120V,1ph120v,Standard I/O,standardio,without diagnostic module,none,1
+16559174,I51AP137A00001002S,0.50 hp,0.50hp,0.37 kW,1ph 120V,1ph120v,CANopen,canopen,without diagnostic module,none,2
+16559178,I51AP137A00001003S,0.50 hp,0.50hp,0.37 kW,1ph 120V,1ph120v,Modbus RTU,modbusrtu,without diagnostic module,none,3
+16533926,I51AP137A00001K00S,0.50 hp,0.50hp,0.37 kW,1ph 120V,1ph120v,Standard I/O,standardio,LCD Keypad module,keypad,4
+16559493,I51AP137A00001K02S,0.50 hp,0.50hp,0.37 kW,1ph 120V,1ph120v,CANopen,canopen,LCD Keypad module,keypad,5
+16559494,I51AP137A00001K03S,0.50 hp,0.50hp,0.37 kW,1ph 120V,1ph120v,Modbus RTU,modbusrtu,LCD Keypad module,keypad,6
+16559281,I51AP137A00001U00S,0.50 hp,0.50hp,0.37 kW,1ph 120V,1ph120v,Standard I/O,standardio,USB module,usb,7
+16559280,I51AP137A00001U02S,0.50 hp,0.50hp,0.37 kW,1ph 120V,1ph120v,CANopen,canopen,USB module,usb,8
+16559293,I51AP137A00001U03S,0.50 hp,0.50hp,0.37 kW,1ph 120V,1ph120v,Modbus RTU,modbusrtu,USB module,usb,9
+16559354,I51AP137A00001W00S,0.50 hp,0.50hp,0.37 kW,1ph 120V,1ph120v,Standard I/O,standardio,WLAN module,wifi,10
+16559353,I51AP137A00001W02S,0.50 hp,0.50hp,0.37 kW,1ph 120V,1ph120v,CANopen,canopen,WLAN module,wifi,11
+16559356,I51AP137A00001W03S,0.50 hp,0.50hp,0.37 kW,1ph 120V,1ph120v,Modbus RTU,modbusrtu,WLAN module,wifi,12
+16559477,I51AP137D00001000S,0.50 hp,0.50hp,0.37 kW,1/3ph 230V,1_3ph230v,Standard I/O,standardio,without diagnostic module,none,13
+16559476,I51AP137D00001002S,0.50 hp,0.50hp,0.37 kW,1/3ph 230V,1_3ph230v,CANopen,canopen,without diagnostic module,none,14
+16559478,I51AP137D00001003S,0.50 hp,0.50hp,0.37 kW,1/3ph 230V,1_3ph230v,Modbus RTU,modbusrtu,without diagnostic module,none,15
+16545777,I51AP137D00001K00S,0.50 hp,0.50hp,0.37 kW,1/3ph 230V,1_3ph230v,Standard I/O,standardio,LCD Keypad module,keypad,16
+16559531,I51AP137D00001K02S,0.50 hp,0.50hp,0.37 kW,1/3ph 230V,1_3ph230v,CANopen,canopen,LCD Keypad module,keypad,17
+16559265,I51AP137D00001K03S,0.50 hp,0.50hp,0.37 kW,1/3ph 230V,1_3ph230v,Modbus RTU,modbusrtu,LCD Keypad module,keypad,18
+16559332,I51AP137D00001U00S,0.50 hp,0.50hp,0.37 kW,1/3ph 230V,1_3ph230v,Standard I/O,standardio,USB module,usb,19
+16559331,I51AP137D00001U02S,0.50 hp,0.50hp,0.37 kW,1/3ph 230V,1_3ph230v,CANopen,canopen,USB module,usb,20
+16559333,I51AP137D00001U03S,0.50 hp,0.50hp,0.37 kW,1/3ph 230V,1_3ph230v,Modbus RTU,modbusrtu,USB module,usb,21
+16559432,I51AP137D00001W00S,0.50 hp,0.50hp,0.37 kW,1/3ph 230V,1_3ph230v,Standard I/O,standardio,WLAN module,wifi,22
+16559431,I51AP137D00001W02S,0.50 hp,0.50hp,0.37 kW,1/3ph 230V,1_3ph230v,CANopen,canopen,WLAN module,wifi,23
+16559434,I51AP137D00001W03S,0.50 hp,0.50hp,0.37 kW,1/3ph 230V,1_3ph230v,Modbus RTU,modbusrtu,WLAN module,wifi,24
+16504265,I51AP175A00001000S,1.0 hp,1.0hp,0.75 kW,1ph 120V,1ph120v,Standard I/O,standardio,without diagnostic module,none,25
+16559180,I51AP175A00001002S,1.0 hp,1.0hp,0.75 kW,1ph 120V,1ph120v,CANopen,canopen,without diagnostic module,none,26
+16531090,I51AP175A00001003S,1.0 hp,1.0hp,0.75 kW,1ph 120V,1ph120v,Modbus RTU,modbusrtu,without diagnostic module,none,27
+16520666,I51AP175A00001K00S,1.0 hp,1.0hp,0.75 kW,1ph 120V,1ph120v,Standard I/O,standardio,LCD Keypad module,keypad,28
+16544217,I51AP175A00001K02S,1.0 hp,1.0hp,0.75 kW,1ph 120V,1ph120v,CANopen,canopen,LCD Keypad module,keypad,29
+16533927,I51AP175A00001K03S,1.0 hp,1.0hp,0.75 kW,1ph 120V,1ph120v,Modbus RTU,modbusrtu,LCD Keypad module,keypad,30
+16559297,I51AP175A00001U00S,1.0 hp,1.0hp,0.75 kW,1ph 120V,1ph120v,Standard I/O,standardio,USB module,usb,31
+16559295,I51AP175A00001U02S,1.0 hp,1.0hp,0.75 kW,1ph 120V,1ph120v,CANopen,canopen,USB module,usb,32
+16559299,I51AP175A00001U03S,1.0 hp,1.0hp,0.75 kW,1ph 120V,1ph120v,Modbus RTU,modbusrtu,USB module,usb,33
+16559358,I51AP175A00001W00S,1.0 hp,1.0hp,0.75 kW,1ph 120V,1ph120v,Standard I/O,standardio,WLAN module,wifi,34
+16559357,I51AP175A00001W02S,1.0 hp,1.0hp,0.75 kW,1ph 120V,1ph120v,CANopen,canopen,WLAN module,wifi,35
+16559360,I51AP175A00001W03S,1.0 hp,1.0hp,0.75 kW,1ph 120V,1ph120v,Modbus RTU,modbusrtu,WLAN module,wifi,36
+16559481,I51AP175D00001000S,1.0 hp,1.0hp,0.75 kW,1/3ph 230V,1_3ph230v,Standard I/O,standardio,without diagnostic module,none,37
+16559480,I51AP175D00001002S,1.0 hp,1.0hp,0.75 kW,1/3ph 230V,1_3ph230v,CANopen,canopen,without diagnostic module,none,38
+16504267,I51AP175D00001003S,1.0 hp,1.0hp,0.75 kW,1/3ph 230V,1_3ph230v,Modbus RTU,modbusrtu,without diagnostic module,none,39
+16532108,I51AP175D00001K00S,1.0 hp,1.0hp,0.75 kW,1/3ph 230V,1_3ph230v,Standard I/O,standardio,LCD Keypad module,keypad,40
+16559266,I51AP175D00001K02S,1.0 hp,1.0hp,0.75 kW,1/3ph 230V,1_3ph230v,CANopen,canopen,LCD Keypad module,keypad,41
+16559268,I51AP175D00001K03S,1.0 hp,1.0hp,0.75 kW,1/3ph 230V,1_3ph230v,Modbus RTU,modbusrtu,LCD Keypad module,keypad,42
+16559337,I51AP175D00001U00S,1.0 hp,1.0hp,0.75 kW,1/3ph 230V,1_3ph230v,Standard I/O,standardio,USB module,usb,43
+16559334,I51AP175D00001U02S,1.0 hp,1.0hp,0.75 kW,1/3ph 230V,1_3ph230v,CANopen,canopen,USB module,usb,44
+16533246,I51AP175D00001U03S,1.0 hp,1.0hp,0.75 kW,1/3ph 230V,1_3ph230v,Modbus RTU,modbusrtu,USB module,usb,45
+16559436,I51AP175D00001W00S,1.0 hp,1.0hp,0.75 kW,1/3ph 230V,1_3ph230v,Standard I/O,standardio,WLAN module,wifi,46
+16559435,I51AP175D00001W02S,1.0 hp,1.0hp,0.75 kW,1/3ph 230V,1_3ph230v,CANopen,canopen,WLAN module,wifi,47
+16559438,I51AP175D00001W03S,1.0 hp,1.0hp,0.75 kW,1/3ph 230V,1_3ph230v,Modbus RTU,modbusrtu,WLAN module,wifi,48
+16515111,I51AP175F00001000S,1.0 hp,1.0hp,0.75 kW,3ph 400/480V,3ph400_480v,Standard I/O,standardio,without diagnostic module,none,49
+16559249,I51AP175F00001002S,1.0 hp,1.0hp,0.75 kW,3ph 400/480V,3ph400_480v,CANopen,canopen,without diagnostic module,none,50
+16559251,I51AP175F00001003S,1.0 hp,1.0hp,0.75 kW,3ph 400/480V,3ph400_480v,Modbus RTU,modbusrtu,without diagnostic module,none,51
+16532107,I51AP175F00001K00S,1.0 hp,1.0hp,0.75 kW,3ph 400/480V,3ph400_480v,Standard I/O,standardio,LCD Keypad module,keypad,52
+16559506,I51AP175F00001K02S,1.0 hp,1.0hp,0.75 kW,3ph 400/480V,3ph400_480v,CANopen,canopen,LCD Keypad module,keypad,53
+16559507,I51AP175F00001K03S,1.0 hp,1.0hp,0.75 kW,3ph 400/480V,3ph400_480v,Modbus RTU,modbusrtu,LCD Keypad module,keypad,54
+16559309,I51AP175F00001U00S,1.0 hp,1.0hp,0.75 kW,3ph 400/480V,3ph400_480v,Standard I/O,standardio,USB module,usb,55
+16559307,I51AP175F00001U02S,1.0 hp,1.0hp,0.75 kW,3ph 400/480V,3ph400_480v,CANopen,canopen,USB module,usb,56
+16533250,I51AP175F00001U03S,1.0 hp,1.0hp,0.75 kW,3ph 400/480V,3ph400_480v,Modbus RTU,modbusrtu,USB module,usb,57
+16559383,I51AP175F00001W00S,1.0 hp,1.0hp,0.75 kW,3ph 400/480V,3ph400_480v,Standard I/O,standardio,WLAN module,wifi,58
+16559381,I51AP175F00001W02S,1.0 hp,1.0hp,0.75 kW,3ph 400/480V,3ph400_480v,CANopen,canopen,WLAN module,wifi,59
+16559384,I51AP175F00001W03S,1.0 hp,1.0hp,0.75 kW,3ph 400/480V,3ph400_480v,Modbus RTU,modbusrtu,WLAN module,wifi,60
+16559484,I51AP211D00001000S,1.5 hp,1.5hp,1.1 kW,1/3ph 230V,1_3ph230v,Standard I/O,standardio,without diagnostic module,none,61
+16559483,I51AP211D00001002S,1.5 hp,1.5hp,1.1 kW,1/3ph 230V,1_3ph230v,CANopen,canopen,without diagnostic module,none,62
+16559485,I51AP211D00001003S,1.5 hp,1.5hp,1.1 kW,1/3ph 230V,1_3ph230v,Modbus RTU,modbusrtu,without diagnostic module,none,63
+16556058,I51AP211D00001K00S,1.5 hp,1.5hp,1.1 kW,1/3ph 230V,1_3ph230v,Standard I/O,standardio,LCD Keypad module,keypad,64
+16559269,I51AP211D00001K02S,1.5 hp,1.5hp,1.1 kW,1/3ph 230V,1_3ph230v,CANopen,canopen,LCD Keypad module,keypad,65
+16559272,I51AP211D00001K03S,1.5 hp,1.5hp,1.1 kW,1/3ph 230V,1_3ph230v,Modbus RTU,modbusrtu,LCD Keypad module,keypad,66
+16559340,I51AP211D00001U00S,1.5 hp,1.5hp,1.1 kW,1/3ph 230V,1_3ph230v,Standard I/O,standardio,USB module,usb,67
+16559339,I51AP211D00001U02S,1.5 hp,1.5hp,1.1 kW,1/3ph 230V,1_3ph230v,CANopen,canopen,USB module,usb,68
+16533247,I51AP211D00001U03S,1.5 hp,1.5hp,1.1 kW,1/3ph 230V,1_3ph230v,Modbus RTU,modbusrtu,USB module,usb,69
+16559441,I51AP211D00001W00S,1.5 hp,1.5hp,1.1 kW,1/3ph 230V,1_3ph230v,Standard I/O,standardio,WLAN module,wifi,70
+16559439,I51AP211D00001W02S,1.5 hp,1.5hp,1.1 kW,1/3ph 230V,1_3ph230v,CANopen,canopen,WLAN module,wifi,71
+16559442,I51AP211D00001W03S,1.5 hp,1.5hp,1.1 kW,1/3ph 230V,1_3ph230v,Modbus RTU,modbusrtu,WLAN module,wifi,72
+16559456,I51AP211F00001000S,1.5 hp,1.5hp,1.1 kW,3ph 400/480V,3ph400_480v,Standard I/O,standardio,without diagnostic module,none,73
+16559455,I51AP211F00001002S,1.5 hp,1.5hp,1.1 kW,3ph 400/480V,3ph400_480v,CANopen,canopen,without diagnostic module,none,74
+16559457,I51AP211F00001003S,1.5 hp,1.5hp,1.1 kW,3ph 400/480V,3ph400_480v,Modbus RTU,modbusrtu,without diagnostic module,none,75
+16559510,I51AP211F00001K00S,1.5 hp,1.5hp,1.1 kW,3ph 400/480V,3ph400_480v,Standard I/O,standardio,LCD Keypad module,keypad,76
+16559509,I51AP211F00001K02S,1.5 hp,1.5hp,1.1 kW,3ph 400/480V,3ph400_480v,CANopen,canopen,LCD Keypad module,keypad,77
+16559511,I51AP211F00001K03S,1.5 hp,1.5hp,1.1 kW,3ph 400/480V,3ph400_480v,Modbus RTU,modbusrtu,LCD Keypad module,keypad,78
+16559311,I51AP211F00001U00S,1.5 hp,1.5hp,1.1 kW,3ph 400/480V,3ph400_480v,Standard I/O,standardio,USB module,usb,79
+16559310,I51AP211F00001U02S,1.5 hp,1.5hp,1.1 kW,3ph 400/480V,3ph400_480v,CANopen,canopen,USB module,usb,80
+16533251,I51AP211F00001U03S,1.5 hp,1.5hp,1.1 kW,3ph 400/480V,3ph400_480v,Modbus RTU,modbusrtu,USB module,usb,81
+16559387,I51AP211F00001W00S,1.5 hp,1.5hp,1.1 kW,3ph 400/480V,3ph400_480v,Standard I/O,standardio,WLAN module,wifi,82
+16559386,I51AP211F00001W02S,1.5 hp,1.5hp,1.1 kW,3ph 400/480V,3ph400_480v,CANopen,canopen,WLAN module,wifi,83
+16559388,I51AP211F00001W03S,1.5 hp,1.5hp,1.1 kW,3ph 400/480V,3ph400_480v,Modbus RTU,modbusrtu,WLAN module,wifi,84
+16559488,I51AP215D00001000S,2.0 hp,2.0hp,1.5 kW,1/3ph 230V,1_3ph230v,Standard I/O,standardio,without diagnostic module,none,85
+16559487,I51AP215D00001002S,2.0 hp,2.0hp,1.5 kW,1/3ph 230V,1_3ph230v,CANopen,canopen,without diagnostic module,none,86
+16559489,I51AP215D00001003S,2.0 hp,2.0hp,1.5 kW,1/3ph 230V,1_3ph230v,Modbus RTU,modbusrtu,without diagnostic module,none,87
+16559274,I51AP215D00001K00S,2.0 hp,2.0hp,1.5 kW,1/3ph 230V,1_3ph230v,Standard I/O,standardio,LCD Keypad module,keypad,88
+16559273,I51AP215D00001K02S,2.0 hp,2.0hp,1.5 kW,1/3ph 230V,1_3ph230v,CANopen,canopen,LCD Keypad module,keypad,89
+16559276,I51AP215D00001K03S,2.0 hp,2.0hp,1.5 kW,1/3ph 230V,1_3ph230v,Modbus RTU,modbusrtu,LCD Keypad module,keypad,90
+16559344,I51AP215D00001U00S,2.0 hp,2.0hp,1.5 kW,1/3ph 230V,1_3ph230v,Standard I/O,standardio,USB module,usb,91
+16559343,I51AP215D00001U02S,2.0 hp,2.0hp,1.5 kW,1/3ph 230V,1_3ph230v,CANopen,canopen,USB module,usb,92
+16533248,I51AP215D00001U03S,2.0 hp,2.0hp,1.5 kW,1/3ph 230V,1_3ph230v,Modbus RTU,modbusrtu,USB module,usb,93
+16559445,I51AP215D00001W00S,2.0 hp,2.0hp,1.5 kW,1/3ph 230V,1_3ph230v,Standard I/O,standardio,WLAN module,wifi,94
+16559443,I51AP215D00001W02S,2.0 hp,2.0hp,1.5 kW,1/3ph 230V,1_3ph230v,CANopen,canopen,WLAN module,wifi,95
+16559446,I51AP215D00001W03S,2.0 hp,2.0hp,1.5 kW,1/3ph 230V,1_3ph230v,Modbus RTU,modbusrtu,WLAN module,wifi,96
+16515212,I51AP215F00001000S,2.0 hp,2.0hp,1.5 kW,3ph 400/480V,3ph400_480v,Standard I/O,standardio,without diagnostic module,none,97
+16559460,I51AP215F00001002S,2.0 hp,2.0hp,1.5 kW,3ph 400/480V,3ph400_480v,CANopen,canopen,without diagnostic module,none,98
+16559461,I51AP215F00001003S,2.0 hp,2.0hp,1.5 kW,3ph 400/480V,3ph400_480v,Modbus RTU,modbusrtu,without diagnostic module,none,99
+16559514,I51AP215F00001K00S,2.0 hp,2.0hp,1.5 kW,3ph 400/480V,3ph400_480v,Standard I/O,standardio,LCD Keypad module,keypad,100
+16559513,I51AP215F00001K02S,2.0 hp,2.0hp,1.5 kW,3ph 400/480V,3ph400_480v,CANopen,canopen,LCD Keypad module,keypad,101
+16559516,I51AP215F00001K03S,2.0 hp,2.0hp,1.5 kW,3ph 400/480V,3ph400_480v,Modbus RTU,modbusrtu,LCD Keypad module,keypad,102
+16559314,I51AP215F00001U00S,2.0 hp,2.0hp,1.5 kW,3ph 400/480V,3ph400_480v,Standard I/O,standardio,USB module,usb,103
+16559313,I51AP215F00001U02S,2.0 hp,2.0hp,1.5 kW,3ph 400/480V,3ph400_480v,CANopen,canopen,USB module,usb,104
+16533432,I51AP215F00001U03S,2.0 hp,2.0hp,1.5 kW,3ph 400/480V,3ph400_480v,Modbus RTU,modbusrtu,USB module,usb,105
+16559391,I51AP215F00001W00S,2.0 hp,2.0hp,1.5 kW,3ph 400/480V,3ph400_480v,Standard I/O,standardio,WLAN module,wifi,106
+16559390,I51AP215F00001W02S,2.0 hp,2.0hp,1.5 kW,3ph 400/480V,3ph400_480v,CANopen,canopen,WLAN module,wifi,107
+16559413,I51AP215F00001W03S,2.0 hp,2.0hp,1.5 kW,3ph 400/480V,3ph400_480v,Modbus RTU,modbusrtu,WLAN module,wifi,108
+16519462,I51AP222D00001000S,3.0 hp,3.0hp,2.2 kW,1/3ph 230V,1_3ph230v,Standard I/O,standardio,without diagnostic module,none,109
+16559491,I51AP222D00001002S,3.0 hp,3.0hp,2.2 kW,1/3ph 230V,1_3ph230v,CANopen,canopen,without diagnostic module,none,110
+16504269,I51AP222D00001003S,3.0 hp,3.0hp,2.2 kW,1/3ph 230V,1_3ph230v,Modbus RTU,modbusrtu,without diagnostic module,none,111
+16551974,I51AP222D00001K00S,3.0 hp,3.0hp,2.2 kW,1/3ph 230V,1_3ph230v,Standard I/O,standardio,LCD Keypad module,keypad,112
+16559278,I51AP222D00001K02S,3.0 hp,3.0hp,2.2 kW,1/3ph 230V,1_3ph230v,CANopen,canopen,LCD Keypad module,keypad,113
+16545776,I51AP222D00001K03S,3.0 hp,3.0hp,2.2 kW,1/3ph 230V,1_3ph230v,Modbus RTU,modbusrtu,LCD Keypad module,keypad,114
+16559348,I51AP222D00001U00S,3.0 hp,3.0hp,2.2 kW,1/3ph 230V,1_3ph230v,Standard I/O,standardio,USB module,usb,115
+16559346,I51AP222D00001U02S,3.0 hp,3.0hp,2.2 kW,1/3ph 230V,1_3ph230v,CANopen,canopen,USB module,usb,116
+16559350,I51AP222D00001U03S,3.0 hp,3.0hp,2.2 kW,1/3ph 230V,1_3ph230v,Modbus RTU,modbusrtu,USB module,usb,117
+16559449,I51AP222D00001W00S,3.0 hp,3.0hp,2.2 kW,1/3ph 230V,1_3ph230v,Standard I/O,standardio,WLAN module,wifi,118
+16559448,I51AP222D00001W02S,3.0 hp,3.0hp,2.2 kW,1/3ph 230V,1_3ph230v,CANopen,canopen,WLAN module,wifi,119
+16559450,I51AP222D00001W03S,3.0 hp,3.0hp,2.2 kW,1/3ph 230V,1_3ph230v,Modbus RTU,modbusrtu,WLAN module,wifi,120
+16515213,I51AP222F00001000S,3.0 hp,3.0hp,2.2 kW,3ph 400/480V,3ph400_480v,Standard I/O,standardio,without diagnostic module,none,121
+16559463,I51AP222F00001002S,3.0 hp,3.0hp,2.2 kW,3ph 400/480V,3ph400_480v,CANopen,canopen,without diagnostic module,none,122
+16559464,I51AP222F00001003S,3.0 hp,3.0hp,2.2 kW,3ph 400/480V,3ph400_480v,Modbus RTU,modbusrtu,without diagnostic module,none,123
+16532796,I51AP222F00001K00S,3.0 hp,3.0hp,2.2 kW,3ph 400/480V,3ph400_480v,Standard I/O,standardio,LCD Keypad module,keypad,124
+16559517,I51AP222F00001K02S,3.0 hp,3.0hp,2.2 kW,3ph 400/480V,3ph400_480v,CANopen,canopen,LCD Keypad module,keypad,125
+16559519,I51AP222F00001K03S,3.0 hp,3.0hp,2.2 kW,3ph 400/480V,3ph400_480v,Modbus RTU,modbusrtu,LCD Keypad module,keypad,126
+16559317,I51AP222F00001U00S,3.0 hp,3.0hp,2.2 kW,3ph 400/480V,3ph400_480v,Standard I/O,standardio,USB module,usb,127
+16559316,I51AP222F00001U02S,3.0 hp,3.0hp,2.2 kW,3ph 400/480V,3ph400_480v,CANopen,canopen,USB module,usb,128
+16559319,I51AP222F00001U03S,3.0 hp,3.0hp,2.2 kW,3ph 400/480V,3ph400_480v,Modbus RTU,modbusrtu,USB module,usb,129
+16559415,I51AP222F00001W00S,3.0 hp,3.0hp,2.2 kW,3ph 400/480V,3ph400_480v,Standard I/O,standardio,WLAN module,wifi,130
+16559414,I51AP222F00001W02S,3.0 hp,3.0hp,2.2 kW,3ph 400/480V,3ph400_480v,CANopen,canopen,WLAN module,wifi,131
+16559417,I51AP222F00001W03S,3.0 hp,3.0hp,2.2 kW,3ph 400/480V,3ph400_480v,Modbus RTU,modbusrtu,WLAN module,wifi,132
+16559231,I51AP230C00001000S,4.0 hp,4.0hp,3.0 kW,3ph 230V,3ph230v,Standard I/O,standardio,without diagnostic module,none,133
+16559229,I51AP230C00001002S,4.0 hp,4.0hp,3.0 kW,3ph 230V,3ph230v,CANopen,canopen,without diagnostic module,none,134
+16559244,I51AP230C00001003S,4.0 hp,4.0hp,3.0 kW,3ph 230V,3ph230v,Modbus RTU,modbusrtu,without diagnostic module,none,135
+16559500,I51AP230C00001K00S,4.0 hp,4.0hp,3.0 kW,3ph 230V,3ph230v,Standard I/O,standardio,LCD Keypad module,keypad,136
+16559499,I51AP230C00001K02S,4.0 hp,4.0hp,3.0 kW,3ph 230V,3ph230v,CANopen,canopen,LCD Keypad module,keypad,137
+16559502,I51AP230C00001K03S,4.0 hp,4.0hp,3.0 kW,3ph 230V,3ph230v,Modbus RTU,modbusrtu,LCD Keypad module,keypad,138
+16559301,I51AP230C00001U00S,4.0 hp,4.0hp,3.0 kW,3ph 230V,3ph230v,Standard I/O,standardio,USB module,usb,139
+16559300,I51AP230C00001U02S,4.0 hp,4.0hp,3.0 kW,3ph 230V,3ph230v,CANopen,canopen,USB module,usb,140
+16559303,I51AP230C00001U03S,4.0 hp,4.0hp,3.0 kW,3ph 230V,3ph230v,Modbus RTU,modbusrtu,USB module,usb,141
+16559373,I51AP230C00001W00S,4.0 hp,4.0hp,3.0 kW,3ph 230V,3ph230v,Standard I/O,standardio,WLAN module,wifi,142
+16559372,I51AP230C00001W02S,4.0 hp,4.0hp,3.0 kW,3ph 230V,3ph230v,CANopen,canopen,WLAN module,wifi,143
+16559375,I51AP230C00001W03S,4.0 hp,4.0hp,3.0 kW,3ph 230V,3ph230v,Modbus RTU,modbusrtu,WLAN module,wifi,144
+16559467,I51AP230F00001000S,4.0 hp,4.0hp,3.0 kW,3ph 400/480V,3ph400_480v,Standard I/O,standardio,without diagnostic module,none,145
+16559466,I51AP230F00001002S,4.0 hp,4.0hp,3.0 kW,3ph 400/480V,3ph400_480v,CANopen,canopen,without diagnostic module,none,146
+16559469,I51AP230F00001003S,4.0 hp,4.0hp,3.0 kW,3ph 400/480V,3ph400_480v,Modbus RTU,modbusrtu,without diagnostic module,none,147
+16559521,I51AP230F00001K00S,4.0 hp,4.0hp,3.0 kW,3ph 400/480V,3ph400_480v,Standard I/O,standardio,LCD Keypad module,keypad,148
+16559520,I51AP230F00001K02S,4.0 hp,4.0hp,3.0 kW,3ph 400/480V,3ph400_480v,CANopen,canopen,LCD Keypad module,keypad,149
+16559523,I51AP230F00001K03S,4.0 hp,4.0hp,3.0 kW,3ph 400/480V,3ph400_480v,Modbus RTU,modbusrtu,LCD Keypad module,keypad,150
+16559322,I51AP230F00001U00S,4.0 hp,4.0hp,3.0 kW,3ph 400/480V,3ph400_480v,Standard I/O,standardio,USB module,usb,151
+16559320,I51AP230F00001U02S,4.0 hp,4.0hp,3.0 kW,3ph 400/480V,3ph400_480v,CANopen,canopen,USB module,usb,152
+16559323,I51AP230F00001U03S,4.0 hp,4.0hp,3.0 kW,3ph 400/480V,3ph400_480v,Modbus RTU,modbusrtu,USB module,usb,153
+16559419,I51AP230F00001W00S,4.0 hp,4.0hp,3.0 kW,3ph 400/480V,3ph400_480v,Standard I/O,standardio,WLAN module,wifi,154
+16559418,I51AP230F00001W02S,4.0 hp,4.0hp,3.0 kW,3ph 400/480V,3ph400_480v,CANopen,canopen,WLAN module,wifi,155
+16559420,I51AP230F00001W03S,4.0 hp,4.0hp,3.0 kW,3ph 400/480V,3ph400_480v,Modbus RTU,modbusrtu,WLAN module,wifi,156
+16519463,I51AP240C00001000S,5.0 hp,5.0hp,4.0 kW,3ph 230V,3ph230v,Standard I/O,standardio,without diagnostic module,none,157
+16559245,I51AP240C00001002S,5.0 hp,5.0hp,4.0 kW,3ph 230V,3ph230v,CANopen,canopen,without diagnostic module,none,158
+16559248,I51AP240C00001003S,5.0 hp,5.0hp,4.0 kW,3ph 230V,3ph230v,Modbus RTU,modbusrtu,without diagnostic module,none,159
+16554488,I51AP240C00001K00S,5.0 hp,5.0hp,4.0 kW,3ph 230V,3ph230v,Standard I/O,standardio,LCD Keypad module,keypad,160
+16559504,I51AP240C00001K02S,5.0 hp,5.0hp,4.0 kW,3ph 230V,3ph230v,CANopen,canopen,LCD Keypad module,keypad,161
+16532640,I51AP240C00001K03S,5.0 hp,5.0hp,4.0 kW,3ph 230V,3ph230v,Modbus RTU,modbusrtu,LCD Keypad module,keypad,162
+16559306,I51AP240C00001U00S,5.0 hp,5.0hp,4.0 kW,3ph 230V,3ph230v,Standard I/O,standardio,USB module,usb,163
+16559304,I51AP240C00001U02S,5.0 hp,5.0hp,4.0 kW,3ph 230V,3ph230v,CANopen,canopen,USB module,usb,164
+16533249,I51AP240C00001U03S,5.0 hp,5.0hp,4.0 kW,3ph 230V,3ph230v,Modbus RTU,modbusrtu,USB module,usb,165
+16559378,I51AP240C00001W00S,5.0 hp,5.0hp,4.0 kW,3ph 230V,3ph230v,Standard I/O,standardio,WLAN module,wifi,166
+16559376,I51AP240C00001W02S,5.0 hp,5.0hp,4.0 kW,3ph 230V,3ph230v,CANopen,canopen,WLAN module,wifi,167
+16559379,I51AP240C00001W03S,5.0 hp,5.0hp,4.0 kW,3ph 230V,3ph230v,Modbus RTU,modbusrtu,WLAN module,wifi,168
+16533303,I51AP240F00001000S,5.0 hp,5.0hp,4.0 kW,3ph 400/480V,3ph400_480v,Standard I/O,standardio,without diagnostic module,none,169
+16504268,I51AP240F00001002S,5.0 hp,5.0hp,4.0 kW,3ph 400/480V,3ph400_480v,CANopen,canopen,without diagnostic module,none,170
+16559470,I51AP240F00001003S,5.0 hp,5.0hp,4.0 kW,3ph 400/480V,3ph400_480v,Modbus RTU,modbusrtu,without diagnostic module,none,171
+16533787,I51AP240F00001K00S,5.0 hp,5.0hp,4.0 kW,3ph 400/480V,3ph400_480v,Standard I/O,standardio,LCD Keypad module,keypad,172
+16559525,I51AP240F00001K02S,5.0 hp,5.0hp,4.0 kW,3ph 400/480V,3ph400_480v,CANopen,canopen,LCD Keypad module,keypad,173
+16543252,I51AP240F00001K03S,5.0 hp,5.0hp,4.0 kW,3ph 400/480V,3ph400_480v,Modbus RTU,modbusrtu,LCD Keypad module,keypad,174
+16559326,I51AP240F00001U00S,5.0 hp,5.0hp,4.0 kW,3ph 400/480V,3ph400_480v,Standard I/O,standardio,USB module,usb,175
+16559324,I51AP240F00001U02S,5.0 hp,5.0hp,4.0 kW,3ph 400/480V,3ph400_480v,CANopen,canopen,USB module,usb,176
+16533433,I51AP240F00001U03S,5.0 hp,5.0hp,4.0 kW,3ph 400/480V,3ph400_480v,Modbus RTU,modbusrtu,USB module,usb,177
+16559423,I51AP240F00001W00S,5.0 hp,5.0hp,4.0 kW,3ph 400/480V,3ph400_480v,Standard I/O,standardio,WLAN module,wifi,178
+16559422,I51AP240F00001W02S,5.0 hp,5.0hp,4.0 kW,3ph 400/480V,3ph400_480v,CANopen,canopen,WLAN module,wifi,179
+16559424,I51AP240F00001W03S,5.0 hp,5.0hp,4.0 kW,3ph 400/480V,3ph400_480v,Modbus RTU,modbusrtu,WLAN module,wifi,180
+16559473,I51AP255F00001000S,7.5 hp,7.5hp,5.5 kW,3ph 400/480V,3ph400_480v,Standard I/O,standardio,without diagnostic module,none,181
+16559471,I51AP255F00001002S,7.5 hp,7.5hp,5.5 kW,3ph 400/480V,3ph400_480v,CANopen,canopen,without diagnostic module,none,182
+16559474,I51AP255F00001003S,7.5 hp,7.5hp,5.5 kW,3ph 400/480V,3ph400_480v,Modbus RTU,modbusrtu,without diagnostic module,none,183
+16530711,I51AP255F00001K00S,7.5 hp,7.5hp,5.5 kW,3ph 400/480V,3ph400_480v,Standard I/O,standardio,LCD Keypad module,keypad,184
+16559527,I51AP255F00001K02S,7.5 hp,7.5hp,5.5 kW,3ph 400/480V,3ph400_480v,CANopen,canopen,LCD Keypad module,keypad,185
+16559530,I51AP255F00001K03S,7.5 hp,7.5hp,5.5 kW,3ph 400/480V,3ph400_480v,Modbus RTU,modbusrtu,LCD Keypad module,keypad,186
+16559329,I51AP255F00001U00S,7.5 hp,7.5hp,5.5 kW,3ph 400/480V,3ph400_480v,Standard I/O,standardio,USB module,usb,187
+16559328,I51AP255F00001U02S,7.5 hp,7.5hp,5.5 kW,3ph 400/480V,3ph400_480v,CANopen,canopen,USB module,usb,188
+16533434,I51AP255F00001U03S,7.5 hp,7.5hp,5.5 kW,3ph 400/480V,3ph400_480v,Modbus RTU,modbusrtu,USB module,usb,189
+16559428,I51AP255F00001W00S,7.5 hp,7.5hp,5.5 kW,3ph 400/480V,3ph400_480v,Standard I/O,standardio,WLAN module,wifi,190
+16559426,I51AP255F00001W02S,7.5 hp,7.5hp,5.5 kW,3ph 400/480V,3ph400_480v,CANopen,canopen,WLAN module,wifi,191
+16559429,I51AP255F00001W03S,7.5 hp,7.5hp,5.5 kW,3ph 400/480V,3ph400_480v,Modbus RTU,modbusrtu,WLAN module,wifi,192
