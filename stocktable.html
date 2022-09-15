@@ -6,7 +6,6 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
-  <script src="filter.js"></script>
   <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
   <title>i510 protec stock update</title>
   <style>
@@ -42,6 +41,7 @@
       font-size: 12px !important;
       font-family: Open Sans, Arial, Helvetica, sans-serif;
       padding: 8px;
+      border-bottom: 0.5pt solid #B2B2B2;
     }
 
     thead th {
@@ -61,8 +61,7 @@
     }
 
 
-    th,
-    tr:nth-child(even) {
+    th {
       background-color: #f2f2f2;
     }
 
@@ -182,13 +181,13 @@
       }
     }
 
-    fetch('timestamp.json')
+    fetch('https://stevenericksonlenze.github.io/timestamp.json')
       .then((response) => response.json())
       .then((data) => document.getElementById("timestamp").innerHTML = data[0].update.timestamp);
 
 
     $(function () {
-      $.getJSON('https://github.com/StevenEricksonLenze/i510-protec-stocking/blob/f68890644d71b82716ee33feecd771f99b91a4c0/stock-update.json', function (data) {
+      $.getJSON('https://stevenericksonlenze.github.io/stock-update.json', function (data) {
         $.each(data, function (i, f) {
           var tblRow = '<tr class="i510protec" id="' + f.product.material_id + '" data-cat-1="' + f.product.power_hp_cat + '" data-cat-2="' + f.product.phase_cat + '" data-cat-3="' + f.product.fieldbus_cat + '" data-cat-4="' + f.product.module_cat + '">' +
             '<td><strong><a href="https://accstorefront.ci9qprcp-bhndienst1-p1-public.model-t.cc.commerce.ondemand.com/store/lenzeUS/en/USD/Products/Inverters/Motor-mounting-or-wall-mounting/i510-protec-frequency-inverters/Frequency-inverters/' + f.product.type_code + '/p/0000000000' + f.product.material_id + '">' + f.product.material_id + '</a></strong></td>' +
@@ -223,12 +222,15 @@
           $("input[name=cat" + (x + 1) + "]:checked").each(function () {
             selected[x].push($(this).val());
           });
+
+          sessionStorage.setItem("checked", JSON.stringify(selected));
+          selected = JSON.parse(sessionStorage.getItem("checked"));
         };
 
         for (var x = 0; x < NUM_CATEGORIES; x++) {
           _loop(x);
         }
-
+        console.log(selected);
         // for each course
         $(".i510protec").each(function () {
           var _this = this;
