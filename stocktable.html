@@ -201,7 +201,6 @@
             '<td>' + f.product.power_kw + '</td>' +
             '<td>' + f.product.phase + '</td>' +
             '<td>' + f.product.fieldbus + '</td>' +
-            '<td>' + f.product.module + '</td>' +
             '<td>' + f.product.stock + '</td>'
           '</tr>'
           $(tblRow).appendTo("#stockdata tbody");
@@ -378,7 +377,7 @@
             </label>
           </div>
         </div>
-        <div class="w3-row w3-margin-top">
+        <div class="w3-row w3-margin-top hidden">
           <div class="w3-container w3-border">
             <h6>Module</h6>
             <label class="container">without diagnostic module
@@ -413,8 +412,7 @@
               <th onclick="sortTable(3)">Power (kW)</th>
               <th onclick="sortTable(4)">Phase</th>
               <th onclick="sortTable(5)">Fieldbus network</th>
-              <th onclick="sortTable(6)">Module</th>
-              <th onclick="sortTable(7)">Stock</th>
+              <th onclick="sortTable(6)">Stock</th>
             </thead>
             <tbody>
             </tbody>

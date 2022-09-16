@@ -202,7 +202,6 @@
                         '<td>' + f.product.power_kw + '</td>' +
                         '<td>' + f.product.phase + '</td>' +
                         '<td>' + f.product.fieldbus + '</td>' +
-                        '<td>' + f.product.module + '</td>' +
                         '<td>' + f.product.stock + '</td>'
                     '</tr>'
                     $(tblRow).appendTo("#stockdata tbody");
@@ -387,7 +386,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="row">
+                <div class="row hidden">
                     <div class="panel panel-default" id="module">
                         <div class="panel-heading">Module</div>
                         <div class="panel-body">
@@ -425,8 +424,7 @@
                                 <th onclick="sortTable(3)">Power (kW)</th>
                                 <th onclick="sortTable(4)">Phase</th>
                                 <th onclick="sortTable(5)">Fieldbus network</th>
-                                <th onclick="sortTable(6)">Module</th>
-                                <th onclick="sortTable(7)">Stock</th>
+                                <th onclick="sortTable(6)">Stock</th>
                             </thead>
                             <tbody>
                             </tbody>
