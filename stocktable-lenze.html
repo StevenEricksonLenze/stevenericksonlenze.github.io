@@ -30,41 +30,9 @@
             color: #4DC9F1;
         }
 
-        /*table {
-            border-collapse: collapse;
-            border-spacing: 0;
-            width: 100%;
-            border-bottom: 1pt solid #B2B2B2;
-        }
-
-        table,
-        td {
-            font-size: 12px !important;
-            font-family: Open Sans, Arial, Helvetica, sans-serif;
-            padding: 8px;
-            border-bottom: 0.5pt solid #B2B2B2;
-        }
-
-        thead th {
-            position: sticky !important;
-            top: 0 !important;
-            border-bottom: 1pt solid #B2B2B2;
-        }
-
         th {
-            font-size: 14px !important;
-            font-family: Open Sans, Arial, Helvetica, sans-serif;
-            padding: 14px 8px;
-            text-align: left;
-            cursor: pointer;
-            position: sticky !important;
-            top: 0 !important;
+            cursor: pointer !important;
         }
-
-
-        th {
-            background-color: #f2f2f2;
-        }*/
 
         /* Customize the label (the container) */
         .container-label {
@@ -424,7 +392,7 @@
                                 <th onclick="sortTable(3)">Power (kW)</th>
                                 <th onclick="sortTable(4)">Phase</th>
                                 <th onclick="sortTable(5)">Fieldbus network</th>
-                                <th onclick="sortTable(6)">Stock</th>
+                                <th style="text-align:left!important" onclick="sortTable(6)">Stock</th>
                             </thead>
                             <tbody>
                             </tbody>
