@@ -12,7 +12,7 @@
       "fieldbus_cat": "standardio",
       "module": "without diagnostic module",
       "module_cat": "none",
-      "stock": 1
+      "stock": 104
    }
 },
  {
@@ -28,7 +28,7 @@
       "fieldbus_cat": "canopen",
       "module": "without diagnostic module",
       "module_cat": "none",
-      "stock": 2
+      "stock": 7
    }
 },
  {
@@ -44,7 +44,7 @@
       "fieldbus_cat": "modbusrtu",
       "module": "without diagnostic module",
       "module_cat": "none",
-      "stock": 3
+      "stock": 37
    }
 },
  {
@@ -60,7 +60,7 @@
       "fieldbus_cat": "standardio",
       "module": "LCD Keypad module",
       "module_cat": "keypad",
-      "stock": 4
+      "stock": 0
    }
 },
  {
@@ -76,7 +76,7 @@
       "fieldbus_cat": "canopen",
       "module": "LCD Keypad module",
       "module_cat": "keypad",
-      "stock": 5
+      "stock": 0
    }
 },
  {
@@ -92,7 +92,7 @@
       "fieldbus_cat": "modbusrtu",
       "module": "LCD Keypad module",
       "module_cat": "keypad",
-      "stock": 6
+      "stock": 0
    }
 },
  {
@@ -108,7 +108,7 @@
       "fieldbus_cat": "standardio",
       "module": "USB module",
       "module_cat": "usb",
-      "stock": 7
+      "stock": 0
    }
 },
  {
@@ -124,7 +124,7 @@
       "fieldbus_cat": "canopen",
       "module": "USB module",
       "module_cat": "usb",
-      "stock": 8
+      "stock": 0
    }
 },
  {
@@ -140,7 +140,7 @@
       "fieldbus_cat": "modbusrtu",
       "module": "USB module",
       "module_cat": "usb",
-      "stock": 9
+      "stock": 0
    }
 },
  {
@@ -156,7 +156,7 @@
       "fieldbus_cat": "standardio",
       "module": "WLAN module",
       "module_cat": "wifi",
-      "stock": 10
+      "stock": 0
    }
 },
  {
@@ -172,7 +172,7 @@
       "fieldbus_cat": "canopen",
       "module": "WLAN module",
       "module_cat": "wifi",
-      "stock": 11
+      "stock": 0
    }
 },
  {
@@ -188,7 +188,7 @@
       "fieldbus_cat": "modbusrtu",
       "module": "WLAN module",
       "module_cat": "wifi",
-      "stock": 12
+      "stock": 0
    }
 },
  {
@@ -204,7 +204,7 @@
       "fieldbus_cat": "standardio",
       "module": "without diagnostic module",
       "module_cat": "none",
-      "stock": 13
+      "stock": 32
    }
 },
  {
@@ -220,7 +220,7 @@
       "fieldbus_cat": "canopen",
       "module": "without diagnostic module",
       "module_cat": "none",
-      "stock": 14
+      "stock": 2
    }
 },
  {
@@ -236,7 +236,7 @@
       "fieldbus_cat": "modbusrtu",
       "module": "without diagnostic module",
       "module_cat": "none",
-      "stock": 15
+      "stock": 60
    }
 },
  {
@@ -252,7 +252,7 @@
       "fieldbus_cat": "standardio",
       "module": "LCD Keypad module",
       "module_cat": "keypad",
-      "stock": 16
+      "stock": 0
    }
 },
  {
@@ -268,7 +268,7 @@
       "fieldbus_cat": "canopen",
       "module": "LCD Keypad module",
       "module_cat": "keypad",
-      "stock": 17
+      "stock": 0
    }
 },
  {
@@ -284,7 +284,7 @@
       "fieldbus_cat": "modbusrtu",
       "module": "LCD Keypad module",
       "module_cat": "keypad",
-      "stock": 18
+      "stock": 0
    }
 },
  {
@@ -300,7 +300,7 @@
       "fieldbus_cat": "standardio",
       "module": "USB module",
       "module_cat": "usb",
-      "stock": 19
+      "stock": 0
    }
 },
  {
@@ -316,7 +316,7 @@
       "fieldbus_cat": "canopen",
       "module": "USB module",
       "module_cat": "usb",
-      "stock": 20
+      "stock": 0
    }
 },
  {
@@ -332,7 +332,7 @@
       "fieldbus_cat": "modbusrtu",
       "module": "USB module",
       "module_cat": "usb",
-      "stock": 21
+      "stock": 0
    }
 },
  {
@@ -348,7 +348,7 @@
       "fieldbus_cat": "standardio",
       "module": "WLAN module",
       "module_cat": "wifi",
-      "stock": 22
+      "stock": 0
    }
 },
  {
@@ -364,7 +364,7 @@
       "fieldbus_cat": "canopen",
       "module": "WLAN module",
       "module_cat": "wifi",
-      "stock": 23
+      "stock": 0
    }
 },
  {
@@ -380,7 +380,7 @@
       "fieldbus_cat": "modbusrtu",
       "module": "WLAN module",
       "module_cat": "wifi",
-      "stock": 24
+      "stock": 0
    }
 },
  {
@@ -396,7 +396,7 @@
       "fieldbus_cat": "standardio",
       "module": "without diagnostic module",
       "module_cat": "none",
-      "stock": 25
+      "stock": 187
    }
 },
  {
@@ -412,7 +412,7 @@
       "fieldbus_cat": "canopen",
       "module": "without diagnostic module",
       "module_cat": "none",
-      "stock": 26
+      "stock": 12
    }
 },
  {
@@ -428,7 +428,7 @@
       "fieldbus_cat": "modbusrtu",
       "module": "without diagnostic module",
       "module_cat": "none",
-      "stock": 27
+      "stock": 0
    }
 },
  {
@@ -444,7 +444,7 @@
       "fieldbus_cat": "standardio",
       "module": "LCD Keypad module",
       "module_cat": "keypad",
-      "stock": 28
+      "stock": 0
    }
 },
  {
@@ -460,7 +460,7 @@
       "fieldbus_cat": "canopen",
       "module": "LCD Keypad module",
       "module_cat": "keypad",
-      "stock": 29
+      "stock": 0
    }
 },
  {
@@ -476,7 +476,7 @@
       "fieldbus_cat": "modbusrtu",
       "module": "LCD Keypad module",
       "module_cat": "keypad",
-      "stock": 30
+      "stock": 0
    }
 },
  {
@@ -492,7 +492,7 @@
       "fieldbus_cat": "standardio",
       "module": "USB module",
       "module_cat": "usb",
-      "stock": 31
+      "stock": 0
    }
 },
  {
@@ -508,7 +508,7 @@
       "fieldbus_cat": "canopen",
       "module": "USB module",
       "module_cat": "usb",
-      "stock": 32
+      "stock": 0
    }
 },
  {
@@ -524,7 +524,7 @@
       "fieldbus_cat": "modbusrtu",
       "module": "USB module",
       "module_cat": "usb",
-      "stock": 33
+      "stock": 0
    }
 },
  {
@@ -540,7 +540,7 @@
       "fieldbus_cat": "standardio",
       "module": "WLAN module",
       "module_cat": "wifi",
-      "stock": 34
+      "stock": 0
    }
 },
  {
@@ -556,7 +556,7 @@
       "fieldbus_cat": "canopen",
       "module": "WLAN module",
       "module_cat": "wifi",
-      "stock": 35
+      "stock": 0
    }
 },
  {
@@ -572,7 +572,7 @@
       "fieldbus_cat": "modbusrtu",
       "module": "WLAN module",
       "module_cat": "wifi",
-      "stock": 36
+      "stock": 0
    }
 },
  {
@@ -588,7 +588,7 @@
       "fieldbus_cat": "standardio",
       "module": "without diagnostic module",
       "module_cat": "none",
-      "stock": 37
+      "stock": 157
    }
 },
  {
@@ -604,7 +604,7 @@
       "fieldbus_cat": "canopen",
       "module": "without diagnostic module",
       "module_cat": "none",
-      "stock": 38
+      "stock": 12
    }
 },
  {
@@ -620,7 +620,7 @@
       "fieldbus_cat": "modbusrtu",
       "module": "without diagnostic module",
       "module_cat": "none",
-      "stock": 39
+      "stock": 60
    }
 },
  {
@@ -636,7 +636,7 @@
       "fieldbus_cat": "standardio",
       "module": "LCD Keypad module",
       "module_cat": "keypad",
-      "stock": 40
+      "stock": 0
    }
 },
  {
@@ -652,7 +652,7 @@
       "fieldbus_cat": "canopen",
       "module": "LCD Keypad module",
       "module_cat": "keypad",
-      "stock": 41
+      "stock": 0
    }
 },
  {
@@ -668,7 +668,7 @@
       "fieldbus_cat": "modbusrtu",
       "module": "LCD Keypad module",
       "module_cat": "keypad",
-      "stock": 42
+      "stock": 1
    }
 },
  {
@@ -684,7 +684,7 @@
       "fieldbus_cat": "standardio",
       "module": "USB module",
       "module_cat": "usb",
-      "stock": 43
+      "stock": 0
    }
 },
  {
@@ -700,7 +700,7 @@
       "fieldbus_cat": "canopen",
       "module": "USB module",
       "module_cat": "usb",
-      "stock": 44
+      "stock": 0
    }
 },
  {
@@ -716,7 +716,7 @@
       "fieldbus_cat": "modbusrtu",
       "module": "USB module",
       "module_cat": "usb",
-      "stock": 45
+      "stock": 0
    }
 },
  {
@@ -732,7 +732,7 @@
       "fieldbus_cat": "standardio",
       "module": "WLAN module",
       "module_cat": "wifi",
-      "stock": 46
+      "stock": 0
    }
 },
  {
@@ -748,7 +748,7 @@
       "fieldbus_cat": "canopen",
       "module": "WLAN module",
       "module_cat": "wifi",
-      "stock": 47
+      "stock": 0
    }
 },
  {
@@ -764,7 +764,7 @@
       "fieldbus_cat": "modbusrtu",
       "module": "WLAN module",
       "module_cat": "wifi",
-      "stock": 48
+      "stock": 0
    }
 },
  {
@@ -780,7 +780,7 @@
       "fieldbus_cat": "standardio",
       "module": "without diagnostic module",
       "module_cat": "none",
-      "stock": 49
+      "stock": 68
    }
 },
  {
@@ -796,7 +796,7 @@
       "fieldbus_cat": "canopen",
       "module": "without diagnostic module",
       "module_cat": "none",
-      "stock": 50
+      "stock": 5
    }
 },
  {
@@ -812,7 +812,7 @@
       "fieldbus_cat": "modbusrtu",
       "module": "without diagnostic module",
       "module_cat": "none",
-      "stock": 51
+      "stock": 24
    }
 },
  {
@@ -828,7 +828,7 @@
       "fieldbus_cat": "standardio",
       "module": "LCD Keypad module",
       "module_cat": "keypad",
-      "stock": 52
+      "stock": 0
    }
 },
  {
@@ -844,7 +844,7 @@
       "fieldbus_cat": "canopen",
       "module": "LCD Keypad module",
       "module_cat": "keypad",
-      "stock": 53
+      "stock": 0
    }
 },
  {
@@ -860,7 +860,7 @@
       "fieldbus_cat": "modbusrtu",
       "module": "LCD Keypad module",
       "module_cat": "keypad",
-      "stock": 54
+      "stock": 0
    }
 },
  {
@@ -876,7 +876,7 @@
       "fieldbus_cat": "standardio",
       "module": "USB module",
       "module_cat": "usb",
-      "stock": 55
+      "stock": 0
    }
 },
  {
@@ -892,7 +892,7 @@
       "fieldbus_cat": "canopen",
       "module": "USB module",
       "module_cat": "usb",
-      "stock": 56
+      "stock": 0
    }
 },
  {
@@ -908,7 +908,7 @@
       "fieldbus_cat": "modbusrtu",
       "module": "USB module",
       "module_cat": "usb",
-      "stock": 57
+      "stock": 0
    }
 },
  {
@@ -924,7 +924,7 @@
       "fieldbus_cat": "standardio",
       "module": "WLAN module",
       "module_cat": "wifi",
-      "stock": 58
+      "stock": 0
    }
 },
  {
@@ -940,7 +940,7 @@
       "fieldbus_cat": "canopen",
       "module": "WLAN module",
       "module_cat": "wifi",
-      "stock": 59
+      "stock": 0
    }
 },
  {
@@ -956,7 +956,7 @@
       "fieldbus_cat": "modbusrtu",
       "module": "WLAN module",
       "module_cat": "wifi",
-      "stock": 60
+      "stock": 0
    }
 },
  {
@@ -972,7 +972,7 @@
       "fieldbus_cat": "standardio",
       "module": "without diagnostic module",
       "module_cat": "none",
-      "stock": 61
+      "stock": 77
    }
 },
  {
@@ -988,7 +988,7 @@
       "fieldbus_cat": "canopen",
       "module": "without diagnostic module",
       "module_cat": "none",
-      "stock": 62
+      "stock": 5
    }
 },
  {
@@ -1004,7 +1004,7 @@
       "fieldbus_cat": "modbusrtu",
       "module": "without diagnostic module",
       "module_cat": "none",
-      "stock": 63
+      "stock": 66
    }
 },
  {
@@ -1020,7 +1020,7 @@
       "fieldbus_cat": "standardio",
       "module": "LCD Keypad module",
       "module_cat": "keypad",
-      "stock": 64
+      "stock": 0
    }
 },
  {
@@ -1036,7 +1036,7 @@
       "fieldbus_cat": "canopen",
       "module": "LCD Keypad module",
       "module_cat": "keypad",
-      "stock": 65
+      "stock": 0
    }
 },
  {
@@ -1052,7 +1052,7 @@
       "fieldbus_cat": "modbusrtu",
       "module": "LCD Keypad module",
       "module_cat": "keypad",
-      "stock": 66
+      "stock": 0
    }
 },
  {
@@ -1068,7 +1068,7 @@
       "fieldbus_cat": "standardio",
       "module": "USB module",
       "module_cat": "usb",
-      "stock": 67
+      "stock": 0
    }
 },
  {
@@ -1084,7 +1084,7 @@
       "fieldbus_cat": "canopen",
       "module": "USB module",
       "module_cat": "usb",
-      "stock": 68
+      "stock": 0
    }
 },
  {
@@ -1100,7 +1100,7 @@
       "fieldbus_cat": "modbusrtu",
       "module": "USB module",
       "module_cat": "usb",
-      "stock": 69
+      "stock": 0
    }
 },
  {
@@ -1116,7 +1116,7 @@
       "fieldbus_cat": "standardio",
       "module": "WLAN module",
       "module_cat": "wifi",
-      "stock": 70
+      "stock": 0
    }
 },
  {
@@ -1132,7 +1132,7 @@
       "fieldbus_cat": "canopen",
       "module": "WLAN module",
       "module_cat": "wifi",
-      "stock": 71
+      "stock": 0
    }
 },
  {
@@ -1148,7 +1148,7 @@
       "fieldbus_cat": "modbusrtu",
       "module": "WLAN module",
       "module_cat": "wifi",
-      "stock": 72
+      "stock": 0
    }
 },
  {
@@ -1164,7 +1164,7 @@
       "fieldbus_cat": "standardio",
       "module": "without diagnostic module",
       "module_cat": "none",
-      "stock": 73
+      "stock": 20
    }
 },
  {
@@ -1180,7 +1180,7 @@
       "fieldbus_cat": "canopen",
       "module": "without diagnostic module",
       "module_cat": "none",
-      "stock": 74
+      "stock": 1
    }
 },
  {
@@ -1196,7 +1196,7 @@
       "fieldbus_cat": "modbusrtu",
       "module": "without diagnostic module",
       "module_cat": "none",
-      "stock": 75
+      "stock": 7
    }
 },
  {
@@ -1212,7 +1212,7 @@
       "fieldbus_cat": "standardio",
       "module": "LCD Keypad module",
       "module_cat": "keypad",
-      "stock": 76
+      "stock": 0
    }
 },
  {
@@ -1228,7 +1228,7 @@
       "fieldbus_cat": "canopen",
       "module": "LCD Keypad module",
       "module_cat": "keypad",
-      "stock": 77
+      "stock": 0
    }
 },
  {
@@ -1244,7 +1244,7 @@
       "fieldbus_cat": "modbusrtu",
       "module": "LCD Keypad module",
       "module_cat": "keypad",
-      "stock": 78
+      "stock": 0
    }
 },
  {
@@ -1260,7 +1260,7 @@
       "fieldbus_cat": "standardio",
       "module": "USB module",
       "module_cat": "usb",
-      "stock": 79
+      "stock": 0
    }
 },
  {
@@ -1276,7 +1276,7 @@
       "fieldbus_cat": "canopen",
       "module": "USB module",
       "module_cat": "usb",
-      "stock": 80
+      "stock": 0
    }
 },
  {
@@ -1292,7 +1292,7 @@
       "fieldbus_cat": "modbusrtu",
       "module": "USB module",
       "module_cat": "usb",
-      "stock": 81
+      "stock": 0
    }
 },
  {
@@ -1308,7 +1308,7 @@
       "fieldbus_cat": "standardio",
       "module": "WLAN module",
       "module_cat": "wifi",
-      "stock": 82
+      "stock": 0
    }
 },
  {
@@ -1324,7 +1324,7 @@
       "fieldbus_cat": "canopen",
       "module": "WLAN module",
       "module_cat": "wifi",
-      "stock": 83
+      "stock": 0
    }
 },
  {
@@ -1340,7 +1340,7 @@
       "fieldbus_cat": "modbusrtu",
       "module": "WLAN module",
       "module_cat": "wifi",
-      "stock": 84
+      "stock": 0
    }
 },
  {
@@ -1356,7 +1356,7 @@
       "fieldbus_cat": "standardio",
       "module": "without diagnostic module",
       "module_cat": "none",
-      "stock": 85
+      "stock": 184
    }
 },
  {
@@ -1372,7 +1372,7 @@
       "fieldbus_cat": "canopen",
       "module": "without diagnostic module",
       "module_cat": "none",
-      "stock": 86
+      "stock": 13
    }
 },
  {
@@ -1388,7 +1388,7 @@
       "fieldbus_cat": "modbusrtu",
       "module": "without diagnostic module",
       "module_cat": "none",
-      "stock": 87
+      "stock": 66
    }
 },
  {
@@ -1404,7 +1404,7 @@
       "fieldbus_cat": "standardio",
       "module": "LCD Keypad module",
       "module_cat": "keypad",
-      "stock": 88
+      "stock": 0
    }
 },
  {
@@ -1420,7 +1420,7 @@
       "fieldbus_cat": "canopen",
       "module": "LCD Keypad module",
       "module_cat": "keypad",
-      "stock": 89
+      "stock": 0
    }
 },
  {
@@ -1436,7 +1436,7 @@
       "fieldbus_cat": "modbusrtu",
       "module": "LCD Keypad module",
       "module_cat": "keypad",
-      "stock": 90
+      "stock": 0
    }
 },
  {
@@ -1452,7 +1452,7 @@
       "fieldbus_cat": "standardio",
       "module": "USB module",
       "module_cat": "usb",
-      "stock": 91
+      "stock": 0
    }
 },
  {
@@ -1468,7 +1468,7 @@
       "fieldbus_cat": "canopen",
       "module": "USB module",
       "module_cat": "usb",
-      "stock": 92
+      "stock": 0
    }
 },
  {
@@ -1484,7 +1484,7 @@
       "fieldbus_cat": "modbusrtu",
       "module": "USB module",
       "module_cat": "usb",
-      "stock": 93
+      "stock": 0
    }
 },
  {
@@ -1500,7 +1500,7 @@
       "fieldbus_cat": "standardio",
       "module": "WLAN module",
       "module_cat": "wifi",
-      "stock": 94
+      "stock": 0
    }
 },
  {
@@ -1516,7 +1516,7 @@
       "fieldbus_cat": "canopen",
       "module": "WLAN module",
       "module_cat": "wifi",
-      "stock": 95
+      "stock": 0
    }
 },
  {
@@ -1532,7 +1532,7 @@
       "fieldbus_cat": "modbusrtu",
       "module": "WLAN module",
       "module_cat": "wifi",
-      "stock": 96
+      "stock": 0
    }
 },
  {
@@ -1548,7 +1548,7 @@
       "fieldbus_cat": "standardio",
       "module": "without diagnostic module",
       "module_cat": "none",
-      "stock": 97
+      "stock": 56
    }
 },
  {
@@ -1564,7 +1564,7 @@
       "fieldbus_cat": "canopen",
       "module": "without diagnostic module",
       "module_cat": "none",
-      "stock": 98
+      "stock": 4
    }
 },
  {
@@ -1580,7 +1580,7 @@
       "fieldbus_cat": "modbusrtu",
       "module": "without diagnostic module",
       "module_cat": "none",
-      "stock": 99
+      "stock": 20
    }
 },
  {
@@ -1596,7 +1596,7 @@
       "fieldbus_cat": "standardio",
       "module": "LCD Keypad module",
       "module_cat": "keypad",
-      "stock": 100
+      "stock": 0
    }
 },
  {
@@ -1612,7 +1612,7 @@
       "fieldbus_cat": "canopen",
       "module": "LCD Keypad module",
       "module_cat": "keypad",
-      "stock": 101
+      "stock": 0
    }
 },
  {
@@ -1628,7 +1628,7 @@
       "fieldbus_cat": "modbusrtu",
       "module": "LCD Keypad module",
       "module_cat": "keypad",
-      "stock": 102
+      "stock": 0
    }
 },
  {
@@ -1644,7 +1644,7 @@
       "fieldbus_cat": "standardio",
       "module": "USB module",
       "module_cat": "usb",
-      "stock": 103
+      "stock": 0
    }
 },
  {
@@ -1660,7 +1660,7 @@
       "fieldbus_cat": "canopen",
       "module": "USB module",
       "module_cat": "usb",
-      "stock": 104
+      "stock": 0
    }
 },
  {
@@ -1676,7 +1676,7 @@
       "fieldbus_cat": "modbusrtu",
       "module": "USB module",
       "module_cat": "usb",
-      "stock": 105
+      "stock": 0
    }
 },
  {
@@ -1692,7 +1692,7 @@
       "fieldbus_cat": "standardio",
       "module": "WLAN module",
       "module_cat": "wifi",
-      "stock": 106
+      "stock": 0
    }
 },
  {
@@ -1708,7 +1708,7 @@
       "fieldbus_cat": "canopen",
       "module": "WLAN module",
       "module_cat": "wifi",
-      "stock": 107
+      "stock": 0
    }
 },
  {
@@ -1724,7 +1724,7 @@
       "fieldbus_cat": "modbusrtu",
       "module": "WLAN module",
       "module_cat": "wifi",
-      "stock": 108
+      "stock": 0
    }
 },
  {
@@ -1740,7 +1740,7 @@
       "fieldbus_cat": "standardio",
       "module": "without diagnostic module",
       "module_cat": "none",
-      "stock": 109
+      "stock": 183
    }
 },
  {
@@ -1756,7 +1756,7 @@
       "fieldbus_cat": "canopen",
       "module": "without diagnostic module",
       "module_cat": "none",
-      "stock": 110
+      "stock": 13
    }
 },
  {
@@ -1772,7 +1772,7 @@
       "fieldbus_cat": "modbusrtu",
       "module": "without diagnostic module",
       "module_cat": "none",
-      "stock": 111
+      "stock": 65
    }
 },
  {
@@ -1788,7 +1788,7 @@
       "fieldbus_cat": "standardio",
       "module": "LCD Keypad module",
       "module_cat": "keypad",
-      "stock": 112
+      "stock": 0
    }
 },
  {
@@ -1804,7 +1804,7 @@
       "fieldbus_cat": "canopen",
       "module": "LCD Keypad module",
       "module_cat": "keypad",
-      "stock": 113
+      "stock": 0
    }
 },
  {
@@ -1820,7 +1820,7 @@
       "fieldbus_cat": "modbusrtu",
       "module": "LCD Keypad module",
       "module_cat": "keypad",
-      "stock": 114
+      "stock": 0
    }
 },
  {
@@ -1836,7 +1836,7 @@
       "fieldbus_cat": "standardio",
       "module": "USB module",
       "module_cat": "usb",
-      "stock": 115
+      "stock": 0
    }
 },
  {
@@ -1852,7 +1852,7 @@
       "fieldbus_cat": "canopen",
       "module": "USB module",
       "module_cat": "usb",
-      "stock": 116
+      "stock": 0
    }
 },
  {
@@ -1868,7 +1868,7 @@
       "fieldbus_cat": "modbusrtu",
       "module": "USB module",
       "module_cat": "usb",
-      "stock": 117
+      "stock": 0
    }
 },
  {
@@ -1884,7 +1884,7 @@
       "fieldbus_cat": "standardio",
       "module": "WLAN module",
       "module_cat": "wifi",
-      "stock": 118
+      "stock": 0
    }
 },
  {
@@ -1900,7 +1900,7 @@
       "fieldbus_cat": "canopen",
       "module": "WLAN module",
       "module_cat": "wifi",
-      "stock": 119
+      "stock": 0
    }
 },
  {
@@ -1916,7 +1916,7 @@
       "fieldbus_cat": "modbusrtu",
       "module": "WLAN module",
       "module_cat": "wifi",
-      "stock": 120
+      "stock": 0
    }
 },
  {
@@ -1932,7 +1932,7 @@
       "fieldbus_cat": "standardio",
       "module": "without diagnostic module",
       "module_cat": "none",
-      "stock": 121
+      "stock": 116
    }
 },
  {
@@ -1948,7 +1948,7 @@
       "fieldbus_cat": "canopen",
       "module": "without diagnostic module",
       "module_cat": "none",
-      "stock": 122
+      "stock": 5
    }
 },
  {
@@ -1964,7 +1964,7 @@
       "fieldbus_cat": "modbusrtu",
       "module": "without diagnostic module",
       "module_cat": "none",
-      "stock": 123
+      "stock": 25
    }
 },
  {
@@ -1980,7 +1980,7 @@
       "fieldbus_cat": "standardio",
       "module": "LCD Keypad module",
       "module_cat": "keypad",
-      "stock": 124
+      "stock": 0
    }
 },
  {
@@ -1996,7 +1996,7 @@
       "fieldbus_cat": "canopen",
       "module": "LCD Keypad module",
       "module_cat": "keypad",
-      "stock": 125
+      "stock": 0
    }
 },
  {
@@ -2012,7 +2012,7 @@
       "fieldbus_cat": "modbusrtu",
       "module": "LCD Keypad module",
       "module_cat": "keypad",
-      "stock": 126
+      "stock": 0
    }
 },
  {
@@ -2028,7 +2028,7 @@
       "fieldbus_cat": "standardio",
       "module": "USB module",
       "module_cat": "usb",
-      "stock": 127
+      "stock": 0
    }
 },
  {
@@ -2044,7 +2044,7 @@
       "fieldbus_cat": "canopen",
       "module": "USB module",
       "module_cat": "usb",
-      "stock": 128
+      "stock": 0
    }
 },
  {
@@ -2060,7 +2060,7 @@
       "fieldbus_cat": "modbusrtu",
       "module": "USB module",
       "module_cat": "usb",
-      "stock": 129
+      "stock": 0
    }
 },
  {
@@ -2076,7 +2076,7 @@
       "fieldbus_cat": "standardio",
       "module": "WLAN module",
       "module_cat": "wifi",
-      "stock": 130
+      "stock": 0
    }
 },
  {
@@ -2092,7 +2092,7 @@
       "fieldbus_cat": "canopen",
       "module": "WLAN module",
       "module_cat": "wifi",
-      "stock": 131
+      "stock": 0
    }
 },
  {
@@ -2108,7 +2108,7 @@
       "fieldbus_cat": "modbusrtu",
       "module": "WLAN module",
       "module_cat": "wifi",
-      "stock": 132
+      "stock": 0
    }
 },
  {
@@ -2124,7 +2124,7 @@
       "fieldbus_cat": "standardio",
       "module": "without diagnostic module",
       "module_cat": "none",
-      "stock": 133
+      "stock": 0
    }
 },
  {
@@ -2140,7 +2140,7 @@
       "fieldbus_cat": "canopen",
       "module": "without diagnostic module",
       "module_cat": "none",
-      "stock": 134
+      "stock": 0
    }
 },
  {
@@ -2156,7 +2156,7 @@
       "fieldbus_cat": "modbusrtu",
       "module": "without diagnostic module",
       "module_cat": "none",
-      "stock": 135
+      "stock": 0
    }
 },
  {
@@ -2172,7 +2172,7 @@
       "fieldbus_cat": "standardio",
       "module": "LCD Keypad module",
       "module_cat": "keypad",
-      "stock": 136
+      "stock": 0
    }
 },
  {
@@ -2188,7 +2188,7 @@
       "fieldbus_cat": "canopen",
       "module": "LCD Keypad module",
       "module_cat": "keypad",
-      "stock": 137
+      "stock": 0
    }
 },
  {
@@ -2204,7 +2204,7 @@
       "fieldbus_cat": "modbusrtu",
       "module": "LCD Keypad module",
       "module_cat": "keypad",
-      "stock": 138
+      "stock": 0
    }
 },
  {
@@ -2220,7 +2220,7 @@
       "fieldbus_cat": "standardio",
       "module": "USB module",
       "module_cat": "usb",
-      "stock": 139
+      "stock": 0
    }
 },
  {
@@ -2236,7 +2236,7 @@
       "fieldbus_cat": "canopen",
       "module": "USB module",
       "module_cat": "usb",
-      "stock": 140
+      "stock": 0
    }
 },
  {
@@ -2252,7 +2252,7 @@
       "fieldbus_cat": "modbusrtu",
       "module": "USB module",
       "module_cat": "usb",
-      "stock": 141
+      "stock": 0
    }
 },
  {
@@ -2268,7 +2268,7 @@
       "fieldbus_cat": "standardio",
       "module": "WLAN module",
       "module_cat": "wifi",
-      "stock": 142
+      "stock": 0
    }
 },
  {
@@ -2284,7 +2284,7 @@
       "fieldbus_cat": "canopen",
       "module": "WLAN module",
       "module_cat": "wifi",
-      "stock": 143
+      "stock": 0
    }
 },
  {
@@ -2300,7 +2300,7 @@
       "fieldbus_cat": "modbusrtu",
       "module": "WLAN module",
       "module_cat": "wifi",
-      "stock": 144
+      "stock": 0
    }
 },
  {
@@ -2316,7 +2316,7 @@
       "fieldbus_cat": "standardio",
       "module": "without diagnostic module",
       "module_cat": "none",
-      "stock": 145
+      "stock": 0
    }
 },
  {
@@ -2332,7 +2332,7 @@
       "fieldbus_cat": "canopen",
       "module": "without diagnostic module",
       "module_cat": "none",
-      "stock": 146
+      "stock": 0
    }
 },
  {
@@ -2348,7 +2348,7 @@
       "fieldbus_cat": "modbusrtu",
       "module": "without diagnostic module",
       "module_cat": "none",
-      "stock": 147
+      "stock": 0
    }
 },
  {
@@ -2364,7 +2364,7 @@
       "fieldbus_cat": "standardio",
       "module": "LCD Keypad module",
       "module_cat": "keypad",
-      "stock": 148
+      "stock": 0
    }
 },
  {
@@ -2380,7 +2380,7 @@
       "fieldbus_cat": "canopen",
       "module": "LCD Keypad module",
       "module_cat": "keypad",
-      "stock": 149
+      "stock": 0
    }
 },
  {
@@ -2396,7 +2396,7 @@
       "fieldbus_cat": "modbusrtu",
       "module": "LCD Keypad module",
       "module_cat": "keypad",
-      "stock": 150
+      "stock": 0
    }
 },
  {
@@ -2412,7 +2412,7 @@
       "fieldbus_cat": "standardio",
       "module": "USB module",
       "module_cat": "usb",
-      "stock": 151
+      "stock": 0
    }
 },
  {
@@ -2428,7 +2428,7 @@
       "fieldbus_cat": "canopen",
       "module": "USB module",
       "module_cat": "usb",
-      "stock": 152
+      "stock": 0
    }
 },
  {
@@ -2444,7 +2444,7 @@
       "fieldbus_cat": "modbusrtu",
       "module": "USB module",
       "module_cat": "usb",
-      "stock": 153
+      "stock": 0
    }
 },
  {
@@ -2460,7 +2460,7 @@
       "fieldbus_cat": "standardio",
       "module": "WLAN module",
       "module_cat": "wifi",
-      "stock": 154
+      "stock": 0
    }
 },
  {
@@ -2476,7 +2476,7 @@
       "fieldbus_cat": "canopen",
       "module": "WLAN module",
       "module_cat": "wifi",
-      "stock": 155
+      "stock": 0
    }
 },
  {
@@ -2492,7 +2492,7 @@
       "fieldbus_cat": "modbusrtu",
       "module": "WLAN module",
       "module_cat": "wifi",
-      "stock": 156
+      "stock": 0
    }
 },
  {
@@ -2508,7 +2508,7 @@
       "fieldbus_cat": "standardio",
       "module": "without diagnostic module",
       "module_cat": "none",
-      "stock": 157
+      "stock": 137
    }
 },
  {
@@ -2524,7 +2524,7 @@
       "fieldbus_cat": "canopen",
       "module": "without diagnostic module",
       "module_cat": "none",
-      "stock": 158
+      "stock": 10
    }
 },
  {
@@ -2540,7 +2540,7 @@
       "fieldbus_cat": "modbusrtu",
       "module": "without diagnostic module",
       "module_cat": "none",
-      "stock": 159
+      "stock": 49
    }
 },
  {
@@ -2556,7 +2556,7 @@
       "fieldbus_cat": "standardio",
       "module": "LCD Keypad module",
       "module_cat": "keypad",
-      "stock": 160
+      "stock": 0
    }
 },
  {
@@ -2572,7 +2572,7 @@
       "fieldbus_cat": "canopen",
       "module": "LCD Keypad module",
       "module_cat": "keypad",
-      "stock": 161
+      "stock": 0
    }
 },
  {
@@ -2588,7 +2588,7 @@
       "fieldbus_cat": "modbusrtu",
       "module": "LCD Keypad module",
       "module_cat": "keypad",
-      "stock": 162
+      "stock": 0
    }
 },
  {
@@ -2604,7 +2604,7 @@
       "fieldbus_cat": "standardio",
       "module": "USB module",
       "module_cat": "usb",
-      "stock": 163
+      "stock": 0
    }
 },
  {
@@ -2620,7 +2620,7 @@
       "fieldbus_cat": "canopen",
       "module": "USB module",
       "module_cat": "usb",
-      "stock": 164
+      "stock": 0
    }
 },
  {
@@ -2636,7 +2636,7 @@
       "fieldbus_cat": "modbusrtu",
       "module": "USB module",
       "module_cat": "usb",
-      "stock": 165
+      "stock": 0
    }
 },
  {
@@ -2652,7 +2652,7 @@
       "fieldbus_cat": "standardio",
       "module": "WLAN module",
       "module_cat": "wifi",
-      "stock": 166
+      "stock": 0
    }
 },
  {
@@ -2668,7 +2668,7 @@
       "fieldbus_cat": "canopen",
       "module": "WLAN module",
       "module_cat": "wifi",
-      "stock": 167
+      "stock": 0
    }
 },
  {
@@ -2684,7 +2684,7 @@
       "fieldbus_cat": "modbusrtu",
       "module": "WLAN module",
       "module_cat": "wifi",
-      "stock": 168
+      "stock": 0
    }
 },
  {
@@ -2700,7 +2700,7 @@
       "fieldbus_cat": "standardio",
       "module": "without diagnostic module",
       "module_cat": "none",
-      "stock": 169
+      "stock": 33
    }
 },
  {
@@ -2716,7 +2716,7 @@
       "fieldbus_cat": "canopen",
       "module": "without diagnostic module",
       "module_cat": "none",
-      "stock": 170
+      "stock": 6
    }
 },
  {
@@ -2732,7 +2732,7 @@
       "fieldbus_cat": "modbusrtu",
       "module": "without diagnostic module",
       "module_cat": "none",
-      "stock": 171
+      "stock": 30
    }
 },
  {
@@ -2748,7 +2748,7 @@
       "fieldbus_cat": "standardio",
       "module": "LCD Keypad module",
       "module_cat": "keypad",
-      "stock": 172
+      "stock": 0
    }
 },
  {
@@ -2764,7 +2764,7 @@
       "fieldbus_cat": "canopen",
       "module": "LCD Keypad module",
       "module_cat": "keypad",
-      "stock": 173
+      "stock": 0
    }
 },
  {
@@ -2780,7 +2780,7 @@
       "fieldbus_cat": "modbusrtu",
       "module": "LCD Keypad module",
       "module_cat": "keypad",
-      "stock": 174
+      "stock": 0
    }
 },
  {
@@ -2796,7 +2796,7 @@
       "fieldbus_cat": "standardio",
       "module": "USB module",
       "module_cat": "usb",
-      "stock": 175
+      "stock": 0
    }
 },
  {
@@ -2812,7 +2812,7 @@
       "fieldbus_cat": "canopen",
       "module": "USB module",
       "module_cat": "usb",
-      "stock": 176
+      "stock": 0
    }
 },
  {
@@ -2828,7 +2828,7 @@
       "fieldbus_cat": "modbusrtu",
       "module": "USB module",
       "module_cat": "usb",
-      "stock": 177
+      "stock": 0
    }
 },
  {
@@ -2844,7 +2844,7 @@
       "fieldbus_cat": "standardio",
       "module": "WLAN module",
       "module_cat": "wifi",
-      "stock": 178
+      "stock": 0
    }
 },
  {
@@ -2860,7 +2860,7 @@
       "fieldbus_cat": "canopen",
       "module": "WLAN module",
       "module_cat": "wifi",
-      "stock": 179
+      "stock": 0
    }
 },
  {
@@ -2876,7 +2876,7 @@
       "fieldbus_cat": "modbusrtu",
       "module": "WLAN module",
       "module_cat": "wifi",
-      "stock": 180
+      "stock": 0
    }
 },
  {
@@ -2892,7 +2892,7 @@
       "fieldbus_cat": "standardio",
       "module": "without diagnostic module",
       "module_cat": "none",
-      "stock": 181
+      "stock": 32
    }
 },
  {
@@ -2908,7 +2908,7 @@
       "fieldbus_cat": "canopen",
       "module": "without diagnostic module",
       "module_cat": "none",
-      "stock": 182
+      "stock": 2
    }
 },
  {
@@ -2924,7 +2924,7 @@
       "fieldbus_cat": "modbusrtu",
       "module": "without diagnostic module",
       "module_cat": "none",
-      "stock": 183
+      "stock": 12
    }
 },
  {
@@ -2940,7 +2940,7 @@
       "fieldbus_cat": "standardio",
       "module": "LCD Keypad module",
       "module_cat": "keypad",
-      "stock": 184
+      "stock": 0
    }
 },
  {
@@ -2956,7 +2956,7 @@
       "fieldbus_cat": "canopen",
       "module": "LCD Keypad module",
       "module_cat": "keypad",
-      "stock": 185
+      "stock": 0
    }
 },
  {
@@ -2972,7 +2972,7 @@
       "fieldbus_cat": "modbusrtu",
       "module": "LCD Keypad module",
       "module_cat": "keypad",
-      "stock": 186
+      "stock": 0
    }
 },
  {
@@ -2988,7 +2988,7 @@
       "fieldbus_cat": "standardio",
       "module": "USB module",
       "module_cat": "usb",
-      "stock": 187
+      "stock": 0
    }
 },
  {
@@ -3004,7 +3004,7 @@
       "fieldbus_cat": "canopen",
       "module": "USB module",
       "module_cat": "usb",
-      "stock": 188
+      "stock": 0
    }
 },
  {
@@ -3020,7 +3020,7 @@
       "fieldbus_cat": "modbusrtu",
       "module": "USB module",
       "module_cat": "usb",
-      "stock": 189
+      "stock": 0
    }
 },
  {
@@ -3036,7 +3036,7 @@
       "fieldbus_cat": "standardio",
       "module": "WLAN module",
       "module_cat": "wifi",
-      "stock": 190
+      "stock": 0
    }
 },
  {
@@ -3052,7 +3052,7 @@
       "fieldbus_cat": "canopen",
       "module": "WLAN module",
       "module_cat": "wifi",
-      "stock": 191
+      "stock": 0
    }
 },
  {
@@ -3068,7 +3068,7 @@
       "fieldbus_cat": "modbusrtu",
       "module": "WLAN module",
       "module_cat": "wifi",
-      "stock": 192
+      "stock": 0
    }
 }
 ]
