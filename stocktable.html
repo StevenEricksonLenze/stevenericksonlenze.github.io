@@ -139,6 +139,11 @@
   </style>
 
   <script>
+
+    var selected = JSON.parse(sessionStorage.getItem("checked"));
+    console.log(selected);
+
+
     function sortTable(n) {
       var table, rows, switching, i, x, y, shouldSwitch, dir, switchcount = 0;
 
@@ -231,7 +236,7 @@
           _loop(x);
         }
         console.log(selected);
-        // for each course
+        // for each i510 protec
         $(".i510protec").each(function () {
           var _this = this;
           // by default it is going to be displayed
@@ -295,38 +300,38 @@
           <div id="power" class="w3-container w3-border">
             <h6>Power</h6>
             <label class="container">0.50 hp / 0.37 kW
-              <input type="checkbox" name="cat1" value="0.50hp" id="0.50hp">
+              <input type="checkbox" autocomplete="off" name="cat1" value="0.50hp" id="0.50hp">
               <span class="checkmark"></span>
             </label>
 
             <label class="container">1.0 hp / 0.75 kW
-              <input type="checkbox" name="cat1" value="1.0hp" id="1.0hp">
+              <input type="checkbox" autocomplete="off" name="cat1" value="1.0hp" id="1.0hp">
               <span class="checkmark"></span>
             </label>
 
             <label class="container">1.5 hp / 1.1 kW
-              <input type="checkbox" name="cat1" value="1.5hp" id="1.5hp">
+              <input type="checkbox" autocomplete="off" name="cat1" value="1.5hp" id="1.5hp">
               <span class="checkmark"></span>
             </label>
 
             <label class="container">2.0 hp / 1.5 kW
-              <input type="checkbox" name="cat1" value="2.0hp" id="2.0hp">
+              <input type="checkbox" autocomplete="off" name="cat1" value="2.0hp" id="2.0hp">
               <span class="checkmark"></span>
             </label>
             <label class="container">3.0 hp / 2.2 kW
-              <input type="checkbox" name="cat1" value="3.0hp" id="3.0hp">
+              <input type="checkbox" autocomplete="off" name="cat1" value="3.0hp" id="3.0hp">
               <span class="checkmark"></span>
             </label>
             <label class="container">4.0 hp / 3.0 kW
-              <input type="checkbox" name="cat1" value="4.0hp" id="4.0hp">
+              <input type="checkbox" autocomplete="off" name="cat1" value="4.0hp" id="4.0hp">
               <span class="checkmark"></span>
             </label>
             <label class="container">5.0 hp / 4.0 kW
-              <input type="checkbox" name="cat1" value="5.0hp" id="5.0hp">
+              <input type="checkbox" autocomplete="off" name="cat1" value="5.0hp" id="5.0hp">
               <span class="checkmark"></span>
             </label>
             <label class="container">7.5 hp / 5.5 kW
-              <input type="checkbox" name="cat1" value="7.5hp" id="7.5hp">
+              <input type="checkbox" autocomplete="off" name="cat1" value="7.5hp" id="7.5hp">
               <span class="checkmark"></span>
             </label>
           </div>
@@ -335,21 +340,21 @@
           <div class="w3-container w3-border">
             <h6>Phase</h6>
             <label class="container">1ph 120V
-              <input type="checkbox" name="cat2" value="1ph120v" id="1ph120v">
+              <input type="checkbox" autocomplete="off" name="cat2" value="1ph120v" id="1ph120v">
               <span class="checkmark"></span>
             </label>
 
             <label class="container">1/3ph 230V
-              <input type="checkbox" name="cat2" value="1_3ph230v" id="1_3ph230v">
+              <input type="checkbox" autocomplete="off" name="cat2" value="1_3ph230v" id="1_3ph230v">
               <span class="checkmark"></span>
             </label>
 
             <label class="container">3ph 230V
-              <input type="checkbox" name="cat2" value="3ph230v" id="3ph230v">
+              <input type="checkbox" autocomplete="off" name="cat2" value="3ph230v" id="3ph230v">
               <span class="checkmark"></span>
             </label>
             <label class="container">3ph 400/480V
-              <input type="checkbox" name="cat2" value="3ph400_480v" id="3ph400_480v">
+              <input type="checkbox" autocomplete="off" name="cat2" value="3ph400_480v" id="3ph400_480v">
               <span class="checkmark"></span>
             </label>
           </div>
@@ -358,17 +363,17 @@
           <div class="w3-container w3-border">
             <h6>Fieldbus network</h6>
             <label class="container">Standard I/O
-              <input type="checkbox" name="cat3" value="standardio" id="standardio">
+              <input type="checkbox" autocomplete="off" name="cat3" value="standardio" id="standardio">
               <span class="checkmark"></span>
             </label>
 
             <label class="container">CANopen
-              <input type="checkbox" name="cat3" value="canopen" id="canopen">
+              <input type="checkbox" autocomplete="off" name="cat3" value="canopen" id="canopen">
               <span class="checkmark"></span>
             </label>
 
             <label class="container">Modbus RTU
-              <input type="checkbox" name="cat3" value="modbusrtu" id="modbusrtu">
+              <input type="checkbox" autocomplete="off" name="cat3" value="modbusrtu" id="modbusrtu">
               <span class="checkmark"></span>
             </label>
           </div>
@@ -377,22 +382,22 @@
           <div class="w3-container w3-border">
             <h6>Module</h6>
             <label class="container">without diagnostic module
-              <input type="checkbox" name="cat4" value="none" id="none">
+              <input type="checkbox" autocomplete="off" name="cat4" value="none" id="none">
               <span class="checkmark"></span>
             </label>
 
             <label class="container">LCD Keypad module
-              <input type="checkbox" name="cat4" value="keypad" id="keypad">
+              <input type="checkbox" autocomplete="off" name="cat4" value="keypad" id="keypad">
               <span class="checkmark"></span>
             </label>
 
             <label class="container">WLAN module
-              <input type="checkbox" name="cat4" value="wifi" id="wifi">
+              <input type="checkbox" autocomplete="off" name="cat4" value="wifi" id="wifi">
               <span class="checkmark"></span>
             </label>
 
             <label class="container">USB module
-              <input type="checkbox" name="cat4" value="usb" id="usb">
+              <input type="checkbox" autocomplete="off" name="cat4" value="usb" id="usb">
               <span class="checkmark"></span>
             </label>
           </div>
